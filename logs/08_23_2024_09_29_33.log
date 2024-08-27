@@ -1,0 +1,43 @@
+[ 2024-08-23 09:29:34,536 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-23 09:29:34,536 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-23 09:29:39,436 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-23 09:29:39,436 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-23 09:29:39,846 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-23 09:29:39,846 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-23 09:29:40,535 ] faiss.loader - DEBUG - Environment variable FAISS_OPT_LEVEL is not set, so let's pick the instruction set according to the current CPU
+[ 2024-08-23 09:29:40,552 ] faiss.loader - INFO - Loading faiss with AVX2 support.
+[ 2024-08-23 09:29:40,580 ] faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+[ 2024-08-23 09:29:40,770 ] matplotlib - DEBUG - matplotlib data path: D:\VIVI_AI\yogo\Lib\site-packages\matplotlib\mpl-data
+[ 2024-08-23 09:29:40,778 ] matplotlib - DEBUG - CONFIGDIR=C:\Users\PC\.matplotlib
+[ 2024-08-23 09:29:40,784 ] matplotlib - DEBUG - interactive is False
+[ 2024-08-23 09:29:40,784 ] matplotlib - DEBUG - platform is win32
+[ 2024-08-23 09:29:40,929 ] matplotlib - DEBUG - CACHEDIR=C:\Users\PC\.matplotlib
+[ 2024-08-23 09:29:40,936 ] matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\PC\.matplotlib\fontlist-v390.json
+[ 2024-08-23 09:29:43,484 ] werkzeug - WARNING -  * Debugger is active!
+[ 2024-08-23 09:29:43,507 ] werkzeug - INFO -  * Debugger PIN: 331-538-268
+[ 2024-08-23 09:29:43,621 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:29:43] "GET / HTTP/1.1" 200 -
+[ 2024-08-23 09:29:43,698 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:29:43] "[33mGET /static/chatbot.css HTTP/1.1[0m" 404 -
+[ 2024-08-23 09:29:43,712 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:29:43] "[33mGET /static/script.js HTTP/1.1[0m" 404 -
+[ 2024-08-23 09:29:43,902 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:29:43] "GET /static/style.css HTTP/1.1" 200 -
+[ 2024-08-23 09:29:43,922 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:29:43] "[33mGET /static/script.js HTTP/1.1[0m" 404 -
+[ 2024-08-23 09:29:43,945 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:29:43] "[36mGET /static/vivi.png HTTP/1.1[0m" 304 -
+[ 2024-08-23 09:29:43,950 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:29:43] "[36mGET /static/new_latest.jpg HTTP/1.1[0m" 304 -
+[ 2024-08-23 09:29:43,959 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:29:43] "[36mGET /static/2nd_his.jpg HTTP/1.1[0m" 304 -
+[ 2024-08-23 09:29:43,967 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:29:43] "[36mGET /static/chatbot.png HTTP/1.1[0m" 304 -
+[ 2024-08-23 09:29:47,242 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 09:29:47,248 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:29:47] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 09:29:52,951 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 09:29:52,952 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:29:52] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 09:29:59,227 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 09:29:59,227 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:29:59] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 09:29:59,744 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 09:29:59,744 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:29:59] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 09:30:00,896 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 09:30:00,897 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:30:00] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 09:30:01,490 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 09:30:01,490 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:30:01] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 09:30:02,143 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 09:30:02,144 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:30:02] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 09:30:03,136 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 09:30:03,136 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:30:03] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 09:30:33,663 ] werkzeug - INFO -  * Detected change in 'D:\\VIVI_AI\\chat_app.py', reloading

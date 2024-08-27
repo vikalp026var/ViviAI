@@ -1,0 +1,97 @@
+[ 2024-08-23 09:33:53,897 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-23 09:33:53,897 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-23 09:34:00,517 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-23 09:34:00,517 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-23 09:34:01,052 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-23 09:34:01,052 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-23 09:34:01,902 ] faiss.loader - DEBUG - Environment variable FAISS_OPT_LEVEL is not set, so let's pick the instruction set according to the current CPU
+[ 2024-08-23 09:34:01,914 ] faiss.loader - INFO - Loading faiss with AVX2 support.
+[ 2024-08-23 09:34:01,962 ] faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+[ 2024-08-23 09:34:02,298 ] matplotlib - DEBUG - matplotlib data path: D:\VIVI_AI\yogo\Lib\site-packages\matplotlib\mpl-data
+[ 2024-08-23 09:34:02,316 ] matplotlib - DEBUG - CONFIGDIR=C:\Users\PC\.matplotlib
+[ 2024-08-23 09:34:02,317 ] matplotlib - DEBUG - interactive is False
+[ 2024-08-23 09:34:02,317 ] matplotlib - DEBUG - platform is win32
+[ 2024-08-23 09:34:02,599 ] matplotlib - DEBUG - CACHEDIR=C:\Users\PC\.matplotlib
+[ 2024-08-23 09:34:02,630 ] matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\PC\.matplotlib\fontlist-v390.json
+[ 2024-08-23 09:34:04,942 ] werkzeug - WARNING -  * Debugger is active!
+[ 2024-08-23 09:34:04,976 ] werkzeug - INFO -  * Debugger PIN: 331-538-268
+[ 2024-08-23 09:34:05,024 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:34:05] "GET / HTTP/1.1" 200 -
+[ 2024-08-23 09:34:05,087 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:34:05] "[33mGET /static/script.js HTTP/1.1[0m" 404 -
+[ 2024-08-23 09:34:05,095 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:34:05] "[33mGET /static/chatbot.css HTTP/1.1[0m" 404 -
+[ 2024-08-23 09:34:05,197 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:34:05] "GET /static/style.css HTTP/1.1" 200 -
+[ 2024-08-23 09:34:05,274 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:34:05] "[33mGET /static/script.js HTTP/1.1[0m" 404 -
+[ 2024-08-23 09:34:05,337 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:34:05] "GET /static/2nd_his.jpg HTTP/1.1" 200 -
+[ 2024-08-23 09:34:05,353 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:34:05] "GET /static/chatbot.png HTTP/1.1" 200 -
+[ 2024-08-23 09:34:05,361 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:34:05] "GET /static/new_latest.jpg HTTP/1.1" 200 -
+[ 2024-08-23 09:34:05,361 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:34:05] "GET /static/vivi.png HTTP/1.1" 200 -
+[ 2024-08-23 09:34:08,480 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 09:34:08,482 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:34:08] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 09:34:09,273 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 09:34:09,276 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:34:09] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 09:34:14,408 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 09:34:14,410 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:34:14] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 09:34:14,465 ] root - INFO - Message is Hi
+[ 2024-08-23 09:34:14,465 ] chat_app - DEBUG - Entering rag_chain with query: Hi
+[ 2024-08-23 09:34:14,465 ] root - INFO - Query is Hi
+[ 2024-08-23 09:34:14,465 ] chat_app - DEBUG - PromptTemplate created
+[ 2024-08-23 09:34:14,485 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-23 09:34:14,485 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-23 09:34:15,135 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-23 09:34:15,135 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-23 09:34:16,164 ] chat_app - DEBUG - RetrievalQA created
+[ 2024-08-23 09:34:17,053 ] openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/embeddings', 'files': None, 'post_parser': <function Embeddings.create.<locals>.parser at 0x00000240488B98A0>, 'json_data': {'input': [[13347]], 'model': 'text-embedding-ada-002', 'encoding_format': 'base64'}}
+[ 2024-08-23 09:34:17,116 ] openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/embeddings
+[ 2024-08-23 09:34:17,116 ] httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+[ 2024-08-23 09:34:17,312 ] httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000240487E2450>
+[ 2024-08-23 09:34:17,322 ] httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000002400CB5E3C0> server_hostname='api.openai.com' timeout=None
+[ 2024-08-23 09:34:17,426 ] httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002404671DA50>
+[ 2024-08-23 09:34:17,426 ] httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+[ 2024-08-23 09:34:17,426 ] httpcore.http11 - DEBUG - send_request_headers.complete
+[ 2024-08-23 09:34:17,426 ] httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+[ 2024-08-23 09:34:17,426 ] httpcore.http11 - DEBUG - send_request_body.complete
+[ 2024-08-23 09:34:17,426 ] httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+[ 2024-08-23 09:34:17,905 ] httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 23 Aug 2024 04:04:17 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-model', b'text-embedding-ada-002'), (b'openai-organization', b'user-g4hromwdelqvif9h7gpua77n'), (b'openai-processing-ms', b'16'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'3000'), (b'x-ratelimit-limit-tokens', b'1000000'), (b'x-ratelimit-remaining-requests', b'2999'), (b'x-ratelimit-remaining-tokens', b'999998'), (b'x-ratelimit-reset-requests', b'20ms'), (b'x-ratelimit-reset-tokens', b'0s'), (b'x-request-id', b'req_7fd445e910512a1dda06ff149c1c17f4'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=HqQh_WVNBarHvBmOj5rHHNkOoqddusCuutUVXDBZij0-1724385857-1.0.1.1-nF6fCgztwwFTkA32AUJwGJs.YNferuuqE8flv0aTo2JiO_tifKVn0t5dfI.SToS0FPNQOfXK7EscEc47CaQGpg; path=/; expires=Fri, 23-Aug-24 04:34:17 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=cjDGIn1Ixo4DYdOoOoq21zWYgeoH.hKDBFPH11Kyvnk-1724385857794-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8b7837b93c7f47ce-BOM'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+[ 2024-08-23 09:34:17,909 ] httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[ 2024-08-23 09:34:17,909 ] httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+[ 2024-08-23 09:34:17,909 ] httpcore.http11 - DEBUG - receive_response_body.complete
+[ 2024-08-23 09:34:17,909 ] httpcore.http11 - DEBUG - response_closed.started
+[ 2024-08-23 09:34:17,909 ] httpcore.http11 - DEBUG - response_closed.complete
+[ 2024-08-23 09:34:17,909 ] openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/embeddings "200 OK" Headers([('date', 'Fri, 23 Aug 2024 04:04:17 GMT'), ('content-type', 'application/json'), ('transfer-encoding', 'chunked'), ('connection', 'keep-alive'), ('access-control-allow-origin', '*'), ('access-control-expose-headers', 'X-Request-ID'), ('openai-model', 'text-embedding-ada-002'), ('openai-organization', 'user-g4hromwdelqvif9h7gpua77n'), ('openai-processing-ms', '16'), ('openai-version', '2020-10-01'), ('strict-transport-security', 'max-age=15552000; includeSubDomains; preload'), ('x-ratelimit-limit-requests', '3000'), ('x-ratelimit-limit-tokens', '1000000'), ('x-ratelimit-remaining-requests', '2999'), ('x-ratelimit-remaining-tokens', '999998'), ('x-ratelimit-reset-requests', '20ms'), ('x-ratelimit-reset-tokens', '0s'), ('x-request-id', 'req_7fd445e910512a1dda06ff149c1c17f4'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=HqQh_WVNBarHvBmOj5rHHNkOoqddusCuutUVXDBZij0-1724385857-1.0.1.1-nF6fCgztwwFTkA32AUJwGJs.YNferuuqE8flv0aTo2JiO_tifKVn0t5dfI.SToS0FPNQOfXK7EscEc47CaQGpg; path=/; expires=Fri, 23-Aug-24 04:34:17 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=cjDGIn1Ixo4DYdOoOoq21zWYgeoH.hKDBFPH11Kyvnk-1724385857794-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '8b7837b93c7f47ce-BOM'), ('content-encoding', 'gzip'), ('alt-svc', 'h3=":443"; ma=86400')])
+[ 2024-08-23 09:34:17,909 ] openai._base_client - DEBUG - request_id: req_7fd445e910512a1dda06ff149c1c17f4
+[ 2024-08-23 09:34:18,036 ] openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/completions', 'files': None, 'json_data': {'model': 'gpt-3.5-turbo-instruct', 'prompt': ["\n            Use the following pieces of information to answer the user's question.\n            If you don't know the answer, just say that you don't know, don't try to make up an answer.\n            Context: tions.\n 4\n\nISBN 978-0-9899740-4-2\n\nIt felt like a new future was unfolding in front of me. My girlfriend moved in with me, I \nstarted fundraising and training for a run, and I became a student again registering for \ncourses in immunology and in bioethics at the local university. My fundraising led to the \nopportunity to do a marathon in Iceland. I used to be quite a runner and had done many \nhalf-marathons but I thought I’d see if I could do a full one.\n\ndesignation with which I am perfectly content. I am blessed with good health and an \ninteresting life. Indeed, overcoming a glioma has become the measure by which I readily \nestimate everything else that God has sent my way.\n            Question: Hi\n            Only return the helpful answer below and nothing else.\n            Helpful answer:\n        "], 'frequency_penalty': 0.0, 'logit_bias': {}, 'max_tokens': 256, 'n': 1, 'presence_penalty': 0.0, 'temperature': 0.7, 'top_p': 1.0}}
+[ 2024-08-23 09:34:18,036 ] openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/completions
+[ 2024-08-23 09:34:18,036 ] httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+[ 2024-08-23 09:34:18,210 ] httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000240499ADD10>
+[ 2024-08-23 09:34:18,210 ] httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000002404864F380> server_hostname='api.openai.com' timeout=None
+[ 2024-08-23 09:34:18,417 ] httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002404874D3D0>
+[ 2024-08-23 09:34:18,417 ] httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+[ 2024-08-23 09:34:18,417 ] httpcore.http11 - DEBUG - send_request_headers.complete
+[ 2024-08-23 09:34:18,417 ] httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+[ 2024-08-23 09:34:18,417 ] httpcore.http11 - DEBUG - send_request_body.complete
+[ 2024-08-23 09:34:18,417 ] httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+[ 2024-08-23 09:34:19,338 ] httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 23 Aug 2024 04:04:19 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'access-control-expose-headers', b'X-Request-ID'), (b'Cache-Control', b'no-cache, must-revalidate'), (b'openai-model', b'gpt-3.5-turbo-instruct'), (b'openai-organization', b'user-g4hromwdelqvif9h7gpua77n'), (b'openai-processing-ms', b'432'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'3500'), (b'x-ratelimit-limit-tokens', b'90000'), (b'x-ratelimit-remaining-requests', b'3499'), (b'x-ratelimit-remaining-tokens', b'89488'), (b'x-ratelimit-reset-requests', b'17ms'), (b'x-ratelimit-reset-tokens', b'340ms'), (b'x-request-id', b'req_f7882c6ae90be406f192622f2fe887a8'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=3bxYS8BonS.c618b69XuDGelbT4Bi2AKGtWyejlchLc-1724385859-1.0.1.1-L96qAuVegrVFRhJUHYGipOtv1Puy6au.29flMh7L1BP1mXR4ysmZaa4IWRy.vIXFrhxYescaTd0a7FNJTB1Ufw; path=/; expires=Fri, 23-Aug-24 04:34:19 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=qprvZhdjC_7VCzRvF7bXOlB8n9WJUXkcPVUBVIdUwNI-1724385859290-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8b7837bf7bc047d3-BOM'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+[ 2024-08-23 09:34:19,338 ] httpx - INFO - HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+[ 2024-08-23 09:34:19,338 ] httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+[ 2024-08-23 09:34:19,536 ] httpcore.http11 - DEBUG - receive_response_body.complete
+[ 2024-08-23 09:34:19,543 ] httpcore.http11 - DEBUG - response_closed.started
+[ 2024-08-23 09:34:19,543 ] httpcore.http11 - DEBUG - response_closed.complete
+[ 2024-08-23 09:34:19,543 ] openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/completions "200 OK" Headers([('date', 'Fri, 23 Aug 2024 04:04:19 GMT'), ('content-type', 'application/json'), ('transfer-encoding', 'chunked'), ('connection', 'keep-alive'), ('access-control-allow-origin', '*'), ('access-control-expose-headers', 'X-Request-ID'), ('cache-control', 'no-cache, must-revalidate'), ('openai-model', 'gpt-3.5-turbo-instruct'), ('openai-organization', 'user-g4hromwdelqvif9h7gpua77n'), ('openai-processing-ms', '432'), ('openai-version', '2020-10-01'), ('strict-transport-security', 'max-age=15552000; includeSubDomains; preload'), ('x-ratelimit-limit-requests', '3500'), ('x-ratelimit-limit-tokens', '90000'), ('x-ratelimit-remaining-requests', '3499'), ('x-ratelimit-remaining-tokens', '89488'), ('x-ratelimit-reset-requests', '17ms'), ('x-ratelimit-reset-tokens', '340ms'), ('x-request-id', 'req_f7882c6ae90be406f192622f2fe887a8'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=3bxYS8BonS.c618b69XuDGelbT4Bi2AKGtWyejlchLc-1724385859-1.0.1.1-L96qAuVegrVFRhJUHYGipOtv1Puy6au.29flMh7L1BP1mXR4ysmZaa4IWRy.vIXFrhxYescaTd0a7FNJTB1Ufw; path=/; expires=Fri, 23-Aug-24 04:34:19 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=qprvZhdjC_7VCzRvF7bXOlB8n9WJUXkcPVUBVIdUwNI-1724385859290-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '8b7837bf7bc047d3-BOM'), ('content-encoding', 'gzip'), ('alt-svc', 'h3=":443"; ma=86400')])
+[ 2024-08-23 09:34:19,545 ] openai._base_client - DEBUG - request_id: req_f7882c6ae90be406f192622f2fe887a8
+[ 2024-08-23 09:34:19,559 ] root - INFO - Result is 
+I don't know how to answer that question since it's not a question about the context provided. Is there something specific you'd like to know?
+[ 2024-08-23 09:34:19,559 ] chat_app - DEBUG - Query result: 
+I don't know how to answer that question since it's not a question about the context provided. Is there something specific you'd like to know?
+[ 2024-08-23 09:34:19,575 ] root - INFO - LLM response is 
+I don't know how to answer that question since it's not a question about the context provided. Is there something specific you'd like to know?
+[ 2024-08-23 09:34:19,575 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:34:19] "POST /get HTTP/1.1" 200 -
+[ 2024-08-23 09:34:19,607 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 09:34:19,607 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:34:19] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 09:34:27,504 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 09:34:27,504 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:34:27] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 09:34:27,898 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 09:34:27,898 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:34:27] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 09:34:30,415 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 09:34:30,415 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:34:30] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 09:35:06,755 ] werkzeug - INFO -  * Detected change in 'D:\\VIVI_AI\\chat_app.py', reloading
+[ 2024-08-23 09:35:07,020 ] httpcore.connection - DEBUG - close.started
+[ 2024-08-23 09:35:07,038 ] httpcore.connection - DEBUG - close.complete

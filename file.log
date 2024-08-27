@@ -1,0 +1,45 @@
+INFO:root:Creating directory :.github\workflows for the file main.yaml
+INFO:root:Creating empty file:.github\workflows\main.yaml
+INFO:root:Creating directory :Vivi_AI\components for the file __init__.py
+INFO:root:Creating empty file:Vivi_AI\components\__init__.py
+INFO:root:Creating directory :Vivi_AI\components for the file data_ingestion.py
+INFO:root:Creating empty file:Vivi_AI\components\data_ingestion.py
+INFO:root:Creating directory :Vivi_AI\components for the file data_transformation.py
+INFO:root:Creating empty file:Vivi_AI\components\data_transformation.py
+INFO:root:Creating directory :Vivi_AI\components for the file model_training.py
+INFO:root:Creating empty file:Vivi_AI\components\model_training.py
+INFO:root:Creating directory :Vivi_AI\components for the file model_pusher.py
+INFO:root:Creating empty file:Vivi_AI\components\model_pusher.py
+INFO:root:Creating directory :Vivi_AI\components for the file model_evaluator.py
+INFO:root:Creating empty file:Vivi_AI\components\model_evaluator.py
+INFO:root:Creating directory :Vivi_AI\constant for the file __init__.py
+INFO:root:Creating empty file:Vivi_AI\constant\__init__.py
+INFO:root:Creating directory :Vivi_AI\entity for the file __init__.py
+INFO:root:Creating empty file:Vivi_AI\entity\__init__.py
+INFO:root:Creating directory :Vivi_AI\entity for the file artifact_entity.py
+INFO:root:Creating empty file:Vivi_AI\entity\artifact_entity.py
+INFO:root:Creating directory :Vivi_AI\entity for the file config_entity.py
+INFO:root:Creating empty file:Vivi_AI\entity\config_entity.py
+INFO:root:Creating directory :Vivi_AI\pipeline for the file __init__.py
+INFO:root:Creating empty file:Vivi_AI\pipeline\__init__.py
+INFO:root:Creating directory :Vivi_AI\pipeline for the file training_pipeline.py
+INFO:root:Creating empty file:Vivi_AI\pipeline\training_pipeline.py
+INFO:root:Creating directory :Vivi_AI\pipeline for the file prediction_pipeline.py
+INFO:root:Creating empty file:Vivi_AI\pipeline\prediction_pipeline.py
+INFO:root:Creating directory :Vivi_AI for the file exception.py
+INFO:root:Creating empty file:Vivi_AI\exception.py
+INFO:root:Creating directory :Vivi_AI for the file logger.py
+INFO:root:Creating empty file:Vivi_AI\logger.py
+INFO:root:Creating directory :experiment for the file 01_research.ipynb
+INFO:root:Creating empty file:experiment\01_research.ipynb
+INFO:root:Creating empty file:.gitignore
+INFO:root:Creating empty file:requirements.txt
+INFO:root:Creating empty file:.dockerignore
+INFO:root:Creating empty file:docker
+INFO:root:Creating empty file:app.py
+INFO:root:Creating empty file:setup.py
+INFO:root:Creating empty file:main.py
+INFO:root:Creating directory :config for the file model.yaml
+INFO:root:Creating empty file:config\model.yaml
+INFO:root:Creating directory :config for the file schema.yaml
+INFO:root:Creating empty file:config\schema.yaml

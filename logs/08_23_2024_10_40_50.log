@@ -1,0 +1,26 @@
+[ 2024-08-23 10:40:52,536 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-23 10:40:52,551 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-23 10:40:54,920 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-23 10:40:54,920 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-23 10:40:55,186 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-23 10:40:55,186 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-23 10:40:55,604 ] faiss.loader - DEBUG - Environment variable FAISS_OPT_LEVEL is not set, so let's pick the instruction set according to the current CPU
+[ 2024-08-23 10:40:55,604 ] faiss.loader - INFO - Loading faiss with AVX2 support.
+[ 2024-08-23 10:40:55,699 ] faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+[ 2024-08-23 10:40:55,887 ] matplotlib - DEBUG - matplotlib data path: D:\VIVI_AI\yogo\Lib\site-packages\matplotlib\mpl-data
+[ 2024-08-23 10:40:55,897 ] matplotlib - DEBUG - CONFIGDIR=C:\Users\PC\.matplotlib
+[ 2024-08-23 10:40:55,897 ] matplotlib - DEBUG - interactive is False
+[ 2024-08-23 10:40:55,900 ] matplotlib - DEBUG - platform is win32
+[ 2024-08-23 10:40:56,027 ] matplotlib - DEBUG - CACHEDIR=C:\Users\PC\.matplotlib
+[ 2024-08-23 10:40:56,027 ] matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\PC\.matplotlib\fontlist-v390.json
+[ 2024-08-23 10:40:57,197 ] matplotlib.pyplot - DEBUG - Loaded backend Agg version v2.2.
+[ 2024-08-23 10:40:57,268 ] werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.203.152:8080
+[ 2024-08-23 10:40:57,268 ] werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2024-08-23 10:40:57,273 ] werkzeug - INFO -  * Restarting with stat
+[ 2024-08-23 10:42:15,023 ] werkzeug - INFO -  * Restarting with stat
+[ 2024-08-23 10:44:51,308 ] werkzeug - INFO -  * Restarting with stat
+[ 2024-08-23 10:47:14,147 ] werkzeug - INFO -  * Restarting with stat
+[ 2024-08-23 10:49:20,788 ] werkzeug - INFO -  * Restarting with stat

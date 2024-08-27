@@ -1,0 +1,16 @@
+[ 2024-08-23 10:03:41,702 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-23 10:03:41,704 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-23 10:03:44,521 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-23 10:03:44,521 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-23 10:03:44,789 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-23 10:03:44,789 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-23 10:03:45,297 ] faiss.loader - DEBUG - Environment variable FAISS_OPT_LEVEL is not set, so let's pick the instruction set according to the current CPU
+[ 2024-08-23 10:03:45,307 ] faiss.loader - INFO - Loading faiss with AVX2 support.
+[ 2024-08-23 10:03:45,351 ] faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+[ 2024-08-23 10:03:45,590 ] matplotlib - DEBUG - matplotlib data path: D:\VIVI_AI\yogo\Lib\site-packages\matplotlib\mpl-data
+[ 2024-08-23 10:03:45,601 ] matplotlib - DEBUG - CONFIGDIR=C:\Users\PC\.matplotlib
+[ 2024-08-23 10:03:45,601 ] matplotlib - DEBUG - interactive is False
+[ 2024-08-23 10:03:45,601 ] matplotlib - DEBUG - platform is win32
+[ 2024-08-23 10:03:45,727 ] matplotlib - DEBUG - CACHEDIR=C:\Users\PC\.matplotlib
+[ 2024-08-23 10:03:45,727 ] matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\PC\.matplotlib\fontlist-v390.json
+[ 2024-08-23 10:03:46,203 ] matplotlib.pyplot - DEBUG - Loaded backend Agg version v2.2.

@@ -1,0 +1,360 @@
+[ 2024-08-23 10:49:28,042 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-23 10:49:28,042 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-23 10:49:30,188 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-23 10:49:30,188 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-23 10:49:30,432 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-23 10:49:30,432 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-23 10:49:30,818 ] faiss.loader - DEBUG - Environment variable FAISS_OPT_LEVEL is not set, so let's pick the instruction set according to the current CPU
+[ 2024-08-23 10:49:30,818 ] faiss.loader - INFO - Loading faiss with AVX2 support.
+[ 2024-08-23 10:49:30,839 ] faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+[ 2024-08-23 10:49:30,951 ] matplotlib - DEBUG - matplotlib data path: D:\VIVI_AI\yogo\Lib\site-packages\matplotlib\mpl-data
+[ 2024-08-23 10:49:30,958 ] matplotlib - DEBUG - CONFIGDIR=C:\Users\PC\.matplotlib
+[ 2024-08-23 10:49:30,958 ] matplotlib - DEBUG - interactive is False
+[ 2024-08-23 10:49:30,958 ] matplotlib - DEBUG - platform is win32
+[ 2024-08-23 10:49:31,029 ] matplotlib - DEBUG - CACHEDIR=C:\Users\PC\.matplotlib
+[ 2024-08-23 10:49:31,035 ] matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\PC\.matplotlib\fontlist-v390.json
+[ 2024-08-23 10:49:31,711 ] matplotlib.pyplot - DEBUG - Loaded backend Agg version v2.2.
+[ 2024-08-23 10:49:31,744 ] werkzeug - WARNING -  * Debugger is active!
+[ 2024-08-23 10:49:31,762 ] werkzeug - INFO -  * Debugger PIN: 331-538-268
+[ 2024-08-23 10:49:31,781 ] chat_app - INFO - Index route called
+[ 2024-08-23 10:49:31,781 ] chat_app - INFO - No authenticated user found, redirecting to login
+[ 2024-08-23 10:49:31,781 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:49:31] "[32mGET / HTTP/1.1[0m" 302 -
+[ 2024-08-23 10:49:31,802 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:49:31] "GET /login HTTP/1.1" 200 -
+[ 2024-08-23 10:49:31,896 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:49:31] "[36mGET /static/loginform.css HTTP/1.1[0m" 304 -
+[ 2024-08-23 10:49:31,898 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:49:31] "[36mGET /static/google.png HTTP/1.1[0m" 304 -
+[ 2024-08-23 10:49:46,903 ] httpcore.connection - DEBUG - connect_tcp.started host='ucpbtniapifddpsipukq.supabase.co' port=443 local_address=None timeout=5.0 socket_options=None
+[ 2024-08-23 10:49:47,122 ] httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001327B4F5710>
+[ 2024-08-23 10:49:47,122 ] httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001323F209910> server_hostname='ucpbtniapifddpsipukq.supabase.co' timeout=5.0
+[ 2024-08-23 10:49:47,308 ] httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001327BD01890>
+[ 2024-08-23 10:49:47,308 ] httpcore.http2 - DEBUG - send_connection_init.started request=<Request [b'POST']>
+[ 2024-08-23 10:49:47,312 ] httpcore.http2 - DEBUG - send_connection_init.complete
+[ 2024-08-23 10:49:47,314 ] httpcore.http2 - DEBUG - send_request_headers.started request=<Request [b'POST']> stream_id=1
+[ 2024-08-23 10:49:47,314 ] hpack.hpack - DEBUG - Adding (b':method', b'POST') to the header table, sensitive:False, huffman:True
+[ 2024-08-23 10:49:47,315 ] hpack.hpack - DEBUG - Encoding 3 with 7 bits
+[ 2024-08-23 10:49:47,315 ] hpack.hpack - DEBUG - Adding (b':authority', b'ucpbtniapifddpsipukq.supabase.co') to the header table, sensitive:False, huffman:True
+[ 2024-08-23 10:49:47,315 ] hpack.hpack - DEBUG - Encoding 1 with 6 bits
+[ 2024-08-23 10:49:47,315 ] hpack.hpack - DEBUG - Encoding 23 with 7 bits
+[ 2024-08-23 10:49:47,315 ] hpack.hpack - DEBUG - Adding (b':scheme', b'https') to the header table, sensitive:False, huffman:True
+[ 2024-08-23 10:49:47,315 ] hpack.hpack - DEBUG - Encoding 7 with 7 bits
+[ 2024-08-23 10:49:47,316 ] hpack.hpack - DEBUG - Adding (b':path', b'/auth/v1/token?grant_type=password') to the header table, sensitive:False, huffman:True
+[ 2024-08-23 10:49:47,316 ] hpack.hpack - DEBUG - Encoding 4 with 6 bits
+[ 2024-08-23 10:49:47,316 ] hpack.hpack - DEBUG - Encoding 25 with 7 bits
+[ 2024-08-23 10:49:47,316 ] hpack.hpack - DEBUG - Adding (b'accept', b'*/*') to the header table, sensitive:False, huffman:True
+[ 2024-08-23 10:49:47,316 ] hpack.hpack - DEBUG - Encoding 19 with 6 bits
+[ 2024-08-23 10:49:47,316 ] hpack.hpack - DEBUG - Encoding 3 with 7 bits
+[ 2024-08-23 10:49:47,316 ] hpack.hpack - DEBUG - Adding (b'accept-encoding', b'gzip, deflate') to the header table, sensitive:False, huffman:True
+[ 2024-08-23 10:49:47,316 ] hpack.hpack - DEBUG - Encoding 16 with 7 bits
+[ 2024-08-23 10:49:47,316 ] hpack.hpack - DEBUG - Adding (b'user-agent', b'python-httpx/0.27.0') to the header table, sensitive:False, huffman:True
+[ 2024-08-23 10:49:47,316 ] hpack.hpack - DEBUG - Encoding 58 with 6 bits
+[ 2024-08-23 10:49:47,316 ] hpack.hpack - DEBUG - Encoding 14 with 7 bits
+[ 2024-08-23 10:49:47,316 ] hpack.hpack - DEBUG - Adding (b'x-client-info', b'supabase-py/2.7.2') to the header table, sensitive:False, huffman:True
+[ 2024-08-23 10:49:47,316 ] hpack.hpack - DEBUG - Encoding 10 with 7 bits
+[ 2024-08-23 10:49:47,316 ] hpack.hpack - DEBUG - Encoding 12 with 7 bits
+[ 2024-08-23 10:49:47,316 ] hpack.hpack - DEBUG - Adding (b'apikey', b'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVjcGJ0bmlhcGlmZGRwc2lwdWtxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjM4MzE2NzQsImV4cCI6MjAzOTQwNzY3NH0.OScT9H0GnEsZYiV8wg2aBFwGAKUCRjOi9LhrzSn2R_w') to the header table, sensitive:False, huffman:True
+[ 2024-08-23 10:49:47,320 ] hpack.hpack - DEBUG - Encoding 5 with 7 bits
+[ 2024-08-23 10:49:47,320 ] hpack.hpack - DEBUG - Encoding 167 with 7 bits
+[ 2024-08-23 10:49:47,320 ] hpack.hpack - DEBUG - Adding (b'authorization', b'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVjcGJ0bmlhcGlmZGRwc2lwdWtxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjM4MzE2NzQsImV4cCI6MjAzOTQwNzY3NH0.OScT9H0GnEsZYiV8wg2aBFwGAKUCRjOi9LhrzSn2R_w') to the header table, sensitive:True, huffman:True
+[ 2024-08-23 10:49:47,320 ] hpack.hpack - DEBUG - Encoding 23 with 4 bits
+[ 2024-08-23 10:49:47,320 ] hpack.hpack - DEBUG - Encoding 172 with 7 bits
+[ 2024-08-23 10:49:47,322 ] hpack.hpack - DEBUG - Adding (b'x-supabase-api-version', b'2024-01-01') to the header table, sensitive:False, huffman:True
+[ 2024-08-23 10:49:47,322 ] hpack.hpack - DEBUG - Encoding 16 with 7 bits
+[ 2024-08-23 10:49:47,322 ] hpack.hpack - DEBUG - Encoding 7 with 7 bits
+[ 2024-08-23 10:49:47,322 ] hpack.hpack - DEBUG - Adding (b'content-type', b'application/json;charset=UTF-8') to the header table, sensitive:False, huffman:True
+[ 2024-08-23 10:49:47,322 ] hpack.hpack - DEBUG - Encoding 31 with 6 bits
+[ 2024-08-23 10:49:47,322 ] hpack.hpack - DEBUG - Encoding 22 with 7 bits
+[ 2024-08-23 10:49:47,322 ] hpack.hpack - DEBUG - Adding (b'content-length', b'130') to the header table, sensitive:False, huffman:True
+[ 2024-08-23 10:49:47,322 ] hpack.hpack - DEBUG - Encoding 28 with 6 bits
+[ 2024-08-23 10:49:47,322 ] hpack.hpack - DEBUG - Encoding 2 with 7 bits
+[ 2024-08-23 10:49:47,322 ] hpack.hpack - DEBUG - Encoded header block to b"\x83A\x97\xb4\x95\xc6\x9a\x8c:\xcd,\x92V\x83Wo^\xcb\xa2\xda\xc7\x18\xd0U\xc8\x7f\x87D\x99`v\xa6v;\x85\x84\x9f\xa9j\xff&\xb0u&$\xfa\xac\xb0V4#\xc1\xec\x93S\x83\xf9c\xe7\x90z\x8e\xaf\xd2g=KN\x94\xd7\xe5\x80.'W\x07@\x8a\xf2\xb1(1jJ\xc6\xaaS\xff\x8cE\xb5\x8e1\xa0\xabW\xe9\x81.\xea\xe2@\x85\x1df\xea__\xff(/\xac\xb3\xc7\x88\x86\xd4l\xb98{\xc8\x1d&\xc8\x8c\x95ml\x97\xb29\x93\xad\x7f\x9coe}r\xfa\xcbY\x19\xd0mF\xcb\xeeO\xcb\xb3\xf3\xa7\x0f\xbf\xdd\xd9\x11\x92\xac\xb4~\x9b#\x99*\xe3\xd0\x98\xb2\x82:h\x9c\x98\xa8\xa7\xf7\x16\xdf\x04\x15\x1e$\xe4\x9f9\r\xe0\xc4\xa5\xf4~\xee\xc8\xe6Jp\xdb\x18\x9a6{\xd9k\xe7\xf9\xb0\xda\xba`gGM\rh\xf7\x80Z}\xecFJx\xb4K\xd9\x1c\xd1\xd2\x1fz\xb7\xec\xf1\xa7\xdf6t\xe3\x02\xfa\xb7\x13{\xf8\xc1\x8a\xac\x08\xfd\xe6n/x\x98C\xbb\x87\xc6(sp\xbd\xb7\xa6\xa3?\x9e{=\xee\xa8[b\xf1\x1f\x08\xff-\xbaQ\xd8[\x14/\xac\xb3\xc7\x88\x86\xd4l\xb98{\xc8\x1d&\xc8\x8c\x95ml\x97\xb29\x93\xad\x7f\x9coe}r\xfa\xcbY\x19\xd0mF\xcb\xeeO\xcb\xb3\xf3\xa7\x0f\xbf\xdd\xd9\x11\x92\xac\xb4~\x9b#\x99*\xe3\xd0\x98\xb2\x82:h\x9c\x98\xa8\xa7\xf7\x16\xdf\x04\x15\x1e$\xe4\x9f9\r\xe0\xc4\xa5\xf4~\xee\xc8\xe6Jp\xdb\x18\x9a6{\xd9k\xe7\xf9\xb0\xda\xba`gGM\rh\xf7\x80Z}\xecFJx\xb4K\xd9\x1c\xd1\xd2\x1fz\xb7\xec\xf1\xa7\xdf6t\xe3\x02\xfa\xb7\x13{\xf8\xc1\x8a\xac\x08\xfd\xe6n/x\x98C\xbb\x87\xc6(sp\xbd\xb7\xa6\xa3?\x9e{=\xee\xa8[b\xf1@\x90\xf2\xb2-\xacq\x8d\x05Xu\x99n\xe5\xb1\x06=_\x87\x10\x04\xd2\xc0\n\xc0\x0f_\x96\x1du\xd0b\r&=LtA\xea\xfb$\xe3\xb1\x05L\x1c7\xe1Y\xef\\\x82\x0b "
+[ 2024-08-23 10:49:47,324 ] httpcore.http2 - DEBUG - send_request_headers.complete
+[ 2024-08-23 10:49:47,324 ] httpcore.http2 - DEBUG - send_request_body.started request=<Request [b'POST']> stream_id=1
+[ 2024-08-23 10:49:47,326 ] httpcore.http2 - DEBUG - send_request_body.complete
+[ 2024-08-23 10:49:47,326 ] httpcore.http2 - DEBUG - receive_response_headers.started request=<Request [b'POST']> stream_id=1
+[ 2024-08-23 10:49:47,426 ] httpcore.http2 - DEBUG - receive_remote_settings.started
+[ 2024-08-23 10:49:47,427 ] httpcore.http2 - DEBUG - receive_remote_settings.complete return_value=<RemoteSettingsChanged changed_settings:{ChangedSetting(setting=3, original_value=None, new_value=100), ChangedSetting(setting=4, original_value=65535, new_value=65536), ChangedSetting(setting=5, original_value=16384, new_value=16777215)}>
+[ 2024-08-23 10:49:48,569 ] hpack.hpack - DEBUG - Decoding b"?\xe1\x1f\x88a\x96\xc3a\xbe\x94\x13*Cl\xca\x08\x02i@7p/\xdci\xf51h\xdf_\x8b\x1du\xd0b\r&=LtA\xea@\x85$\xabX?_\x8fz7^\x1b\x8d\xb6)\x19\x1b2\x00\x0b]\xd5\xa3@\x8a$\xab\x10d\x9c\xab!#M\xa8\x86\xbf\xcfL:2^w\xff\x90\x05Dk\x0c\x84*\x10\xb2O\xd4\xb5@_Yg\x8f\x11\r\xa8\xd9rp\xf7\x90:M\x91\x19)M\x7f\xb7\xb29\x93\xa6Qgg\x8d\xff\xdb\xf4\x1bF\x00\xd3\xa1\x9a7s\xeb\xc0\xd9\xefe\x01\x7f!6\xa3e\xcd\xc4;\r.\xc5\xcb\xeb-dgA\xb5\x1b)\xe4\xc7\xb7\xc1=\x9f\xbevx\xf4&,\xa0\x8e\x9a'&*)\xfd\xc5\xb7\xc1\x05G\x899'\xcez\xb4\x84\x98\xb0\x9b\x9f\xe6\x9a3\xd3\xa7\xbeqa\x0c\x98\xa6\xef'L\x06\xcf{/\xb99d6\xa3e\xeb\xfbN\x00\xf3\xf7\xb1\x9d7\x83O\xed<<g\xdf\xb3\xc7:x'\x9fN\x00\xd3\xe84~\xef\xfd\x9fE\xfd\x8c\xfe\xef#<\xfd\xccl\xf7\xb2\xcf'-\x86\xd4l\xb3\xc9\xf9\xb4\xff\xbc\x9b\x00\xf9i\x9eL\\z\xe47\x83~\xfeO\xe3'C\xf9\xd3\xef 4{\xeb\xefV\xf9\x9a\xcf{-|\xff6\x1bWL\x0c\xe8\xe9\xb3\xde\xad\xf0\xfb\xd5~dd\xa7\x8ay\xf2\xa1\x19:\x1c\xd2SE\x9c\xf9y\xf1\xa2\xfeAIN\x1fD\x14\xf6\xfe\xfeQ\x0f\xe8\x838\xf9x\xb7\x98\x9fNCx11O\xde:x\x1bQ\xb2\x1b=\xec\xb3\x93\x1d\xd9c\xe5\xc4\x1c\xf9m\x9eLX\r\xaa\xa4\x18\x98\xf2\xf7\x92\x9a:\xfe\xfed6\xa3e\xa2>Xk\x8e\xf6Dd\xaa\xef\xa8\xd9\xfd\xaf\xf7\x17\x1fD\xf5\x91\xce^\xb2\xd1\x1f,5\xc7{,\x92\xee\xf0i?4\xd0J\x1fO\xef\xe6\xd9\xffqa\x07=\xd9\x1c/\xac\xb4G\xcb\rq\xde\xc8\xe6J\xbfk\x18\xb0\xa0\x97\xe1\xf5\xa6\xaf\xd9\xc9V\x93\xc7O\x16\xf6b\x91<\xf9P\x8c\xf4\xe9\xef\x1e\xec\x88\xc9O\x14\xf3\xe5B?\x19\xfd\xa0\x94\xd1H\xf9q\xeb\x93\xa5t\xf3\xe5\xe7\xdf\xee\xef\x06&)\xfb\xc7O\x19d\xa7\x8f\xa1\xf2\xfd\xaf\xf7\x96\xc3j\xa7\xf6x\xf1\xe9\xa3=\xec\xbe\xe4\xe5\x90\xda\x8d\x97\xaf\xed8\x03\xcf\xde\xc6t\xde\r?\xb4\xf0\xf1\x9f~\xcf\x1c\xe9\xe0\x9e}8\x03O\xa0\xd1\xfb\xbf\xf6}\x17\xf63\xfb\xbc\x8c\xf3\xf71\xa5\xdd\xe0\xc4\xa5\xf4~\xee\xc8\xe6Jp\x86LS\xd1\x1d[k\xe6, \xfd\xe5\xb0\xd9\xefe\x9f\x9f/\x06\xd4l\xb3\xf3\xe5\xe3\xceCx7>A\xf5\x93\xa5q\x97\xd6T\xfe\xfem<b\xd8mF\xcb\xe3\x9f\xe6\x9fr\t\xff_\xb7\xb2#%[k\x8f\x97\x1frb\xc2\x92^\xc8\xe6\x8d\xe4\xf5\xa6\xfe\x86\xf4_\xd0\xd6\xaca\x93=\xec\xbe\xff\x7f4\xfb\x1f'\xed\xfc\x15\x1drt9\xb4b\xc0.}'7?x\x13\xfbN\x06\xb4n\x004t'\x9c\xfc\xb0\xf4\xe7\xbfBy\xd3\xb6\x8d;\xf8y\xd1\x7fc:w\xf5\x06Cx0\xff4\xcb\xcf\x93}\xe3\xaa\x84\xc6\xcf\x1fy:WO>^}\xfe\xfe\x01}\xfe\xa5\x1d\xa3\xbf\x9b\x05~6k\xa7\xf4@\xdc\xd3\xbbxYd\x9b\xb5\xd9NA\xef\xc3\xd0^;\xfe\xbb\x0c\x9e\x11\xf6\xa6\xb1\xa6x\x18\xfbS\x07\x9a\xcdaQ\x06\xe1\xa7\xe9A4\xa46\xcc\xa0\x80&\x94\x03w\x02\xfd\xc6\x9eS\x16\x8d\xffjh\x1f\x95\xa1\x98\xb0<\xe3@\x07\xda\x98\xd2\x9a\xf5UG\xaf\xb57\x14\x96\xd8_x\x9a\xa4~V\x1c\xc5\x81\x90\xb6\xcb\x80\x00>\xd45D\xa2\xd9\x0b\xba\xd8\xef\x9e\x91\x9a\xa4\x7f{\x91\xd5a\xa65_JBB\x16\xb4\xad\x82\xa2\x1eCU7@\x8dDkL4\x97\xc0\xfd-\xdc\xb6 \xc7\xab\x011w\xdcDkXYl*'Y'\xeaZ\xa0\xcb\x947\x9f\xaf\xf7\x87\x0f\x7f\x9f\xb4~\xa7\xd7\x8eV\xcf\x7f\xc7\xda\x9a\xc6\x99\xe0c\xedL\x1ek5\x85D\x1b\x86\x9f\xa5\x04\xd2\x90\xdb2\x82\x00\x9aP\r\xdc\x0b\xf7\x1ayLZ7\xfd\xa9\xa0~V\x86b\xc0\xf3\x8d\x00\x1fjcJk\xd5U\x1e\xbe\xd4\xdcR[a\x7f@\x95\xf2\xb1j\xee\x7fK[Z\x13aGJ\xc8-\x9d\xccB\xac\x93R_\x82\x08\x19v\x87%\x07\xb6Ih\x1d\x85Z\x83\x9b\xd9\xab@\x85\x1d\tY\x1d\xc9\x90\x9d\x98?\x9b\x8d4\xcf\xf3\xf6\xa5#\x81\xe7\x1a\x00?"
+[ 2024-08-23 10:49:48,572 ] hpack.hpack - DEBUG - Decoded 4096, consumed 3 bytes
+[ 2024-08-23 10:49:48,572 ] hpack.table - DEBUG - Resizing header table to 4096 from 4096
+[ 2024-08-23 10:49:48,572 ] hpack.hpack - DEBUG - Decoded 8, consumed 1 bytes
+[ 2024-08-23 10:49:48,572 ] hpack.hpack - DEBUG - Decoded (b':status', b'200'), consumed 1
+[ 2024-08-23 10:49:48,572 ] hpack.hpack - DEBUG - Decoded 33, consumed 1 bytes
+[ 2024-08-23 10:49:48,572 ] hpack.hpack - DEBUG - Decoded 22, consumed 1 bytes
+[ 2024-08-23 10:49:48,572 ] hpack.hpack - DEBUG - Decoded (b'date', b'Fri, 23 Aug 2024 05:19:49 GMT'), total consumed 24 bytes, indexed True
+[ 2024-08-23 10:49:48,572 ] hpack.hpack - DEBUG - Decoded 31, consumed 1 bytes
+[ 2024-08-23 10:49:48,572 ] hpack.hpack - DEBUG - Decoded 11, consumed 1 bytes
+[ 2024-08-23 10:49:48,574 ] hpack.hpack - DEBUG - Decoded (b'content-type', b'application/json'), total consumed 13 bytes, indexed True
+[ 2024-08-23 10:49:48,574 ] hpack.hpack - DEBUG - Decoded 5, consumed 1 bytes
+[ 2024-08-23 10:49:48,574 ] hpack.hpack - DEBUG - Decoded 15, consumed 1 bytes
+[ 2024-08-23 10:49:48,574 ] hpack.hpack - DEBUG - Decoded (b'cf-ray', b'8b78a6552d3a3d00-BOM'), total consumed 23 bytes, indexed True
+[ 2024-08-23 10:49:48,574 ] hpack.hpack - DEBUG - Decoded 10, consumed 1 bytes
+[ 2024-08-23 10:49:48,574 ] hpack.hpack - DEBUG - Decoded 6, consumed 1 bytes
+[ 2024-08-23 10:49:48,574 ] hpack.hpack - DEBUG - Decoded (b'cf-cache-status', b'DYNAMIC'), total consumed 19 bytes, indexed True
+[ 2024-08-23 10:49:48,574 ] hpack.hpack - DEBUG - Decoded 55, consumed 1 bytes
+[ 2024-08-23 10:49:48,574 ] hpack.hpack - DEBUG - Decoded 783, consumed 3 bytes
+[ 2024-08-23 10:49:48,574 ] hpack.hpack - DEBUG - Decoded (b'set-cookie', b'sb-access-token=eyJhbGciOiJIUzI1NiIsImtpZCI6IjJ2L3VDZDliME1mM3lSYkUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3VjcGJ0bmlhcGlmZGRwc2lwdWtxLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJkZmE1YzQ3NC1mZmUwLTQwYmUtYjU0Ny1lZTZhMDQ3ZTc3YzgiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzI0MzkzOTg4LCJpYXQiOjE3MjQzOTAzODgsImVtYWlsIjoidmlrYWxwMDI2dmFyc2huZXlAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6eyJlbWFpbCI6InZpa2FscDAyNnZhcnNobmV5QGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwicGhvbmVfdmVyaWZpZWQiOmZhbHNlLCJzdWIiOiJkZmE1YzQ3NC1mZmUwLTQwYmUtYjU0Ny1lZTZhMDQ3ZTc3YzgifSwicm9sZSI6ImF1dGhlbnRpY2F0ZWQiLCJhYWwiOiJhYWwxIiwiYW1yIjpbeyJtZXRob2QiOiJwYXNzd29yZCIsInRpbWVzdGFtcCI6MTcyNDM5MDM4OH1dLCJzZXNzaW9uX2lkIjoiMGE2YjhiYzEtZmE4MS00MjcxLWFjYTMtYmRlNTUxMDQ3NTk0IiwiaXNfYW5vbnltb3VzIjpmYWxzZX0.TyfauaDKEpwQPmZ20S47RUrrdSPrmIaTFj2wvZ7Adws; Path=/; Expires=Sat, 24 Aug 2024 05:19:48 GMT; Max-Age=86400; HttpOnly; Secure'), total consumed 787 bytes, indexed True
+[ 2024-08-23 10:49:48,574 ] hpack.hpack - DEBUG - Decoded 56, consumed 1 bytes
+[ 2024-08-23 10:49:48,574 ] hpack.hpack - DEBUG - Decoded 26, consumed 1 bytes
+[ 2024-08-23 10:49:48,574 ] hpack.hpack - DEBUG - Decoded (b'strict-transport-security', b'max-age=31536000; includeSubDomains'), total consumed 28 bytes, indexed True
+[ 2024-08-23 10:49:48,578 ] hpack.hpack - DEBUG - Decoded 59, consumed 1 bytes
+[ 2024-08-23 10:49:48,578 ] hpack.hpack - DEBUG - Decoded 17, consumed 1 bytes
+[ 2024-08-23 10:49:48,578 ] hpack.hpack - DEBUG - Decoded (b'vary', b'Origin, Accept-Encoding'), total consumed 19 bytes, indexed True
+[ 2024-08-23 10:49:48,578 ] hpack.hpack - DEBUG - Decoded 13, consumed 1 bytes
+[ 2024-08-23 10:49:48,579 ] hpack.hpack - DEBUG - Decoded 1, consumed 1 bytes
+[ 2024-08-23 10:49:48,579 ] hpack.hpack - DEBUG - Decoded (b'sb-gateway-version', <memory at 0x000001327BC1F400>), total consumed 17 bytes, indexed True
+[ 2024-08-23 10:49:48,579 ] hpack.hpack - DEBUG - Decoded 55, consumed 1 bytes
+[ 2024-08-23 10:49:48,579 ] hpack.hpack - DEBUG - Decoded 92, consumed 1 bytes
+[ 2024-08-23 10:49:48,579 ] hpack.hpack - DEBUG - Decoded (b'set-cookie', b'sb-refresh-token=JJ1C9pZUUzXZlZtywWuhDw; Path=/; Expires=Sat, 24 Aug 2024 05:19:48 GMT; Max-Age=86400; HttpOnly; Secure'), total consumed 94 bytes, indexed True
+[ 2024-08-23 10:49:48,579 ] hpack.hpack - DEBUG - Decoded 21, consumed 1 bytes
+[ 2024-08-23 10:49:48,579 ] hpack.hpack - DEBUG - Decoded 2, consumed 1 bytes
+[ 2024-08-23 10:49:48,579 ] hpack.hpack - DEBUG - Decoded (b'x-envoy-upstream-service-time', b'103'), total consumed 26 bytes, indexed True
+[ 2024-08-23 10:49:48,579 ] hpack.hpack - DEBUG - Decoded 54, consumed 1 bytes
+[ 2024-08-23 10:49:48,579 ] hpack.hpack - DEBUG - Decoded 7, consumed 1 bytes
+[ 2024-08-23 10:49:48,579 ] hpack.hpack - DEBUG - Decoded (b'server', b'cloudflare'), total consumed 9 bytes, indexed True
+[ 2024-08-23 10:49:48,579 ] hpack.hpack - DEBUG - Decoded 26, consumed 1 bytes
+[ 2024-08-23 10:49:48,579 ] hpack.hpack - DEBUG - Decoded 3, consumed 1 bytes
+[ 2024-08-23 10:49:48,579 ] hpack.hpack - DEBUG - Decoded (b'content-encoding', b'gzip'), total consumed 5 bytes, indexed True
+[ 2024-08-23 10:49:48,582 ] hpack.hpack - DEBUG - Decoded 5, consumed 1 bytes
+[ 2024-08-23 10:49:48,582 ] hpack.hpack - DEBUG - Decoded 16, consumed 1 bytes
+[ 2024-08-23 10:49:48,582 ] hpack.hpack - DEBUG - Decoded (b'alt-svc', b'h3=":443"; ma=86400'), total consumed 24 bytes, indexed True
+[ 2024-08-23 10:49:48,582 ] httpcore.http2 - DEBUG - receive_response_headers.complete return_value=(200, [(b'date', b'Fri, 23 Aug 2024 05:19:49 GMT'), (b'content-type', b'application/json'), (b'cf-ray', b'8b78a6552d3a3d00-BOM'), (b'cf-cache-status', b'DYNAMIC'), (b'set-cookie', b'sb-access-token=eyJhbGciOiJIUzI1NiIsImtpZCI6IjJ2L3VDZDliME1mM3lSYkUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3VjcGJ0bmlhcGlmZGRwc2lwdWtxLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJkZmE1YzQ3NC1mZmUwLTQwYmUtYjU0Ny1lZTZhMDQ3ZTc3YzgiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzI0MzkzOTg4LCJpYXQiOjE3MjQzOTAzODgsImVtYWlsIjoidmlrYWxwMDI2dmFyc2huZXlAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6eyJlbWFpbCI6InZpa2FscDAyNnZhcnNobmV5QGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwicGhvbmVfdmVyaWZpZWQiOmZhbHNlLCJzdWIiOiJkZmE1YzQ3NC1mZmUwLTQwYmUtYjU0Ny1lZTZhMDQ3ZTc3YzgifSwicm9sZSI6ImF1dGhlbnRpY2F0ZWQiLCJhYWwiOiJhYWwxIiwiYW1yIjpbeyJtZXRob2QiOiJwYXNzd29yZCIsInRpbWVzdGFtcCI6MTcyNDM5MDM4OH1dLCJzZXNzaW9uX2lkIjoiMGE2YjhiYzEtZmE4MS00MjcxLWFjYTMtYmRlNTUxMDQ3NTk0IiwiaXNfYW5vbnltb3VzIjpmYWxzZX0.TyfauaDKEpwQPmZ20S47RUrrdSPrmIaTFj2wvZ7Adws; Path=/; Expires=Sat, 24 Aug 2024 05:19:48 GMT; Max-Age=86400; HttpOnly; Secure'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains'), (b'vary', b'Origin, Accept-Encoding'), (b'sb-gateway-version', b'1'), (b'set-cookie', b'sb-refresh-token=JJ1C9pZUUzXZlZtywWuhDw; Path=/; Expires=Sat, 24 Aug 2024 05:19:48 GMT; Max-Age=86400; HttpOnly; Secure'), (b'x-envoy-upstream-service-time', b'103'), (b'server', b'cloudflare'), (b'content-encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+[ 2024-08-23 10:49:48,582 ] httpx - INFO - HTTP Request: POST https://ucpbtniapifddpsipukq.supabase.co/auth/v1/token?grant_type=password "HTTP/2 200 OK"
+[ 2024-08-23 10:49:48,586 ] httpcore.http2 - DEBUG - receive_response_body.started request=<Request [b'POST']> stream_id=1
+[ 2024-08-23 10:49:48,588 ] httpcore.http2 - DEBUG - receive_response_body.complete
+[ 2024-08-23 10:49:48,588 ] httpcore.http2 - DEBUG - response_closed.started stream_id=1
+[ 2024-08-23 10:49:48,588 ] httpcore.http2 - DEBUG - response_closed.complete
+[ 2024-08-23 10:49:48,602 ] root - INFO - Login attempt for email: vikalp026varshney@gmail.com
+[ 2024-08-23 10:49:48,602 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:49:48] "[32mPOST /login HTTP/1.1[0m" 302 -
+[ 2024-08-23 10:49:48,614 ] chat_app - INFO - Index route called
+[ 2024-08-23 10:49:48,614 ] chat_app - INFO - User authenticated, rendering index.html
+[ 2024-08-23 10:49:48,642 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:49:48] "GET / HTTP/1.1" 200 -
+[ 2024-08-23 10:49:48,683 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:49:48] "[33mGET /static/script.js HTTP/1.1[0m" 404 -
+[ 2024-08-23 10:49:48,688 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:49:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2024-08-23 10:49:48,690 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:49:48] "[33mGET /static/chatbot.css HTTP/1.1[0m" 404 -
+[ 2024-08-23 10:49:48,704 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:49:48] "[33mGET /static/script.js HTTP/1.1[0m" 404 -
+[ 2024-08-23 10:49:48,713 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:49:48] "[36mGET /static/vivi.png HTTP/1.1[0m" 304 -
+[ 2024-08-23 10:49:48,713 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:49:48] "[36mGET /static/new_latest.jpg HTTP/1.1[0m" 304 -
+[ 2024-08-23 10:49:48,715 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:49:48] "[36mGET /static/2nd_his.jpg HTTP/1.1[0m" 304 -
+[ 2024-08-23 10:49:48,720 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:49:48] "[36mGET /static/chatbot.png HTTP/1.1[0m" 304 -
+[ 2024-08-23 10:49:49,988 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 10:49:49,988 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:49:49] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 10:49:51,094 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 10:49:51,094 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:49:51] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 10:49:53,603 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 10:49:53,603 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:49:53] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 10:49:53,605 ] root - INFO - Message is Hi
+[ 2024-08-23 10:49:53,605 ] chat_app - DEBUG - Entering rag_chain with query: Hi
+[ 2024-08-23 10:49:53,605 ] root - INFO - Query is Hi
+[ 2024-08-23 10:49:53,605 ] chat_app - DEBUG - PromptTemplate created
+[ 2024-08-23 10:49:53,611 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-23 10:49:53,611 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-23 10:49:53,855 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-23 10:49:53,855 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-23 10:49:54,272 ] chat_app - DEBUG - RetrievalQA created
+[ 2024-08-23 10:49:54,411 ] urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.smith.langchain.com:443
+[ 2024-08-23 10:49:54,934 ] openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/embeddings', 'files': None, 'post_parser': <function Embeddings.create.<locals>.parser at 0x000001327BE99760>, 'json_data': {'input': [[13347]], 'model': 'text-embedding-ada-002', 'encoding_format': 'base64'}}
+[ 2024-08-23 10:49:54,934 ] openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/embeddings
+[ 2024-08-23 10:49:54,934 ] httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+[ 2024-08-23 10:49:55,270 ] httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001327BD2D1D0>
+[ 2024-08-23 10:49:55,270 ] httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001324011E3C0> server_hostname='api.openai.com' timeout=None
+[ 2024-08-23 10:49:55,370 ] httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001327B50B690>
+[ 2024-08-23 10:49:55,370 ] httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+[ 2024-08-23 10:49:55,370 ] httpcore.http11 - DEBUG - send_request_headers.complete
+[ 2024-08-23 10:49:55,370 ] httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+[ 2024-08-23 10:49:55,370 ] httpcore.http11 - DEBUG - send_request_body.complete
+[ 2024-08-23 10:49:55,370 ] httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+[ 2024-08-23 10:49:55,551 ] urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "GET /info HTTP/11" 200 454
+[ 2024-08-23 10:49:55,740 ] httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 23 Aug 2024 05:19:56 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-model', b'text-embedding-ada-002'), (b'openai-organization', b'user-g4hromwdelqvif9h7gpua77n'), (b'openai-processing-ms', b'15'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'3000'), (b'x-ratelimit-limit-tokens', b'1000000'), (b'x-ratelimit-remaining-requests', b'2999'), (b'x-ratelimit-remaining-tokens', b'999998'), (b'x-ratelimit-reset-requests', b'20ms'), (b'x-ratelimit-reset-tokens', b'0s'), (b'x-request-id', b'req_9c8776d7c493a4c1e9701faee78d9c1a'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=mtfy9LLPcHkLUVe1XzSgL4Q.zWTh2NmG_5FMTzyoxnA-1724390396-1.0.1.1-VoHbbMthOry4QG8rjyrN_gAtr7_jiWdIozPtwcRsjDdlnS18zDxtH9xiFe3S4RAQBfqojkqW2n0s6GLR8OPpNA; path=/; expires=Fri, 23-Aug-24 05:49:56 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=vMsi6Cs7wBWBpZd1cDGM5PxchEfh9OetjUS4IcEZZ1M-1724390396320-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8b78a6873b3e3a29-BOM'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+[ 2024-08-23 10:49:55,740 ] httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[ 2024-08-23 10:49:55,740 ] httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+[ 2024-08-23 10:49:55,742 ] httpcore.http11 - DEBUG - receive_response_body.complete
+[ 2024-08-23 10:49:55,743 ] httpcore.http11 - DEBUG - response_closed.started
+[ 2024-08-23 10:49:55,743 ] httpcore.http11 - DEBUG - response_closed.complete
+[ 2024-08-23 10:49:55,743 ] openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/embeddings "200 OK" Headers([('date', 'Fri, 23 Aug 2024 05:19:56 GMT'), ('content-type', 'application/json'), ('transfer-encoding', 'chunked'), ('connection', 'keep-alive'), ('access-control-allow-origin', '*'), ('access-control-expose-headers', 'X-Request-ID'), ('openai-model', 'text-embedding-ada-002'), ('openai-organization', 'user-g4hromwdelqvif9h7gpua77n'), ('openai-processing-ms', '15'), ('openai-version', '2020-10-01'), ('strict-transport-security', 'max-age=15552000; includeSubDomains; preload'), ('x-ratelimit-limit-requests', '3000'), ('x-ratelimit-limit-tokens', '1000000'), ('x-ratelimit-remaining-requests', '2999'), ('x-ratelimit-remaining-tokens', '999998'), ('x-ratelimit-reset-requests', '20ms'), ('x-ratelimit-reset-tokens', '0s'), ('x-request-id', 'req_9c8776d7c493a4c1e9701faee78d9c1a'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=mtfy9LLPcHkLUVe1XzSgL4Q.zWTh2NmG_5FMTzyoxnA-1724390396-1.0.1.1-VoHbbMthOry4QG8rjyrN_gAtr7_jiWdIozPtwcRsjDdlnS18zDxtH9xiFe3S4RAQBfqojkqW2n0s6GLR8OPpNA; path=/; expires=Fri, 23-Aug-24 05:49:56 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=vMsi6Cs7wBWBpZd1cDGM5PxchEfh9OetjUS4IcEZZ1M-1724390396320-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '8b78a6873b3e3a29-BOM'), ('content-encoding', 'gzip'), ('alt-svc', 'h3=":443"; ma=86400')])
+[ 2024-08-23 10:49:55,743 ] openai._base_client - DEBUG - request_id: req_9c8776d7c493a4c1e9701faee78d9c1a
+[ 2024-08-23 10:49:55,812 ] openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/completions', 'files': None, 'json_data': {'model': 'gpt-3.5-turbo-instruct', 'prompt': ["\n            Use the following pieces of information to answer the user's question.\n            If you don't know the answer, just say that you don't know, don't try to make up an answer.\n            Context: tions.\n 4\n\nISBN 978-0-9899740-4-2\n\nIt felt like a new future was unfolding in front of me. My girlfriend moved in with me, I \nstarted fundraising and training for a run, and I became a student again registering for \ncourses in immunology and in bioethics at the local university. My fundraising led to the \nopportunity to do a marathon in Iceland. I used to be quite a runner and had done many \nhalf-marathons but I thought I’d see if I could do a full one.\n\ndesignation with which I am perfectly content. I am blessed with good health and an \ninteresting life. Indeed, overcoming a glioma has become the measure by which I readily \nestimate everything else that God has sent my way.\n            Question: Hi\n            Only return the helpful answer below and nothing else.\n            Helpful answer:\n        "], 'frequency_penalty': 0.0, 'logit_bias': {}, 'max_tokens': 256, 'n': 1, 'presence_penalty': 0.0, 'temperature': 0.7, 'top_p': 1.0}}
+[ 2024-08-23 10:49:55,812 ] openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/completions
+[ 2024-08-23 10:49:55,812 ] httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+[ 2024-08-23 10:49:55,907 ] httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001327BF13ED0>
+[ 2024-08-23 10:49:55,907 ] httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001327BBEFD10> server_hostname='api.openai.com' timeout=None
+[ 2024-08-23 10:49:55,999 ] httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001327BEB5F90>
+[ 2024-08-23 10:49:55,999 ] httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+[ 2024-08-23 10:49:55,999 ] httpcore.http11 - DEBUG - send_request_headers.complete
+[ 2024-08-23 10:49:55,999 ] httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+[ 2024-08-23 10:49:55,999 ] httpcore.http11 - DEBUG - send_request_body.complete
+[ 2024-08-23 10:49:55,999 ] httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+[ 2024-08-23 10:49:56,230 ] urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "POST /runs/batch HTTP/11" 202 33
+[ 2024-08-23 10:49:56,784 ] httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 23 Aug 2024 05:19:57 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'access-control-expose-headers', b'X-Request-ID'), (b'Cache-Control', b'no-cache, must-revalidate'), (b'openai-model', b'gpt-3.5-turbo-instruct'), (b'openai-organization', b'user-g4hromwdelqvif9h7gpua77n'), (b'openai-processing-ms', b'264'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'3500'), (b'x-ratelimit-limit-tokens', b'90000'), (b'x-ratelimit-remaining-requests', b'3499'), (b'x-ratelimit-remaining-tokens', b'89488'), (b'x-ratelimit-reset-requests', b'17ms'), (b'x-ratelimit-reset-tokens', b'340ms'), (b'x-request-id', b'req_1380fa769333ebcd52d43682582af463'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=g4ICfcjP824p7mYixTf7odWjwUV7kf7qpS.uYdySRpE-1724390397-1.0.1.1-b0ryQ8.v1v7y4hJurIghG9qMM3HEPin5I8b0scBk7V3yBHd5thqSf0FAuD3dDtvlw3M0tSmcIrlTSh.aVBtEXg; path=/; expires=Fri, 23-Aug-24 05:49:57 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=.bF9jeJCB4Qq40VhgqaOnb1PVE1g5zR7KXVsMqbE0CQ-1724390397366-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8b78a68b2c444075-BOM'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+[ 2024-08-23 10:49:56,786 ] httpx - INFO - HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+[ 2024-08-23 10:49:56,786 ] httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+[ 2024-08-23 10:49:56,788 ] httpcore.http11 - DEBUG - receive_response_body.complete
+[ 2024-08-23 10:49:56,788 ] httpcore.http11 - DEBUG - response_closed.started
+[ 2024-08-23 10:49:56,789 ] httpcore.http11 - DEBUG - response_closed.complete
+[ 2024-08-23 10:49:56,791 ] urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "POST /runs/batch HTTP/11" 202 33
+[ 2024-08-23 10:49:56,791 ] openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/completions "200 OK" Headers([('date', 'Fri, 23 Aug 2024 05:19:57 GMT'), ('content-type', 'application/json'), ('transfer-encoding', 'chunked'), ('connection', 'keep-alive'), ('access-control-allow-origin', '*'), ('access-control-expose-headers', 'X-Request-ID'), ('cache-control', 'no-cache, must-revalidate'), ('openai-model', 'gpt-3.5-turbo-instruct'), ('openai-organization', 'user-g4hromwdelqvif9h7gpua77n'), ('openai-processing-ms', '264'), ('openai-version', '2020-10-01'), ('strict-transport-security', 'max-age=15552000; includeSubDomains; preload'), ('x-ratelimit-limit-requests', '3500'), ('x-ratelimit-limit-tokens', '90000'), ('x-ratelimit-remaining-requests', '3499'), ('x-ratelimit-remaining-tokens', '89488'), ('x-ratelimit-reset-requests', '17ms'), ('x-ratelimit-reset-tokens', '340ms'), ('x-request-id', 'req_1380fa769333ebcd52d43682582af463'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=g4ICfcjP824p7mYixTf7odWjwUV7kf7qpS.uYdySRpE-1724390397-1.0.1.1-b0ryQ8.v1v7y4hJurIghG9qMM3HEPin5I8b0scBk7V3yBHd5thqSf0FAuD3dDtvlw3M0tSmcIrlTSh.aVBtEXg; path=/; expires=Fri, 23-Aug-24 05:49:57 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=.bF9jeJCB4Qq40VhgqaOnb1PVE1g5zR7KXVsMqbE0CQ-1724390397366-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '8b78a68b2c444075-BOM'), ('content-encoding', 'gzip'), ('alt-svc', 'h3=":443"; ma=86400')])
+[ 2024-08-23 10:49:56,792 ] openai._base_client - DEBUG - request_id: req_1380fa769333ebcd52d43682582af463
+[ 2024-08-23 10:49:56,819 ] root - INFO - Result is 
+I'm sorry, I don't understand what you are asking. Can you please provide more context or specify your question?
+[ 2024-08-23 10:49:56,819 ] chat_app - DEBUG - Query result: 
+I'm sorry, I don't understand what you are asking. Can you please provide more context or specify your question?
+[ 2024-08-23 10:49:56,819 ] root - INFO - LLM response is 
+I'm sorry, I don't understand what you are asking. Can you please provide more context or specify your question?
+[ 2024-08-23 10:49:56,819 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:49:56] "POST /get HTTP/1.1" 200 -
+[ 2024-08-23 10:49:56,834 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 10:49:56,834 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:49:56] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 10:49:57,266 ] urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "POST /runs/batch HTTP/11" 202 33
+[ 2024-08-23 10:50:21,184 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 10:50:21,184 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:50:21] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 10:50:21,186 ] root - INFO - Message is What is Glioblastoma Detection
+[ 2024-08-23 10:50:21,186 ] chat_app - DEBUG - Entering rag_chain with query: What is Glioblastoma Detection
+[ 2024-08-23 10:50:21,186 ] root - INFO - Query is What is Glioblastoma Detection
+[ 2024-08-23 10:50:21,186 ] chat_app - DEBUG - PromptTemplate created
+[ 2024-08-23 10:50:21,188 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-23 10:50:21,191 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-23 10:50:21,450 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-23 10:50:21,455 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-23 10:50:21,697 ] chat_app - DEBUG - RetrievalQA created
+[ 2024-08-23 10:50:21,709 ] openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/embeddings', 'files': None, 'post_parser': <function Embeddings.create.<locals>.parser at 0x000001327CBF4B80>, 'json_data': {'input': [[3923, 374, 480, 747, 677, 4354, 7942, 58453]], 'model': 'text-embedding-ada-002', 'encoding_format': 'base64'}}
+[ 2024-08-23 10:50:21,709 ] openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/embeddings
+[ 2024-08-23 10:50:21,709 ] httpcore.connection - DEBUG - close.started
+[ 2024-08-23 10:50:21,709 ] httpcore.connection - DEBUG - close.complete
+[ 2024-08-23 10:50:21,709 ] httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+[ 2024-08-23 10:50:21,992 ] httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001327C58C290>
+[ 2024-08-23 10:50:21,992 ] httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001324011E3C0> server_hostname='api.openai.com' timeout=None
+[ 2024-08-23 10:50:22,083 ] httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001327BDD8910>
+[ 2024-08-23 10:50:22,083 ] httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+[ 2024-08-23 10:50:22,083 ] httpcore.http11 - DEBUG - send_request_headers.complete
+[ 2024-08-23 10:50:22,083 ] httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+[ 2024-08-23 10:50:22,083 ] httpcore.http11 - DEBUG - send_request_body.complete
+[ 2024-08-23 10:50:22,083 ] httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+[ 2024-08-23 10:50:22,360 ] urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "POST /runs/batch HTTP/11" 202 33
+[ 2024-08-23 10:50:22,502 ] httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 23 Aug 2024 05:20:23 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-model', b'text-embedding-ada-002'), (b'openai-organization', b'user-g4hromwdelqvif9h7gpua77n'), (b'openai-processing-ms', b'24'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'3000'), (b'x-ratelimit-limit-tokens', b'1000000'), (b'x-ratelimit-remaining-requests', b'2999'), (b'x-ratelimit-remaining-tokens', b'999992'), (b'x-ratelimit-reset-requests', b'20ms'), (b'x-ratelimit-reset-tokens', b'0s'), (b'x-request-id', b'req_65cee58eb6c6b0f3f5d553f68ca2177a'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8b78a72e2e183b0a-BOM'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+[ 2024-08-23 10:50:22,502 ] httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[ 2024-08-23 10:50:22,502 ] httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+[ 2024-08-23 10:50:22,532 ] httpcore.http11 - DEBUG - receive_response_body.complete
+[ 2024-08-23 10:50:22,532 ] httpcore.http11 - DEBUG - response_closed.started
+[ 2024-08-23 10:50:22,532 ] httpcore.http11 - DEBUG - response_closed.complete
+[ 2024-08-23 10:50:22,533 ] openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/embeddings "200 OK" Headers({'date': 'Fri, 23 Aug 2024 05:20:23 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-allow-origin': '*', 'access-control-expose-headers': 'X-Request-ID', 'openai-model': 'text-embedding-ada-002', 'openai-organization': 'user-g4hromwdelqvif9h7gpua77n', 'openai-processing-ms': '24', 'openai-version': '2020-10-01', 'strict-transport-security': 'max-age=15552000; includeSubDomains; preload', 'x-ratelimit-limit-requests': '3000', 'x-ratelimit-limit-tokens': '1000000', 'x-ratelimit-remaining-requests': '2999', 'x-ratelimit-remaining-tokens': '999992', 'x-ratelimit-reset-requests': '20ms', 'x-ratelimit-reset-tokens': '0s', 'x-request-id': 'req_65cee58eb6c6b0f3f5d553f68ca2177a', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '8b78a72e2e183b0a-BOM', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+[ 2024-08-23 10:50:22,533 ] openai._base_client - DEBUG - request_id: req_65cee58eb6c6b0f3f5d553f68ca2177a
+[ 2024-08-23 10:50:22,546 ] openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/completions', 'files': None, 'json_data': {'model': 'gpt-3.5-turbo-instruct', 'prompt': ["\n            Use the following pieces of information to answer the user's question.\n            If you don't know the answer, just say that you don't know, don't try to make up an answer.\n            Context: diagnosis process for confirmation of glial tumor, and we observed\n\nCitation: Lan, Z.; Li, X.; Zhang, X.\nGlioblastoma: An Update in\nPathology, Molecular Mechanisms\nand Biomarkers. Int. J. Mol. Sci. 2024 ,\n25, 3040. https://doi.org/10.3390/\nijms25053040\nAcademic Editor: Lorenzo Corsi\nReceived: 1 February 2024\nRevised: 28 February 2024\nAccepted: 1 March 2024\nPublished: 6 March 2024\nCopyright: ©2024 by the authors.\nLicensee MDPI, Basel, Switzerland.\nThis article is an open access article\ndistributed under the terms and\nconditions of the Creative Commons\n\nGBM Glioblastoma\nGFAP Glial fibrillary acidic protein\nGTR Gross total resection\nHE Hematoxylin-eosin\nHPF High power field\nIDH Isocitrate dehydrogenase\nMRI Magnetic resonance imaging\nMVD Microvessel density\nNOS Not otherwise specified\nPI Proliferative index\nT1wGd T 1-weighted contrast (gadolinium) enhancing\nvWF von Willebrand factor\nIntroduction\nGlioblastomas (GBMs) are the most common and most ma-\nlignant of the primary brain tumors in adults [ 30] with a me-\n\nReceived: 5 February 2019; Accepted: 26 March 2019; Published: 3 April 2019\n/gid00030/gid00035/gid00032/gid00030/gid00038/gid00001/gid00033/gid00042/gid00045 /gid00001\n/gid00048/gid00043/gid00031/gid00028/gid00047/gid00032/gid00046\nAbstract: Glioblastoma (GBM) is one of the most aggressive and lethal human brain tumors.\nAt present, GBMs are divided in primary and secondary on the basis of the mutational status of\n            Question: What is Glioblastoma Detection\n            Only return the helpful answer below and nothing else.\n            Helpful answer:\n        "], 'frequency_penalty': 0.0, 'logit_bias': {}, 'max_tokens': 256, 'n': 1, 'presence_penalty': 0.0, 'temperature': 0.7, 'top_p': 1.0}}
+[ 2024-08-23 10:50:22,546 ] openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/completions
+[ 2024-08-23 10:50:22,546 ] httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+[ 2024-08-23 10:50:22,628 ] httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001327CBFF150>
+[ 2024-08-23 10:50:22,635 ] httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001327BBEFEC0> server_hostname='api.openai.com' timeout=None
+[ 2024-08-23 10:50:22,754 ] httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001327BE96850>
+[ 2024-08-23 10:50:22,754 ] httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+[ 2024-08-23 10:50:22,757 ] httpcore.http11 - DEBUG - send_request_headers.complete
+[ 2024-08-23 10:50:22,757 ] httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+[ 2024-08-23 10:50:22,757 ] httpcore.http11 - DEBUG - send_request_body.complete
+[ 2024-08-23 10:50:22,757 ] httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+[ 2024-08-23 10:50:23,024 ] urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "POST /runs/batch HTTP/11" 202 33
+[ 2024-08-23 10:50:24,158 ] httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 23 Aug 2024 05:20:24 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'access-control-expose-headers', b'X-Request-ID'), (b'Cache-Control', b'no-cache, must-revalidate'), (b'openai-model', b'gpt-3.5-turbo-instruct'), (b'openai-organization', b'user-g4hromwdelqvif9h7gpua77n'), (b'openai-processing-ms', b'889'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'3500'), (b'x-ratelimit-limit-tokens', b'90000'), (b'x-ratelimit-remaining-requests', b'3499'), (b'x-ratelimit-remaining-tokens', b'89293'), (b'x-ratelimit-reset-requests', b'17ms'), (b'x-ratelimit-reset-tokens', b'471ms'), (b'x-request-id', b'req_2c1b0ffbb8a6dab64d0d6cbbb2d0c9f1'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=nTd3Ts7hEFVaLnWMxPHbYdDWWInJEGUaiu92jjhnTyY-1724390424-1.0.1.1-Xx.tmbsGWEE05UBoWHipT.Negq0OGHNcN28LTd7_ubwNIfkRKRmSA.5CysDqVs7OLlUSj4zZnEdzMDu5qukhGQ; path=/; expires=Fri, 23-Aug-24 05:50:24 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=0Onu4OOzywEwXuj_qiiWP4F4OIBZzzYj66u0TICzcz4-1724390424743-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8b78a7329ae43ce2-BOM'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+[ 2024-08-23 10:50:24,161 ] httpx - INFO - HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+[ 2024-08-23 10:50:24,161 ] httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+[ 2024-08-23 10:50:24,162 ] httpcore.http11 - DEBUG - receive_response_body.complete
+[ 2024-08-23 10:50:24,162 ] httpcore.http11 - DEBUG - response_closed.started
+[ 2024-08-23 10:50:24,162 ] httpcore.http11 - DEBUG - response_closed.complete
+[ 2024-08-23 10:50:24,162 ] openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/completions "200 OK" Headers([('date', 'Fri, 23 Aug 2024 05:20:24 GMT'), ('content-type', 'application/json'), ('transfer-encoding', 'chunked'), ('connection', 'keep-alive'), ('access-control-allow-origin', '*'), ('access-control-expose-headers', 'X-Request-ID'), ('cache-control', 'no-cache, must-revalidate'), ('openai-model', 'gpt-3.5-turbo-instruct'), ('openai-organization', 'user-g4hromwdelqvif9h7gpua77n'), ('openai-processing-ms', '889'), ('openai-version', '2020-10-01'), ('strict-transport-security', 'max-age=15552000; includeSubDomains; preload'), ('x-ratelimit-limit-requests', '3500'), ('x-ratelimit-limit-tokens', '90000'), ('x-ratelimit-remaining-requests', '3499'), ('x-ratelimit-remaining-tokens', '89293'), ('x-ratelimit-reset-requests', '17ms'), ('x-ratelimit-reset-tokens', '471ms'), ('x-request-id', 'req_2c1b0ffbb8a6dab64d0d6cbbb2d0c9f1'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=nTd3Ts7hEFVaLnWMxPHbYdDWWInJEGUaiu92jjhnTyY-1724390424-1.0.1.1-Xx.tmbsGWEE05UBoWHipT.Negq0OGHNcN28LTd7_ubwNIfkRKRmSA.5CysDqVs7OLlUSj4zZnEdzMDu5qukhGQ; path=/; expires=Fri, 23-Aug-24 05:50:24 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=0Onu4OOzywEwXuj_qiiWP4F4OIBZzzYj66u0TICzcz4-1724390424743-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '8b78a7329ae43ce2-BOM'), ('content-encoding', 'gzip'), ('alt-svc', 'h3=":443"; ma=86400')])
+[ 2024-08-23 10:50:24,163 ] openai._base_client - DEBUG - request_id: req_2c1b0ffbb8a6dab64d0d6cbbb2d0c9f1
+[ 2024-08-23 10:50:24,166 ] root - INFO - Result is 
+Glioblastoma detection is the process of identifying and diagnosing glioblastoma, which is a type of brain tumor. This is done through various methods such as MRI imaging, tissue biopsies, and analyzing biomarkers. It is important for early detection in order to start treatment as soon as possible. 
+[ 2024-08-23 10:50:24,166 ] chat_app - DEBUG - Query result: 
+Glioblastoma detection is the process of identifying and diagnosing glioblastoma, which is a type of brain tumor. This is done through various methods such as MRI imaging, tissue biopsies, and analyzing biomarkers. It is important for early detection in order to start treatment as soon as possible. 
+[ 2024-08-23 10:50:24,166 ] root - INFO - LLM response is 
+Glioblastoma detection is the process of identifying and diagnosing glioblastoma, which is a type of brain tumor. This is done through various methods such as MRI imaging, tissue biopsies, and analyzing biomarkers. It is important for early detection in order to start treatment as soon as possible. 
+[ 2024-08-23 10:50:24,168 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:50:24] "POST /get HTTP/1.1" 200 -
+[ 2024-08-23 10:50:24,175 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 10:50:24,175 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:50:24] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 10:50:24,618 ] urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "POST /runs/batch HTTP/11" 202 33
+[ 2024-08-23 10:50:39,332 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 10:50:39,332 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:50:39] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 10:50:40,146 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:50:40] "GET /research HTTP/1.1" 200 -
+[ 2024-08-23 10:50:40,198 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:50:40] "[36mGET /static/style_research.css HTTP/1.1[0m" 304 -
+[ 2024-08-23 10:50:40,203 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:50:40] "[36mGET /static/1st_his.jpg HTTP/1.1[0m" 304 -
+[ 2024-08-23 10:50:40,203 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:50:40] "[36mGET /static/508-icon.png HTTP/1.1[0m" 304 -
+[ 2024-08-23 10:50:40,215 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:50:40] "[36mGET /static/vivi.png HTTP/1.1[0m" 304 -
+[ 2024-08-23 10:50:40,217 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:50:40] "[36mGET /static/chatbot.png HTTP/1.1[0m" 304 -
+[ 2024-08-23 10:50:41,245 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 10:50:41,246 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:50:41] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 10:50:42,119 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 10:50:42,119 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:50:42] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 10:50:49,489 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 10:50:49,490 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:50:49] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 10:50:49,494 ] root - INFO - Message is Can you treat the cancer
+[ 2024-08-23 10:50:49,494 ] chat_app - DEBUG - Entering rag_chain with query: Can you treat the cancer
+[ 2024-08-23 10:50:49,497 ] root - INFO - Query is Can you treat the cancer
+[ 2024-08-23 10:50:49,497 ] chat_app - DEBUG - PromptTemplate created
+[ 2024-08-23 10:50:49,502 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-23 10:50:49,503 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-23 10:50:49,834 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-23 10:50:49,836 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-23 10:50:50,131 ] chat_app - DEBUG - RetrievalQA created
+[ 2024-08-23 10:50:50,140 ] openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/embeddings', 'files': None, 'post_parser': <function Embeddings.create.<locals>.parser at 0x000001327CBE3880>, 'json_data': {'input': [[6854, 499, 4322, 279, 9572]], 'model': 'text-embedding-ada-002', 'encoding_format': 'base64'}}
+[ 2024-08-23 10:50:50,140 ] openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/embeddings
+[ 2024-08-23 10:50:50,140 ] httpcore.connection - DEBUG - close.started
+[ 2024-08-23 10:50:50,140 ] httpcore.connection - DEBUG - close.complete
+[ 2024-08-23 10:50:50,140 ] httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+[ 2024-08-23 10:50:50,224 ] httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001327BDAE090>
+[ 2024-08-23 10:50:50,226 ] httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001324011E3C0> server_hostname='api.openai.com' timeout=None
+[ 2024-08-23 10:50:50,324 ] httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001327BD076D0>
+[ 2024-08-23 10:50:50,324 ] httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+[ 2024-08-23 10:50:50,324 ] httpcore.http11 - DEBUG - send_request_headers.complete
+[ 2024-08-23 10:50:50,324 ] httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+[ 2024-08-23 10:50:50,325 ] httpcore.http11 - DEBUG - send_request_body.complete
+[ 2024-08-23 10:50:50,325 ] httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+[ 2024-08-23 10:50:50,714 ] httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 23 Aug 2024 05:20:51 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-model', b'text-embedding-ada-002'), (b'openai-organization', b'user-g4hromwdelqvif9h7gpua77n'), (b'openai-processing-ms', b'20'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'3000'), (b'x-ratelimit-limit-tokens', b'1000000'), (b'x-ratelimit-remaining-requests', b'2999'), (b'x-ratelimit-remaining-tokens', b'999994'), (b'x-ratelimit-reset-requests', b'20ms'), (b'x-ratelimit-reset-tokens', b'0s'), (b'x-request-id', b'req_34d87ae1c291fb66d0525422de5c691f'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8b78a7de9c3d3a3f-BOM'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+[ 2024-08-23 10:50:50,717 ] httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[ 2024-08-23 10:50:50,717 ] httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+[ 2024-08-23 10:50:50,747 ] httpcore.http11 - DEBUG - receive_response_body.complete
+[ 2024-08-23 10:50:50,749 ] httpcore.http11 - DEBUG - response_closed.started
+[ 2024-08-23 10:50:50,749 ] httpcore.http11 - DEBUG - response_closed.complete
+[ 2024-08-23 10:50:50,749 ] openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/embeddings "200 OK" Headers({'date': 'Fri, 23 Aug 2024 05:20:51 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-allow-origin': '*', 'access-control-expose-headers': 'X-Request-ID', 'openai-model': 'text-embedding-ada-002', 'openai-organization': 'user-g4hromwdelqvif9h7gpua77n', 'openai-processing-ms': '20', 'openai-version': '2020-10-01', 'strict-transport-security': 'max-age=15552000; includeSubDomains; preload', 'x-ratelimit-limit-requests': '3000', 'x-ratelimit-limit-tokens': '1000000', 'x-ratelimit-remaining-requests': '2999', 'x-ratelimit-remaining-tokens': '999994', 'x-ratelimit-reset-requests': '20ms', 'x-ratelimit-reset-tokens': '0s', 'x-request-id': 'req_34d87ae1c291fb66d0525422de5c691f', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '8b78a7de9c3d3a3f-BOM', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+[ 2024-08-23 10:50:50,749 ] openai._base_client - DEBUG - request_id: req_34d87ae1c291fb66d0525422de5c691f
+[ 2024-08-23 10:50:50,765 ] openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/completions', 'files': None, 'json_data': {'model': 'gpt-3.5-turbo-instruct', 'prompt': ["\n            Use the following pieces of information to answer the user's question.\n            If you don't know the answer, just say that you don't know, don't try to make up an answer.\n            Context: concerns beforehand and bring them with you. Consider asking:\n• What kind of cancer do I have?\n• Where is the cancer?\n• Has it spread?\n• Can my cancer be treated?\n• What is the chance that my cancer can be cured?\n• What other tests or procedures do I need?\n• What are my treatment options?\n• How will the treatment benefit me?\n• What can I expect during treatment?\n• What are the side effects of the treatment?\n• When should I call the doctor?\n• What can I do to prevent my cancer from recurring?\n\nradiation treatment.\n\nexpected results of treatment.\nNot all cancer treatments have disrupting side effects; those that do are often pre -\ndictable. Your doctor can outline a plan to prevent many side effects and otherwise \ntreat or lessen others. In general, side effects are reversible, and helping you cope \nwith them should be a focus of your doctor.\nTake the potential side effects into consideration when choosing a treatment, but \nalso know that most aren't as bad as you've heard. Ask your doctor what you can\n\nthing you can do to keep the disease managed so that you can go about living your \nlife. One thing you can do is consider are possible adjustments to your diet. There are \ntwo important reasons relevant to any brain cancer patient:\nGut-Brain Immune Relationship . While adjusting the diet might be interesting for \nother cancers, in the case of brain cancer the situation might be more urgent. Recent \nresearch conducted by the National Institutes of Health and Cambridge University\n            Question: Can you treat the cancer\n            Only return the helpful answer below and nothing else.\n            Helpful answer:\n        "], 'frequency_penalty': 0.0, 'logit_bias': {}, 'max_tokens': 256, 'n': 1, 'presence_penalty': 0.0, 'temperature': 0.7, 'top_p': 1.0}}
+[ 2024-08-23 10:50:50,765 ] openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/completions
+[ 2024-08-23 10:50:50,765 ] httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+[ 2024-08-23 10:50:50,799 ] urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "POST /runs/batch HTTP/11" 202 33
+[ 2024-08-23 10:50:50,873 ] httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001327CBB71D0>
+[ 2024-08-23 10:50:50,873 ] httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001327BE19C70> server_hostname='api.openai.com' timeout=None
+[ 2024-08-23 10:50:50,984 ] httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001327CBB5190>
+[ 2024-08-23 10:50:50,984 ] httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+[ 2024-08-23 10:50:50,984 ] httpcore.http11 - DEBUG - send_request_headers.complete
+[ 2024-08-23 10:50:50,984 ] httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+[ 2024-08-23 10:50:50,984 ] httpcore.http11 - DEBUG - send_request_body.complete
+[ 2024-08-23 10:50:50,984 ] httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+[ 2024-08-23 10:50:51,263 ] urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "POST /runs/batch HTTP/11" 202 33
+[ 2024-08-23 10:50:52,329 ] httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 23 Aug 2024 05:20:52 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'access-control-expose-headers', b'X-Request-ID'), (b'Cache-Control', b'no-cache, must-revalidate'), (b'openai-model', b'gpt-3.5-turbo-instruct'), (b'openai-organization', b'user-g4hromwdelqvif9h7gpua77n'), (b'openai-processing-ms', b'746'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'3500'), (b'x-ratelimit-limit-tokens', b'90000'), (b'x-ratelimit-remaining-requests', b'3499'), (b'x-ratelimit-remaining-tokens', b'89274'), (b'x-ratelimit-reset-requests', b'17ms'), (b'x-ratelimit-reset-tokens', b'484ms'), (b'x-request-id', b'req_1f8f0971b539e998749e148eb68567ca'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=HTe88zBZy5GncVovNFSpFhwc8T7v7yAkNmEbL6WML24-1724390452-1.0.1.1-myN077ZKE3BOtHqlTjI8skHD7.XI_ZOiz.TMdoRJtFgQ4Lqe_mW_XDfd5xD99stA.Z7dcNaiaN7dI0b9nBBgEg; path=/; expires=Fri, 23-Aug-24 05:50:52 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=s7qRlGHFKjkKsg9h63LXVhpe68fLmAaKfbFNtwTy35M-1724390452902-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8b78a7e32af741a2-BOM'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+[ 2024-08-23 10:50:52,329 ] httpx - INFO - HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+[ 2024-08-23 10:50:52,333 ] httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+[ 2024-08-23 10:50:52,333 ] httpcore.http11 - DEBUG - receive_response_body.complete
+[ 2024-08-23 10:50:52,333 ] httpcore.http11 - DEBUG - response_closed.started
+[ 2024-08-23 10:50:52,333 ] httpcore.http11 - DEBUG - response_closed.complete
+[ 2024-08-23 10:50:52,333 ] openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/completions "200 OK" Headers([('date', 'Fri, 23 Aug 2024 05:20:52 GMT'), ('content-type', 'application/json'), ('transfer-encoding', 'chunked'), ('connection', 'keep-alive'), ('access-control-allow-origin', '*'), ('access-control-expose-headers', 'X-Request-ID'), ('cache-control', 'no-cache, must-revalidate'), ('openai-model', 'gpt-3.5-turbo-instruct'), ('openai-organization', 'user-g4hromwdelqvif9h7gpua77n'), ('openai-processing-ms', '746'), ('openai-version', '2020-10-01'), ('strict-transport-security', 'max-age=15552000; includeSubDomains; preload'), ('x-ratelimit-limit-requests', '3500'), ('x-ratelimit-limit-tokens', '90000'), ('x-ratelimit-remaining-requests', '3499'), ('x-ratelimit-remaining-tokens', '89274'), ('x-ratelimit-reset-requests', '17ms'), ('x-ratelimit-reset-tokens', '484ms'), ('x-request-id', 'req_1f8f0971b539e998749e148eb68567ca'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=HTe88zBZy5GncVovNFSpFhwc8T7v7yAkNmEbL6WML24-1724390452-1.0.1.1-myN077ZKE3BOtHqlTjI8skHD7.XI_ZOiz.TMdoRJtFgQ4Lqe_mW_XDfd5xD99stA.Z7dcNaiaN7dI0b9nBBgEg; path=/; expires=Fri, 23-Aug-24 05:50:52 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=s7qRlGHFKjkKsg9h63LXVhpe68fLmAaKfbFNtwTy35M-1724390452902-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '8b78a7e32af741a2-BOM'), ('content-encoding', 'gzip'), ('alt-svc', 'h3=":443"; ma=86400')])
+[ 2024-08-23 10:50:52,333 ] openai._base_client - DEBUG - request_id: req_1f8f0971b539e998749e148eb68567ca
+[ 2024-08-23 10:50:52,337 ] root - INFO - Result is 
+Yes, there are various treatment options available for cancer, including radiation treatment. However, the type of treatment and expected results may vary based on the specific type and location of the cancer, as well as individual factors. It is important to discuss these concerns beforehand with your doctor and have a clear understanding of the potential side effects and how to manage them. Additionally, making certain adjustments to your diet may also help in managing the disease.
+[ 2024-08-23 10:50:52,338 ] chat_app - DEBUG - Query result: 
+Yes, there are various treatment options available for cancer, including radiation treatment. However, the type of treatment and expected results may vary based on the specific type and location of the cancer, as well as individual factors. It is important to discuss these concerns beforehand with your doctor and have a clear understanding of the potential side effects and how to manage them. Additionally, making certain adjustments to your diet may also help in managing the disease.
+[ 2024-08-23 10:50:52,338 ] root - INFO - LLM response is 
+Yes, there are various treatment options available for cancer, including radiation treatment. However, the type of treatment and expected results may vary based on the specific type and location of the cancer, as well as individual factors. It is important to discuss these concerns beforehand with your doctor and have a clear understanding of the potential side effects and how to manage them. Additionally, making certain adjustments to your diet may also help in managing the disease.
+[ 2024-08-23 10:50:52,339 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:50:52] "POST /get HTTP/1.1" 200 -
+[ 2024-08-23 10:50:52,347 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 10:50:52,347 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:50:52] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 10:50:52,866 ] urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "POST /runs/batch HTTP/11" 202 33
+[ 2024-08-23 10:51:05,621 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 10:51:05,621 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:51:05] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 10:51:06,286 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 10:51:06,286 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:51:06] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 10:51:06,789 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 10:51:06,789 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:51:06] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 10:51:07,158 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 10:51:07,159 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:51:07] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 10:51:07,854 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 10:51:07,854 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:51:07] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 10:51:08,574 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 10:51:08,575 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:51:08] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 10:51:10,036 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 10:51:10,036 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:51:10] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 10:51:10,620 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 10:51:10,620 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:51:10] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 10:51:10,992 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 10:51:10,993 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:51:10] "[35m[1mPOST /get HTTP/1.1[0m" 500 -

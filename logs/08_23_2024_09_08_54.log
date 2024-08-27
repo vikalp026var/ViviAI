@@ -1,0 +1,22 @@
+[ 2024-08-23 09:08:55,144 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-23 09:08:55,145 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-23 09:08:58,793 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-23 09:08:58,799 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-23 09:08:59,433 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-23 09:08:59,433 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-23 09:09:00,218 ] faiss.loader - DEBUG - Environment variable FAISS_OPT_LEVEL is not set, so let's pick the instruction set according to the current CPU
+[ 2024-08-23 09:09:00,223 ] faiss.loader - INFO - Loading faiss with AVX2 support.
+[ 2024-08-23 09:09:00,257 ] faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+[ 2024-08-23 09:09:00,511 ] matplotlib - DEBUG - matplotlib data path: D:\VIVI_AI\yogo\Lib\site-packages\matplotlib\mpl-data
+[ 2024-08-23 09:09:00,528 ] matplotlib - DEBUG - CONFIGDIR=C:\Users\PC\.matplotlib
+[ 2024-08-23 09:09:00,529 ] matplotlib - DEBUG - interactive is False
+[ 2024-08-23 09:09:00,529 ] matplotlib - DEBUG - platform is win32
+[ 2024-08-23 09:09:00,669 ] matplotlib - DEBUG - CACHEDIR=C:\Users\PC\.matplotlib
+[ 2024-08-23 09:09:00,682 ] matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\PC\.matplotlib\fontlist-v390.json
+[ 2024-08-23 09:09:02,113 ] werkzeug - WARNING -  * Debugger is active!
+[ 2024-08-23 09:09:02,123 ] werkzeug - INFO -  * Debugger PIN: 331-538-268
+[ 2024-08-23 09:09:02,220 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:09:02] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[ 2024-08-23 09:09:02,365 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:09:02] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2024-08-23 09:09:02,368 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:09:02] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2024-08-23 09:09:02,378 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:09:02] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2024-08-23 09:09:32,196 ] werkzeug - INFO -  * Detected change in 'D:\\VIVI_AI\\chat_app.py', reloading

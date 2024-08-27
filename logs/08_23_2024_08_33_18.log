@@ -1,0 +1,40 @@
+[ 2024-08-23 08:33:20,067 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-23 08:33:20,067 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-23 08:33:22,683 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-23 08:33:22,684 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-23 08:33:22,943 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-23 08:33:22,945 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-23 08:33:23,387 ] faiss.loader - DEBUG - Environment variable FAISS_OPT_LEVEL is not set, so let's pick the instruction set according to the current CPU
+[ 2024-08-23 08:33:23,387 ] faiss.loader - INFO - Loading faiss with AVX2 support.
+[ 2024-08-23 08:33:23,497 ] faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+[ 2024-08-23 08:33:23,700 ] matplotlib - DEBUG - matplotlib data path: D:\VIVI_AI\yogo\Lib\site-packages\matplotlib\mpl-data
+[ 2024-08-23 08:33:23,708 ] matplotlib - DEBUG - CONFIGDIR=C:\Users\PC\.matplotlib
+[ 2024-08-23 08:33:23,708 ] matplotlib - DEBUG - interactive is False
+[ 2024-08-23 08:33:23,708 ] matplotlib - DEBUG - platform is win32
+[ 2024-08-23 08:33:23,812 ] matplotlib - DEBUG - CACHEDIR=C:\Users\PC\.matplotlib
+[ 2024-08-23 08:33:23,813 ] matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\PC\.matplotlib\fontlist-v390.json
+[ 2024-08-23 08:33:25,319 ] werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://127.0.0.1:8080
+[ 2024-08-23 08:33:25,320 ] werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2024-08-23 08:33:25,322 ] werkzeug - INFO -  * Restarting with stat
+[ 2024-08-23 08:45:15,309 ] werkzeug - INFO -  * Restarting with stat
+[ 2024-08-23 08:49:06,380 ] werkzeug - INFO -  * Restarting with stat
+[ 2024-08-23 09:03:50,051 ] werkzeug - INFO -  * Restarting with stat
+[ 2024-08-23 09:08:04,203 ] werkzeug - INFO -  * Restarting with stat
+[ 2024-08-23 09:08:47,428 ] werkzeug - INFO -  * Restarting with stat
+[ 2024-08-23 09:09:33,102 ] werkzeug - INFO -  * Restarting with stat
+[ 2024-08-23 09:17:02,775 ] werkzeug - INFO -  * Restarting with stat
+[ 2024-08-23 09:24:33,058 ] werkzeug - INFO -  * Restarting with stat
+[ 2024-08-23 09:28:07,265 ] werkzeug - INFO -  * Restarting with stat
+[ 2024-08-23 09:29:26,422 ] werkzeug - INFO -  * Restarting with stat
+[ 2024-08-23 09:30:34,804 ] werkzeug - INFO -  * Restarting with stat
+[ 2024-08-23 09:33:36,745 ] werkzeug - INFO -  * Restarting with stat
+[ 2024-08-23 09:35:08,571 ] werkzeug - INFO -  * Restarting with stat
+[ 2024-08-23 09:38:23,168 ] werkzeug - INFO -  * Restarting with stat
+[ 2024-08-23 09:39:23,843 ] werkzeug - INFO -  * Restarting with stat
+[ 2024-08-23 09:41:07,184 ] werkzeug - INFO -  * Restarting with stat
+[ 2024-08-23 09:46:03,180 ] werkzeug - INFO -  * Restarting with stat
+[ 2024-08-23 10:00:18,692 ] werkzeug - INFO -  * Restarting with stat
+[ 2024-08-23 10:02:31,582 ] werkzeug - INFO -  * Restarting with stat

@@ -1,0 +1,1276 @@
+[ 2024-08-24 10:25:45,461 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-24 10:25:45,461 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-24 10:25:48,314 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-24 10:25:48,314 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-24 10:25:48,720 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-24 10:25:48,733 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-24 10:25:49,347 ] faiss.loader - DEBUG - Environment variable FAISS_OPT_LEVEL is not set, so let's pick the instruction set according to the current CPU
+[ 2024-08-24 10:25:49,347 ] faiss.loader - INFO - Loading faiss with AVX2 support.
+[ 2024-08-24 10:25:49,385 ] faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+[ 2024-08-24 10:25:49,578 ] matplotlib - DEBUG - matplotlib data path: D:\VIVI_AI\yogo\Lib\site-packages\matplotlib\mpl-data
+[ 2024-08-24 10:25:49,598 ] matplotlib - DEBUG - CONFIGDIR=C:\Users\PC\.matplotlib
+[ 2024-08-24 10:25:49,598 ] matplotlib - DEBUG - interactive is False
+[ 2024-08-24 10:25:49,598 ] matplotlib - DEBUG - platform is win32
+[ 2024-08-24 10:25:49,743 ] matplotlib - DEBUG - CACHEDIR=C:\Users\PC\.matplotlib
+[ 2024-08-24 10:25:49,749 ] matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\PC\.matplotlib\fontlist-v390.json
+[ 2024-08-24 10:25:50,811 ] matplotlib.pyplot - DEBUG - Loaded backend Agg version v2.2.
+[ 2024-08-24 10:25:50,842 ] werkzeug - WARNING -  * Debugger is active!
+[ 2024-08-24 10:25:50,859 ] werkzeug - INFO -  * Debugger PIN: 331-538-268
+[ 2024-08-24 10:25:50,874 ] chat_app - INFO - Index route called
+[ 2024-08-24 10:25:50,874 ] chat_app - INFO - No authenticated user found, redirecting to login
+[ 2024-08-24 10:25:50,874 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:25:50] "[32mGET / HTTP/1.1[0m" 302 -
+[ 2024-08-24 10:25:50,958 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:25:50] "GET /login HTTP/1.1" 200 -
+[ 2024-08-24 10:25:51,122 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:25:51] "[36mGET /static/loginform.css HTTP/1.1[0m" 304 -
+[ 2024-08-24 10:25:51,129 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:25:51] "[36mGET /static/google.png HTTP/1.1[0m" 304 -
+[ 2024-08-24 10:26:07,814 ] httpcore.connection - DEBUG - connect_tcp.started host='ucpbtniapifddpsipukq.supabase.co' port=443 local_address=None timeout=5.0 socket_options=None
+[ 2024-08-24 10:26:19,861 ] httpcore.connection - DEBUG - connect_tcp.failed exception=ConnectError(gaierror(11001, 'getaddrinfo failed'))
+[ 2024-08-24 10:26:21,861 ] httpcore.connection - DEBUG - connect_tcp.started host='ucpbtniapifddpsipukq.supabase.co' port=443 local_address=None timeout=5.0 socket_options=None
+[ 2024-08-24 10:26:33,886 ] httpcore.connection - DEBUG - connect_tcp.failed exception=ConnectError(gaierror(11001, 'getaddrinfo failed'))
+[ 2024-08-24 10:26:35,888 ] httpcore.connection - DEBUG - connect_tcp.started host='ucpbtniapifddpsipukq.supabase.co' port=443 local_address=None timeout=5.0 socket_options=None
+[ 2024-08-24 10:26:47,942 ] httpcore.connection - DEBUG - connect_tcp.failed exception=ConnectError(gaierror(11001, 'getaddrinfo failed'))
+[ 2024-08-24 10:26:49,945 ] httpcore.connection - DEBUG - connect_tcp.started host='ucpbtniapifddpsipukq.supabase.co' port=443 local_address=None timeout=5.0 socket_options=None
+[ 2024-08-24 10:27:07,788 ] httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025D7C770590>
+[ 2024-08-24 10:27:07,788 ] httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000025D47FF9910> server_hostname='ucpbtniapifddpsipukq.supabase.co' timeout=5.0
+[ 2024-08-24 10:27:10,963 ] httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025D7C30A550>
+[ 2024-08-24 10:27:10,963 ] httpcore.http2 - DEBUG - send_connection_init.started request=<Request [b'POST']>
+[ 2024-08-24 10:27:10,963 ] httpcore.http2 - DEBUG - send_connection_init.complete
+[ 2024-08-24 10:27:10,963 ] httpcore.http2 - DEBUG - send_request_headers.started request=<Request [b'POST']> stream_id=1
+[ 2024-08-24 10:27:10,963 ] hpack.hpack - DEBUG - Adding (b':method', b'POST') to the header table, sensitive:False, huffman:True
+[ 2024-08-24 10:27:10,963 ] hpack.hpack - DEBUG - Encoding 3 with 7 bits
+[ 2024-08-24 10:27:10,963 ] hpack.hpack - DEBUG - Adding (b':authority', b'ucpbtniapifddpsipukq.supabase.co') to the header table, sensitive:False, huffman:True
+[ 2024-08-24 10:27:10,963 ] hpack.hpack - DEBUG - Encoding 1 with 6 bits
+[ 2024-08-24 10:27:10,963 ] hpack.hpack - DEBUG - Encoding 23 with 7 bits
+[ 2024-08-24 10:27:10,963 ] hpack.hpack - DEBUG - Adding (b':scheme', b'https') to the header table, sensitive:False, huffman:True
+[ 2024-08-24 10:27:10,963 ] hpack.hpack - DEBUG - Encoding 7 with 7 bits
+[ 2024-08-24 10:27:10,963 ] hpack.hpack - DEBUG - Adding (b':path', b'/auth/v1/token?grant_type=password') to the header table, sensitive:False, huffman:True
+[ 2024-08-24 10:27:10,963 ] hpack.hpack - DEBUG - Encoding 4 with 6 bits
+[ 2024-08-24 10:27:10,963 ] hpack.hpack - DEBUG - Encoding 25 with 7 bits
+[ 2024-08-24 10:27:10,963 ] hpack.hpack - DEBUG - Adding (b'accept', b'*/*') to the header table, sensitive:False, huffman:True
+[ 2024-08-24 10:27:10,963 ] hpack.hpack - DEBUG - Encoding 19 with 6 bits
+[ 2024-08-24 10:27:10,963 ] hpack.hpack - DEBUG - Encoding 3 with 7 bits
+[ 2024-08-24 10:27:10,963 ] hpack.hpack - DEBUG - Adding (b'accept-encoding', b'gzip, deflate') to the header table, sensitive:False, huffman:True
+[ 2024-08-24 10:27:10,963 ] hpack.hpack - DEBUG - Encoding 16 with 7 bits
+[ 2024-08-24 10:27:10,963 ] hpack.hpack - DEBUG - Adding (b'user-agent', b'python-httpx/0.27.0') to the header table, sensitive:False, huffman:True
+[ 2024-08-24 10:27:10,963 ] hpack.hpack - DEBUG - Encoding 58 with 6 bits
+[ 2024-08-24 10:27:10,963 ] hpack.hpack - DEBUG - Encoding 14 with 7 bits
+[ 2024-08-24 10:27:10,963 ] hpack.hpack - DEBUG - Adding (b'x-client-info', b'supabase-py/2.7.2') to the header table, sensitive:False, huffman:True
+[ 2024-08-24 10:27:10,963 ] hpack.hpack - DEBUG - Encoding 10 with 7 bits
+[ 2024-08-24 10:27:10,963 ] hpack.hpack - DEBUG - Encoding 12 with 7 bits
+[ 2024-08-24 10:27:10,963 ] hpack.hpack - DEBUG - Adding (b'apikey', b'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVjcGJ0bmlhcGlmZGRwc2lwdWtxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjM4MzE2NzQsImV4cCI6MjAzOTQwNzY3NH0.OScT9H0GnEsZYiV8wg2aBFwGAKUCRjOi9LhrzSn2R_w') to the header table, sensitive:False, huffman:True
+[ 2024-08-24 10:27:10,963 ] hpack.hpack - DEBUG - Encoding 5 with 7 bits
+[ 2024-08-24 10:27:10,963 ] hpack.hpack - DEBUG - Encoding 167 with 7 bits
+[ 2024-08-24 10:27:10,963 ] hpack.hpack - DEBUG - Adding (b'authorization', b'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVjcGJ0bmlhcGlmZGRwc2lwdWtxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjM4MzE2NzQsImV4cCI6MjAzOTQwNzY3NH0.OScT9H0GnEsZYiV8wg2aBFwGAKUCRjOi9LhrzSn2R_w') to the header table, sensitive:True, huffman:True
+[ 2024-08-24 10:27:10,963 ] hpack.hpack - DEBUG - Encoding 23 with 4 bits
+[ 2024-08-24 10:27:10,963 ] hpack.hpack - DEBUG - Encoding 172 with 7 bits
+[ 2024-08-24 10:27:10,963 ] hpack.hpack - DEBUG - Adding (b'x-supabase-api-version', b'2024-01-01') to the header table, sensitive:False, huffman:True
+[ 2024-08-24 10:27:10,963 ] hpack.hpack - DEBUG - Encoding 16 with 7 bits
+[ 2024-08-24 10:27:10,963 ] hpack.hpack - DEBUG - Encoding 7 with 7 bits
+[ 2024-08-24 10:27:10,963 ] hpack.hpack - DEBUG - Adding (b'content-type', b'application/json;charset=UTF-8') to the header table, sensitive:False, huffman:True
+[ 2024-08-24 10:27:10,967 ] hpack.hpack - DEBUG - Encoding 31 with 6 bits
+[ 2024-08-24 10:27:10,967 ] hpack.hpack - DEBUG - Encoding 22 with 7 bits
+[ 2024-08-24 10:27:10,967 ] hpack.hpack - DEBUG - Adding (b'content-length', b'130') to the header table, sensitive:False, huffman:True
+[ 2024-08-24 10:27:10,967 ] hpack.hpack - DEBUG - Encoding 28 with 6 bits
+[ 2024-08-24 10:27:10,967 ] hpack.hpack - DEBUG - Encoding 2 with 7 bits
+[ 2024-08-24 10:27:10,968 ] hpack.hpack - DEBUG - Encoded header block to b"\x83A\x97\xb4\x95\xc6\x9a\x8c:\xcd,\x92V\x83Wo^\xcb\xa2\xda\xc7\x18\xd0U\xc8\x7f\x87D\x99`v\xa6v;\x85\x84\x9f\xa9j\xff&\xb0u&$\xfa\xac\xb0V4#\xc1\xec\x93S\x83\xf9c\xe7\x90z\x8e\xaf\xd2g=KN\x94\xd7\xe5\x80.'W\x07@\x8a\xf2\xb1(1jJ\xc6\xaaS\xff\x8cE\xb5\x8e1\xa0\xabW\xe9\x81.\xea\xe2@\x85\x1df\xea__\xff(/\xac\xb3\xc7\x88\x86\xd4l\xb98{\xc8\x1d&\xc8\x8c\x95ml\x97\xb29\x93\xad\x7f\x9coe}r\xfa\xcbY\x19\xd0mF\xcb\xeeO\xcb\xb3\xf3\xa7\x0f\xbf\xdd\xd9\x11\x92\xac\xb4~\x9b#\x99*\xe3\xd0\x98\xb2\x82:h\x9c\x98\xa8\xa7\xf7\x16\xdf\x04\x15\x1e$\xe4\x9f9\r\xe0\xc4\xa5\xf4~\xee\xc8\xe6Jp\xdb\x18\x9a6{\xd9k\xe7\xf9\xb0\xda\xba`gGM\rh\xf7\x80Z}\xecFJx\xb4K\xd9\x1c\xd1\xd2\x1fz\xb7\xec\xf1\xa7\xdf6t\xe3\x02\xfa\xb7\x13{\xf8\xc1\x8a\xac\x08\xfd\xe6n/x\x98C\xbb\x87\xc6(sp\xbd\xb7\xa6\xa3?\x9e{=\xee\xa8[b\xf1\x1f\x08\xff-\xbaQ\xd8[\x14/\xac\xb3\xc7\x88\x86\xd4l\xb98{\xc8\x1d&\xc8\x8c\x95ml\x97\xb29\x93\xad\x7f\x9coe}r\xfa\xcbY\x19\xd0mF\xcb\xeeO\xcb\xb3\xf3\xa7\x0f\xbf\xdd\xd9\x11\x92\xac\xb4~\x9b#\x99*\xe3\xd0\x98\xb2\x82:h\x9c\x98\xa8\xa7\xf7\x16\xdf\x04\x15\x1e$\xe4\x9f9\r\xe0\xc4\xa5\xf4~\xee\xc8\xe6Jp\xdb\x18\x9a6{\xd9k\xe7\xf9\xb0\xda\xba`gGM\rh\xf7\x80Z}\xecFJx\xb4K\xd9\x1c\xd1\xd2\x1fz\xb7\xec\xf1\xa7\xdf6t\xe3\x02\xfa\xb7\x13{\xf8\xc1\x8a\xac\x08\xfd\xe6n/x\x98C\xbb\x87\xc6(sp\xbd\xb7\xa6\xa3?\x9e{=\xee\xa8[b\xf1@\x90\xf2\xb2-\xacq\x8d\x05Xu\x99n\xe5\xb1\x06=_\x87\x10\x04\xd2\xc0\n\xc0\x0f_\x96\x1du\xd0b\r&=LtA\xea\xfb$\xe3\xb1\x05L\x1c7\xe1Y\xef\\\x82\x0b "
+[ 2024-08-24 10:27:10,968 ] httpcore.http2 - DEBUG - send_request_headers.complete
+[ 2024-08-24 10:27:10,968 ] httpcore.http2 - DEBUG - send_request_body.started request=<Request [b'POST']> stream_id=1
+[ 2024-08-24 10:27:10,968 ] httpcore.http2 - DEBUG - send_request_body.complete
+[ 2024-08-24 10:27:10,968 ] httpcore.http2 - DEBUG - receive_response_headers.started request=<Request [b'POST']> stream_id=1
+[ 2024-08-24 10:27:14,113 ] httpcore.http2 - DEBUG - receive_remote_settings.started
+[ 2024-08-24 10:27:14,113 ] httpcore.http2 - DEBUG - receive_remote_settings.complete return_value=<RemoteSettingsChanged changed_settings:{ChangedSetting(setting=3, original_value=None, new_value=100), ChangedSetting(setting=4, original_value=65535, new_value=65536), ChangedSetting(setting=5, original_value=16384, new_value=16777215)}>
+[ 2024-08-24 10:27:15,277 ] hpack.hpack - DEBUG - Decoding b'?\xe1\x1f\x88a\x96\xdc4\xfd(&\x94\x86\xd9\x94\x10\x04\xd2\x80j\xe3n\xdc\x0b\xaab\xd1\xbf_\x8b\x1du\xd0b\r&=LtA\xea@\x85$\xabX?_\x8fz7\x80AF\xe3\x84\x8c\x0c\xc9+\xab]\xd5\xa3@\x8a$\xab\x10d\x9c\xab!#M\xa8\x86\xbf\xcfL:2^w\xff\x8f\x05Dk\x0c\x84*\x10\xb2O\xd4\xb5@_Yg\x8f\x11\r\xa8\xd9rp\xf7\x90:M\x91\x19)M\x7f\xb7\xb29\x93\xa6Qgg\x8d\xff\xdb\xf4\x1bF\x00\xd3\xa1\x9a7s\xeb\xc0\xd9\xefe\x01\x7f!6\xa3e\xcd\xc4;\r.\xc5\xcb\xeb-dgA\xb5\x1b)\xe4\xc7\xb7\xc1=\x9f\xbevx\xf4&,\xa0\x8e\x9a\'&*)\xfd\xc5\xb7\xc1\x05G\x899\'\xcez\xb4\x84\x98\xb0\x9b\x9f\xe6\x9a3\xd3\xa7\xbeqa\x0c\x98\xa6\xef\'L\x06\xcf{/\xb99d6\xa3e\xeb\xfbN\x00\xf3\xf7\xb1\x9d7\x83O\xed<<g\xdf\xb3\xc7:x\'\x9fN\x00\xd3\xe84~\xef\xfd\x9fE\xfd\x8c\xfe\xef#<\xfd\xccl\xf7\xb2\xcf\'-\x86\xd4l\xb3\xc9\xf9\xb4\xff\xbc\x9b\x00\xf9i\x9eL\\z\xe47\x83~\xfeO\xe3\'C\xf9\xd3\xef 4\xdf#z/\xe8g=\xec\xb5\xf3\xfc\xd8m]03\xa3\xa6\xc0i\xf7\xc0\x1a=\x91\x19)\xe2\x9e|\xa8FN\x874\x94\xd1g>^|h\xbf\x90RS\x87\xd1\x05=\xbf\xbf\x94C\xfa \xce>^-\xe6\'\xd3\x90\xde\x0cLS\xf7\x8e\x9e\x06\xd4l\x86\xcf{,\xe4\xc7vX\xf9q\x07>[g\x93\x16\x03j\xa9\x06&<\xbd\xe4\xa6\x8e\xbf\xbf\x99\r\xa8\xd9h\x8f\x96\x1a\xe3\xbd\x91\x19*\xbb\xea6\x7fk\xfd\xc5\xc7\xd1=ds\x97\xac\xb4G\xcb\rq\xde\xcb$\xbb\xbc\x1aO\xcd4\x12\x87\xd3\xfb\xf9\xb6\x7f\xdcXA\xcfvG\x0b\xeb-\x11\xf2\xc3\\w\xb29\x92\xaf\xda\xc6,(%\xf8}i\xab\xf6rU\xa4\xf1\xd3\xc5\xbd\x98\xa4O>T#=:{\xc7\xbb"2S\xc5<\xf9P\x8f\xc6\x7fh%4R>\\z\xe4\xe9]<\xf9y\xf7\xfb\xbb\xc1\x89\x8a~\xf1\xd3\xc6Y)\xe3\xe8|\xbfk\xfd\xe5\xb0\xda\xa9\xfd\x9e<zh\xcf{/\xb99d6\xa3e\xeb\xfbN\x00\xf3\xf7\xb1\x9d7\x83O\xed<<g\xdf\xb3\xc7:x\'\x9fN\x00\xd3\xe84~\xef\xfd\x9fE\xfd\x8c\xfe\xef#<\xfd\xcciwx1)}\x1f\xbb\xb29\x92\x9c!\x93\x14\xf4GV\xda\xf9\x8b\x08?yl6{\xd9g\xe7\xcb\xc1\xb5\x1b,\xfc\xf9x\xf3\x90\xde\r\xcf\x90}d\xe9\\e\xf5\x95?\xbf\x9bO\x18\xb6\x1bQ\xb2\xf8\xe7\xf9\xa7\xdc\x82\x7f\xd7\xed\xec\x88\xc9V\xda\xe3\xe5\xc7\xdc\x98\xb0\xa4\x97\xb29\xa3y=i\xbf\xb1\x9d;\xf6{\xd2\xc8d\xcf{/\xbf\xdf\xcd>\xc7\xc9\xfb\x7f\x05G\\\x9d\x0em\\\xb6\xcf\xa7\xa7Ps\xdf\xa1:zL\xd6\xab\xc0\x06\xab\xf8\x01\x9f\x96\x00i\x174\xf3\xe8F\xf4\xef\xcbO=\xfb<~\xf4\x9e|\x86\xf0a\xfei\x97\x9f&\xfb\xc7U\t\x8d\x9e>\xf2t\xae\x9e|\xbc\xfb\xfd\xfc\x02\xfc\xf0m\xb2\xbe\xb6F\xdc+v\xc2\x19\xea\x9b\xf7{f\xdcI[\x8d?\xbd\xb6\xc3{}\xda\x7f\x1d\xe3\xdf\x94Kp\xfbSX\xd3<\x0c}\xa9\x83\xcdf\xb0\xa8\x83u\xb5}(&\xd4\x86\xd9\x94\x10\x04\xd2\x80j\xe3n\xdc\x0b\xaab\xd1\xbf\xedM\x03\xf2\xb43\x16\x07\x9ch\x00\xfbS\x1aS^\xaa\xa8\xf5\xf6\xa6\xe2\x92\xdb\x0bx\x9a\xa4~V\x1c\xc5\x81\x90\xb6\xcb\x80\x00>\xd45D\xa2\xd9\x0b\xba\xd8\xef\x9e\x91\x9a\xa4\x7f{\x91\xd5a\xa65_JBB\x16\xb4\xad\x82\xa2\x1eCU7@\x8dDkL4\x97\xc0\xfd-\xdc\xb6 \xc7\xab\x011w\xdbDkXYl*\'Y\'\xeaZ\xa0s\xde\xd1[k\x9e\xb9\xf6\xdaz$\x94\xbap\xeb#\xbb>\xd4\xd64\xcf\x03\x1fj`\xf3Y\xac* \xddm_J\t\xb5!\xb6e\x04\x014\xa0\x1a\xb8\xdb\xb7\x02\xea\x98\xb4o\xfbS@\xfc\xad\x0c\xc5\x81\xe7\x1a\x00>\xd4\xc6\x94\xd7\xaa\xaa=}\xa9\xb8\xa4\xb6\xc2\xff@\x95\xf2\xb1j\xee\x7fK[Z\x13aGJ\xc8-\x9d\xccB\xac\x93R_\x82\x0b@v\x87%\x07\xb6Ih\x1d\x85Z\x83\x9b\xd9\xab@\x85\x1d\tY\x1d\xc9\x90\x9d\x98?\x9b\x8d4\xcf\xf3\xf6\xa5#\x81\xe7\x1a\x00?'
+[ 2024-08-24 10:27:15,277 ] hpack.hpack - DEBUG - Decoded 4096, consumed 3 bytes
+[ 2024-08-24 10:27:15,277 ] hpack.table - DEBUG - Resizing header table to 4096 from 4096
+[ 2024-08-24 10:27:15,277 ] hpack.hpack - DEBUG - Decoded 8, consumed 1 bytes
+[ 2024-08-24 10:27:15,277 ] hpack.hpack - DEBUG - Decoded (b':status', b'200'), consumed 1
+[ 2024-08-24 10:27:15,277 ] hpack.hpack - DEBUG - Decoded 33, consumed 1 bytes
+[ 2024-08-24 10:27:15,277 ] hpack.hpack - DEBUG - Decoded 22, consumed 1 bytes
+[ 2024-08-24 10:27:15,277 ] hpack.hpack - DEBUG - Decoded (b'date', b'Sat, 24 Aug 2024 04:57:17 GMT'), total consumed 24 bytes, indexed True
+[ 2024-08-24 10:27:15,277 ] hpack.hpack - DEBUG - Decoded 31, consumed 1 bytes
+[ 2024-08-24 10:27:15,277 ] hpack.hpack - DEBUG - Decoded 11, consumed 1 bytes
+[ 2024-08-24 10:27:15,277 ] hpack.hpack - DEBUG - Decoded (b'content-type', b'application/json'), total consumed 13 bytes, indexed True
+[ 2024-08-24 10:27:15,277 ] hpack.hpack - DEBUG - Decoded 5, consumed 1 bytes
+[ 2024-08-24 10:27:15,277 ] hpack.hpack - DEBUG - Decoded 15, consumed 1 bytes
+[ 2024-08-24 10:27:15,277 ] hpack.hpack - DEBUG - Decoded (b'cf-ray', b'8b80c2b66cb03df7-BOM'), total consumed 23 bytes, indexed True
+[ 2024-08-24 10:27:15,277 ] hpack.hpack - DEBUG - Decoded 10, consumed 1 bytes
+[ 2024-08-24 10:27:15,277 ] hpack.hpack - DEBUG - Decoded 6, consumed 1 bytes
+[ 2024-08-24 10:27:15,277 ] hpack.hpack - DEBUG - Decoded (b'cf-cache-status', b'DYNAMIC'), total consumed 19 bytes, indexed True
+[ 2024-08-24 10:27:15,277 ] hpack.hpack - DEBUG - Decoded 55, consumed 1 bytes
+[ 2024-08-24 10:27:15,277 ] hpack.hpack - DEBUG - Decoded 782, consumed 3 bytes
+[ 2024-08-24 10:27:15,277 ] hpack.hpack - DEBUG - Decoded (b'set-cookie', b'sb-access-token=eyJhbGciOiJIUzI1NiIsImtpZCI6IjJ2L3VDZDliME1mM3lSYkUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3VjcGJ0bmlhcGlmZGRwc2lwdWtxLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJkZmE1YzQ3NC1mZmUwLTQwYmUtYjU0Ny1lZTZhMDQ3ZTc3YzgiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzI0NDc5MDM3LCJpYXQiOjE3MjQ0NzU0MzcsImVtYWlsIjoidmlrYWxwMDI2dmFyc2huZXlAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6eyJlbWFpbCI6InZpa2FscDAyNnZhcnNobmV5QGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwicGhvbmVfdmVyaWZpZWQiOmZhbHNlLCJzdWIiOiJkZmE1YzQ3NC1mZmUwLTQwYmUtYjU0Ny1lZTZhMDQ3ZTc3YzgifSwicm9sZSI6ImF1dGhlbnRpY2F0ZWQiLCJhYWwiOiJhYWwxIiwiYW1yIjpbeyJtZXRob2QiOiJwYXNzd29yZCIsInRpbWVzdGFtcCI6MTcyNDQ3NTQzN31dLCJzZXNzaW9uX2lkIjoiOWRhNjk0YTMtNjg4OC00ODE0LWE0N2YtYjc5NTJmYTQwZjhhIiwiaXNfYW5vbnltb3VzIjpmYWxzZX0.YERrpkrb5A-qF1hngZT5iScf5btZqRACTBmX7VvW_-U; Path=/; Expires=Sun, 25 Aug 2024 04:57:17 GMT; Max-Age=86400; HttpOnly; Secure'), total consumed 786 bytes, indexed True
+[ 2024-08-24 10:27:15,277 ] hpack.hpack - DEBUG - Decoded 56, consumed 1 bytes
+[ 2024-08-24 10:27:15,277 ] hpack.hpack - DEBUG - Decoded 26, consumed 1 bytes
+[ 2024-08-24 10:27:15,277 ] hpack.hpack - DEBUG - Decoded (b'strict-transport-security', b'max-age=31536000; includeSubDomains'), total consumed 28 bytes, indexed True
+[ 2024-08-24 10:27:15,277 ] hpack.hpack - DEBUG - Decoded 59, consumed 1 bytes
+[ 2024-08-24 10:27:15,277 ] hpack.hpack - DEBUG - Decoded 17, consumed 1 bytes
+[ 2024-08-24 10:27:15,277 ] hpack.hpack - DEBUG - Decoded (b'vary', b'Origin, Accept-Encoding'), total consumed 19 bytes, indexed True
+[ 2024-08-24 10:27:15,277 ] hpack.hpack - DEBUG - Decoded 13, consumed 1 bytes
+[ 2024-08-24 10:27:15,277 ] hpack.hpack - DEBUG - Decoded 1, consumed 1 bytes
+[ 2024-08-24 10:27:15,277 ] hpack.hpack - DEBUG - Decoded (b'sb-gateway-version', <memory at 0x0000025D7C99F1C0>), total consumed 17 bytes, indexed True
+[ 2024-08-24 10:27:15,277 ] hpack.hpack - DEBUG - Decoded 55, consumed 1 bytes
+[ 2024-08-24 10:27:15,277 ] hpack.hpack - DEBUG - Decoded 91, consumed 1 bytes
+[ 2024-08-24 10:27:15,281 ] hpack.hpack - DEBUG - Decoded (b'set-cookie', b'sb-refresh-token=6zR2uu6yYqRoldfeNFPc7Q; Path=/; Expires=Sun, 25 Aug 2024 04:57:17 GMT; Max-Age=86400; HttpOnly; Secure'), total consumed 93 bytes, indexed True
+[ 2024-08-24 10:27:15,281 ] hpack.hpack - DEBUG - Decoded 21, consumed 1 bytes
+[ 2024-08-24 10:27:15,281 ] hpack.hpack - DEBUG - Decoded 2, consumed 1 bytes
+[ 2024-08-24 10:27:15,281 ] hpack.hpack - DEBUG - Decoded (b'x-envoy-upstream-service-time', b'140'), total consumed 26 bytes, indexed True
+[ 2024-08-24 10:27:15,281 ] hpack.hpack - DEBUG - Decoded 54, consumed 1 bytes
+[ 2024-08-24 10:27:15,281 ] hpack.hpack - DEBUG - Decoded 7, consumed 1 bytes
+[ 2024-08-24 10:27:15,281 ] hpack.hpack - DEBUG - Decoded (b'server', b'cloudflare'), total consumed 9 bytes, indexed True
+[ 2024-08-24 10:27:15,281 ] hpack.hpack - DEBUG - Decoded 26, consumed 1 bytes
+[ 2024-08-24 10:27:15,281 ] hpack.hpack - DEBUG - Decoded 3, consumed 1 bytes
+[ 2024-08-24 10:27:15,281 ] hpack.hpack - DEBUG - Decoded (b'content-encoding', b'gzip'), total consumed 5 bytes, indexed True
+[ 2024-08-24 10:27:15,281 ] hpack.hpack - DEBUG - Decoded 5, consumed 1 bytes
+[ 2024-08-24 10:27:15,281 ] hpack.hpack - DEBUG - Decoded 16, consumed 1 bytes
+[ 2024-08-24 10:27:15,281 ] hpack.hpack - DEBUG - Decoded (b'alt-svc', b'h3=":443"; ma=86400'), total consumed 24 bytes, indexed True
+[ 2024-08-24 10:27:15,281 ] httpcore.http2 - DEBUG - receive_response_headers.complete return_value=(200, [(b'date', b'Sat, 24 Aug 2024 04:57:17 GMT'), (b'content-type', b'application/json'), (b'cf-ray', b'8b80c2b66cb03df7-BOM'), (b'cf-cache-status', b'DYNAMIC'), (b'set-cookie', b'sb-access-token=eyJhbGciOiJIUzI1NiIsImtpZCI6IjJ2L3VDZDliME1mM3lSYkUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3VjcGJ0bmlhcGlmZGRwc2lwdWtxLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJkZmE1YzQ3NC1mZmUwLTQwYmUtYjU0Ny1lZTZhMDQ3ZTc3YzgiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzI0NDc5MDM3LCJpYXQiOjE3MjQ0NzU0MzcsImVtYWlsIjoidmlrYWxwMDI2dmFyc2huZXlAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6eyJlbWFpbCI6InZpa2FscDAyNnZhcnNobmV5QGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwicGhvbmVfdmVyaWZpZWQiOmZhbHNlLCJzdWIiOiJkZmE1YzQ3NC1mZmUwLTQwYmUtYjU0Ny1lZTZhMDQ3ZTc3YzgifSwicm9sZSI6ImF1dGhlbnRpY2F0ZWQiLCJhYWwiOiJhYWwxIiwiYW1yIjpbeyJtZXRob2QiOiJwYXNzd29yZCIsInRpbWVzdGFtcCI6MTcyNDQ3NTQzN31dLCJzZXNzaW9uX2lkIjoiOWRhNjk0YTMtNjg4OC00ODE0LWE0N2YtYjc5NTJmYTQwZjhhIiwiaXNfYW5vbnltb3VzIjpmYWxzZX0.YERrpkrb5A-qF1hngZT5iScf5btZqRACTBmX7VvW_-U; Path=/; Expires=Sun, 25 Aug 2024 04:57:17 GMT; Max-Age=86400; HttpOnly; Secure'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains'), (b'vary', b'Origin, Accept-Encoding'), (b'sb-gateway-version', b'1'), (b'set-cookie', b'sb-refresh-token=6zR2uu6yYqRoldfeNFPc7Q; Path=/; Expires=Sun, 25 Aug 2024 04:57:17 GMT; Max-Age=86400; HttpOnly; Secure'), (b'x-envoy-upstream-service-time', b'140'), (b'server', b'cloudflare'), (b'content-encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+[ 2024-08-24 10:27:15,281 ] httpx - INFO - HTTP Request: POST https://ucpbtniapifddpsipukq.supabase.co/auth/v1/token?grant_type=password "HTTP/2 200 OK"
+[ 2024-08-24 10:27:15,281 ] httpcore.http2 - DEBUG - receive_response_body.started request=<Request [b'POST']> stream_id=1
+[ 2024-08-24 10:27:15,281 ] httpcore.http2 - DEBUG - receive_response_body.complete
+[ 2024-08-24 10:27:15,281 ] httpcore.http2 - DEBUG - response_closed.started stream_id=1
+[ 2024-08-24 10:27:15,281 ] httpcore.http2 - DEBUG - response_closed.complete
+[ 2024-08-24 10:27:15,298 ] root - INFO - Login attempt for email: vikalp026varshney@gmail.com
+[ 2024-08-24 10:27:15,298 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:27:15] "[32mPOST /login HTTP/1.1[0m" 302 -
+[ 2024-08-24 10:27:15,308 ] chat_app - INFO - Index route called
+[ 2024-08-24 10:27:15,308 ] chat_app - INFO - User authenticated, rendering index.html
+[ 2024-08-24 10:27:15,376 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:27:15] "GET / HTTP/1.1" 200 -
+[ 2024-08-24 10:27:15,422 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:27:15] "[33mGET /static/chatbot.css HTTP/1.1[0m" 404 -
+[ 2024-08-24 10:27:15,423 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:27:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2024-08-24 10:27:15,433 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:27:15] "[33mGET /static/script.js HTTP/1.1[0m" 404 -
+[ 2024-08-24 10:27:15,437 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:27:15] "[36mGET /static/vivi.png HTTP/1.1[0m" 304 -
+[ 2024-08-24 10:27:15,439 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:27:15] "[36mGET /static/new_latest.jpg HTTP/1.1[0m" 304 -
+[ 2024-08-24 10:27:15,446 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:27:15] "[36mGET /static/2nd_his.jpg HTTP/1.1[0m" 304 -
+[ 2024-08-24 10:27:15,447 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:27:15] "[36mGET /static/chatbot.png HTTP/1.1[0m" 304 -
+[ 2024-08-24 10:27:17,638 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-24 10:27:17,638 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:27:17] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-24 10:27:18,313 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-24 10:27:18,313 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:27:18] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-24 10:27:21,235 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-24 10:27:21,237 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:27:21] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-24 10:27:22,643 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-24 10:27:22,643 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:27:22] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-24 10:27:24,046 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-24 10:27:24,047 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:27:24] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-24 10:27:33,123 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-24 10:27:33,124 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:27:33] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-24 10:27:34,302 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-24 10:27:34,302 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:27:34] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-24 10:27:36,866 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-24 10:27:36,868 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:27:36] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-24 10:27:37,467 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-24 10:27:37,468 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:27:37] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-24 10:27:43,111 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-24 10:27:43,111 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:27:43] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-24 10:27:43,816 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-24 10:27:43,816 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:27:43] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-24 10:27:52,139 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-24 10:27:52,139 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:27:52] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-24 10:28:04,805 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-24 10:28:04,806 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:28:04] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-24 10:28:04,811 ] root - INFO - Message is hi
+[ 2024-08-24 10:28:04,811 ] chat_app - DEBUG - Entering rag_chain with query: hi
+[ 2024-08-24 10:28:04,811 ] root - INFO - Query is hi
+[ 2024-08-24 10:28:04,811 ] chat_app - DEBUG - PromptTemplate created
+[ 2024-08-24 10:28:04,817 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-24 10:28:04,817 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-24 10:28:05,073 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-24 10:28:05,073 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-24 10:28:05,558 ] chat_app - DEBUG - RetrievalQA created
+[ 2024-08-24 10:28:05,620 ] urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.smith.langchain.com:443
+[ 2024-08-24 10:28:06,219 ] openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/embeddings', 'files': None, 'post_parser': <function Embeddings.create.<locals>.parser at 0x0000025D7CC716C0>, 'json_data': {'input': [[6151]], 'model': 'text-embedding-ada-002', 'encoding_format': 'base64'}}
+[ 2024-08-24 10:28:06,233 ] openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/embeddings
+[ 2024-08-24 10:28:06,233 ] httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+[ 2024-08-24 10:28:08,500 ] httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025D7CAEAD10>
+[ 2024-08-24 10:28:08,500 ] httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000025D48EFE3C0> server_hostname='api.openai.com' timeout=None
+[ 2024-08-24 10:28:11,479 ] httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025D7CB73BD0>
+[ 2024-08-24 10:28:11,479 ] httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+[ 2024-08-24 10:28:11,479 ] httpcore.http11 - DEBUG - send_request_headers.complete
+[ 2024-08-24 10:28:11,479 ] httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+[ 2024-08-24 10:28:11,479 ] httpcore.http11 - DEBUG - send_request_body.complete
+[ 2024-08-24 10:28:11,479 ] httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+[ 2024-08-24 10:28:14,742 ] httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sat, 24 Aug 2024 04:58:17 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-model', b'text-embedding-ada-002'), (b'openai-organization', b'user-g4hromwdelqvif9h7gpua77n'), (b'openai-processing-ms', b'58'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'3000'), (b'x-ratelimit-limit-tokens', b'1000000'), (b'x-ratelimit-remaining-requests', b'2999'), (b'x-ratelimit-remaining-tokens', b'999998'), (b'x-ratelimit-reset-requests', b'20ms'), (b'x-ratelimit-reset-tokens', b'0s'), (b'x-request-id', b'req_208dadd2e514419cd851baf7f2309beb'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=W._kptdSg5STt.jmmC0Zmzy56OU9b9.PH6jRacRfl5g-1724475497-1.0.1.1-Jl1VKLX7JmQbQZCXZ91mjaXHnPdnhqjFmrIumFjQNm9SevJMg1hPGdDUVQY_9gvL4AsY9mgpQ8I68GpU7q3T0A; path=/; expires=Sat, 24-Aug-24 05:28:17 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=7RjziFMpdfdv.5VlLPgA04.s5OtBDWDZ14JqJ1nuCr4-1724475497021-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8b80c42e19663d30-BOM'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+[ 2024-08-24 10:28:14,743 ] httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[ 2024-08-24 10:28:14,743 ] httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+[ 2024-08-24 10:28:14,773 ] httpcore.http11 - DEBUG - receive_response_body.complete
+[ 2024-08-24 10:28:14,773 ] httpcore.http11 - DEBUG - response_closed.started
+[ 2024-08-24 10:28:14,773 ] httpcore.http11 - DEBUG - response_closed.complete
+[ 2024-08-24 10:28:14,778 ] openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/embeddings "200 OK" Headers([('date', 'Sat, 24 Aug 2024 04:58:17 GMT'), ('content-type', 'application/json'), ('transfer-encoding', 'chunked'), ('connection', 'keep-alive'), ('access-control-allow-origin', '*'), ('access-control-expose-headers', 'X-Request-ID'), ('openai-model', 'text-embedding-ada-002'), ('openai-organization', 'user-g4hromwdelqvif9h7gpua77n'), ('openai-processing-ms', '58'), ('openai-version', '2020-10-01'), ('strict-transport-security', 'max-age=15552000; includeSubDomains; preload'), ('x-ratelimit-limit-requests', '3000'), ('x-ratelimit-limit-tokens', '1000000'), ('x-ratelimit-remaining-requests', '2999'), ('x-ratelimit-remaining-tokens', '999998'), ('x-ratelimit-reset-requests', '20ms'), ('x-ratelimit-reset-tokens', '0s'), ('x-request-id', 'req_208dadd2e514419cd851baf7f2309beb'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=W._kptdSg5STt.jmmC0Zmzy56OU9b9.PH6jRacRfl5g-1724475497-1.0.1.1-Jl1VKLX7JmQbQZCXZ91mjaXHnPdnhqjFmrIumFjQNm9SevJMg1hPGdDUVQY_9gvL4AsY9mgpQ8I68GpU7q3T0A; path=/; expires=Sat, 24-Aug-24 05:28:17 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=7RjziFMpdfdv.5VlLPgA04.s5OtBDWDZ14JqJ1nuCr4-1724475497021-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '8b80c42e19663d30-BOM'), ('content-encoding', 'gzip'), ('alt-svc', 'h3=":443"; ma=86400')])
+[ 2024-08-24 10:28:14,778 ] openai._base_client - DEBUG - request_id: req_208dadd2e514419cd851baf7f2309beb
+[ 2024-08-24 10:28:14,848 ] openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/completions', 'files': None, 'json_data': {'model': 'gpt-3.5-turbo-instruct', 'prompt': ["\n            Use the following pieces of information to answer the user's question.\n            If you don't know the answer, just say that you don't know, don't try to make up an answer.\n            Context: tions.\n 4\n\nISBN 978-0-9899740-4-2\n\ndesignation with which I am perfectly content. I am blessed with good health and an \ninteresting life. Indeed, overcoming a glioma has become the measure by which I readily \nestimate everything else that God has sent my way.\n\ngery and alternative treatments.\n            Question: hi\n            Only return the helpful answer below and nothing else.\n            Helpful answer:\n        "], 'frequency_penalty': 0.0, 'logit_bias': {}, 'max_tokens': 256, 'n': 1, 'presence_penalty': 0.0, 'temperature': 0.7, 'top_p': 1.0}}
+[ 2024-08-24 10:28:14,848 ] openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/completions
+[ 2024-08-24 10:28:14,848 ] httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+[ 2024-08-24 10:28:18,590 ] httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025D7CCA6A50>
+[ 2024-08-24 10:28:18,590 ] httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000025D7C96F890> server_hostname='api.openai.com' timeout=None
+[ 2024-08-24 10:28:19,594 ] langsmith.client - WARNING - Failed to get info from https://api.smith.langchain.com: LangSmithConnectionError("Connection error caused failure to GET /info  in LangSmith API. Please confirm your internet connection.. ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))")
+[ 2024-08-24 10:28:19,719 ] urllib3.connectionpool - DEBUG - Starting new HTTPS connection (2): api.smith.langchain.com:443
+[ 2024-08-24 10:28:31,530 ] urllib3.connectionpool - DEBUG - Starting new HTTPS connection (3): api.smith.langchain.com:443
+[ 2024-08-24 10:28:32,668 ] httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025D7CC793D0>
+[ 2024-08-24 10:28:32,668 ] httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+[ 2024-08-24 10:28:32,668 ] httpcore.http11 - DEBUG - send_request_headers.complete
+[ 2024-08-24 10:28:32,668 ] httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+[ 2024-08-24 10:28:32,668 ] httpcore.http11 - DEBUG - send_request_body.complete
+[ 2024-08-24 10:28:32,668 ] httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+[ 2024-08-24 10:28:34,559 ] httpcore.http11 - DEBUG - receive_response_headers.failed exception=RemoteProtocolError('Server disconnected without sending a response.')
+[ 2024-08-24 10:28:34,559 ] httpcore.http11 - DEBUG - response_closed.started
+[ 2024-08-24 10:28:34,559 ] httpcore.http11 - DEBUG - response_closed.complete
+[ 2024-08-24 10:28:34,559 ] openai._base_client - DEBUG - Encountered Exception
+Traceback (most recent call last):
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 69, in map_httpcore_exceptions
+    yield
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 233, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\connection_pool.py", line 216, in handle_request
+    raise exc from None
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\connection_pool.py", line 196, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\connection.py", line 101, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\http11.py", line 143, in handle_request
+    raise exc
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\http11.py", line 113, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\http11.py", line 186, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\http11.py", line 238, in _receive_event
+    raise RemoteProtocolError(msg)
+httpcore.RemoteProtocolError: Server disconnected without sending a response.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\VIVI_AI\yogo\Lib\site-packages\openai\_base_client.py", line 973, in _request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 1015, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 232, in handle_request
+    with map_httpcore_exceptions():
+  File "D:\VIVI_AI\yogo\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 86, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.RemoteProtocolError: Server disconnected without sending a response.
+[ 2024-08-24 10:28:34,662 ] openai._base_client - DEBUG - 1 retry left
+[ 2024-08-24 10:28:34,662 ] openai._base_client - INFO - Retrying request to /completions in 0.999495 seconds
+[ 2024-08-24 10:28:35,670 ] openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/completions', 'files': None, 'json_data': {'model': 'gpt-3.5-turbo-instruct', 'prompt': ["\n            Use the following pieces of information to answer the user's question.\n            If you don't know the answer, just say that you don't know, don't try to make up an answer.\n            Context: tions.\n 4\n\nISBN 978-0-9899740-4-2\n\ndesignation with which I am perfectly content. I am blessed with good health and an \ninteresting life. Indeed, overcoming a glioma has become the measure by which I readily \nestimate everything else that God has sent my way.\n\ngery and alternative treatments.\n            Question: hi\n            Only return the helpful answer below and nothing else.\n            Helpful answer:\n        "], 'frequency_penalty': 0.0, 'logit_bias': {}, 'max_tokens': 256, 'n': 1, 'presence_penalty': 0.0, 'temperature': 0.7, 'top_p': 1.0}}
+[ 2024-08-24 10:28:35,670 ] openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/completions
+[ 2024-08-24 10:28:35,670 ] httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+[ 2024-08-24 10:28:35,942 ] httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025D7D34E3D0>
+[ 2024-08-24 10:28:35,942 ] httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000025D7C96F890> server_hostname='api.openai.com' timeout=None
+[ 2024-08-24 10:28:39,130 ] httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025D7D34EF50>
+[ 2024-08-24 10:28:39,130 ] httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+[ 2024-08-24 10:28:39,130 ] httpcore.http11 - DEBUG - send_request_headers.complete
+[ 2024-08-24 10:28:39,130 ] httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+[ 2024-08-24 10:28:39,130 ] httpcore.http11 - DEBUG - send_request_body.complete
+[ 2024-08-24 10:28:39,130 ] httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+[ 2024-08-24 10:28:58,613 ] httpcore.http11 - DEBUG - receive_response_headers.failed exception=RemoteProtocolError('Server disconnected without sending a response.')
+[ 2024-08-24 10:28:58,613 ] httpcore.http11 - DEBUG - response_closed.started
+[ 2024-08-24 10:28:58,613 ] httpcore.http11 - DEBUG - response_closed.complete
+[ 2024-08-24 10:28:58,613 ] openai._base_client - DEBUG - Encountered Exception
+Traceback (most recent call last):
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 69, in map_httpcore_exceptions
+    yield
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 233, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\connection_pool.py", line 216, in handle_request
+    raise exc from None
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\connection_pool.py", line 196, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\connection.py", line 101, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\http11.py", line 143, in handle_request
+    raise exc
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\http11.py", line 113, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\http11.py", line 186, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\http11.py", line 238, in _receive_event
+    raise RemoteProtocolError(msg)
+httpcore.RemoteProtocolError: Server disconnected without sending a response.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\VIVI_AI\yogo\Lib\site-packages\openai\_base_client.py", line 973, in _request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 1015, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 232, in handle_request
+    with map_httpcore_exceptions():
+  File "D:\VIVI_AI\yogo\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 86, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.RemoteProtocolError: Server disconnected without sending a response.
+[ 2024-08-24 10:28:58,626 ] openai._base_client - DEBUG - 0 retries left
+[ 2024-08-24 10:28:58,626 ] openai._base_client - INFO - Retrying request to /completions in 1.880277 seconds
+[ 2024-08-24 10:29:00,510 ] openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/completions', 'files': None, 'json_data': {'model': 'gpt-3.5-turbo-instruct', 'prompt': ["\n            Use the following pieces of information to answer the user's question.\n            If you don't know the answer, just say that you don't know, don't try to make up an answer.\n            Context: tions.\n 4\n\nISBN 978-0-9899740-4-2\n\ndesignation with which I am perfectly content. I am blessed with good health and an \ninteresting life. Indeed, overcoming a glioma has become the measure by which I readily \nestimate everything else that God has sent my way.\n\ngery and alternative treatments.\n            Question: hi\n            Only return the helpful answer below and nothing else.\n            Helpful answer:\n        "], 'frequency_penalty': 0.0, 'logit_bias': {}, 'max_tokens': 256, 'n': 1, 'presence_penalty': 0.0, 'temperature': 0.7, 'top_p': 1.0}}
+[ 2024-08-24 10:29:00,510 ] openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/completions
+[ 2024-08-24 10:29:00,510 ] httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+[ 2024-08-24 10:29:19,528 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-24 10:29:19,528 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:29:19] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-24 10:29:20,178 ] httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025D48980790>
+[ 2024-08-24 10:29:20,178 ] httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000025D7C96F890> server_hostname='api.openai.com' timeout=None
+[ 2024-08-24 10:29:20,257 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-24 10:29:20,257 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:29:20] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-24 10:29:21,692 ] httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025D7CAF49D0>
+[ 2024-08-24 10:29:21,692 ] httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+[ 2024-08-24 10:29:21,692 ] httpcore.http11 - DEBUG - send_request_headers.complete
+[ 2024-08-24 10:29:21,692 ] httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+[ 2024-08-24 10:29:21,692 ] httpcore.http11 - DEBUG - send_request_body.complete
+[ 2024-08-24 10:29:21,692 ] httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+[ 2024-08-24 10:29:22,409 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-24 10:29:22,409 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:29:22] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-24 10:29:28,685 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-24 10:29:28,685 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:29:28] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-24 10:29:28,687 ] root - INFO - Message is GBm
+[ 2024-08-24 10:29:28,688 ] chat_app - DEBUG - Entering rag_chain with query: GBm
+[ 2024-08-24 10:29:28,688 ] root - INFO - Query is GBm
+[ 2024-08-24 10:29:28,688 ] chat_app - DEBUG - PromptTemplate created
+[ 2024-08-24 10:29:28,688 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-24 10:29:28,691 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-24 10:29:28,940 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-24 10:29:28,940 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-24 10:29:29,231 ] chat_app - DEBUG - RetrievalQA created
+[ 2024-08-24 10:29:29,231 ] openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/embeddings', 'files': None, 'post_parser': <function Embeddings.create.<locals>.parser at 0x0000025D7D3194E0>, 'json_data': {'input': [[5494, 76]], 'model': 'text-embedding-ada-002', 'encoding_format': 'base64'}}
+[ 2024-08-24 10:29:29,231 ] openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/embeddings
+[ 2024-08-24 10:29:29,231 ] httpcore.connection - DEBUG - close.started
+[ 2024-08-24 10:29:29,231 ] httpcore.connection - DEBUG - close.complete
+[ 2024-08-24 10:29:29,231 ] httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+[ 2024-08-24 10:29:35,516 ] httpcore.http11 - DEBUG - receive_response_headers.failed exception=RemoteProtocolError('Server disconnected without sending a response.')
+[ 2024-08-24 10:29:35,516 ] httpcore.http11 - DEBUG - response_closed.started
+[ 2024-08-24 10:29:35,516 ] httpcore.http11 - DEBUG - response_closed.complete
+[ 2024-08-24 10:29:35,516 ] openai._base_client - DEBUG - Encountered Exception
+Traceback (most recent call last):
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 69, in map_httpcore_exceptions
+    yield
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 233, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\connection_pool.py", line 216, in handle_request
+    raise exc from None
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\connection_pool.py", line 196, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\connection.py", line 101, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\http11.py", line 143, in handle_request
+    raise exc
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\http11.py", line 113, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\http11.py", line 186, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\http11.py", line 238, in _receive_event
+    raise RemoteProtocolError(msg)
+httpcore.RemoteProtocolError: Server disconnected without sending a response.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\VIVI_AI\yogo\Lib\site-packages\openai\_base_client.py", line 973, in _request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 1015, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 232, in handle_request
+    with map_httpcore_exceptions():
+  File "D:\VIVI_AI\yogo\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 86, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.RemoteProtocolError: Server disconnected without sending a response.
+[ 2024-08-24 10:29:35,517 ] openai._base_client - DEBUG - Raising connection error
+[ 2024-08-24 10:29:35,669 ] chat_app - ERROR - Error in rag_chain: Connection error.
+[ 2024-08-24 10:29:35,669 ] chat_app - ERROR - Error in chat route: Connection error.
+[ 2024-08-24 10:29:35,670 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:29:35] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-24 10:29:35,678 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-24 10:29:35,678 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:29:35] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-24 10:29:36,848 ] urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "POST /runs/batch HTTP/11" 408 279
+[ 2024-08-24 10:29:36,849 ] langsmith.client - WARNING - Failed to batch ingest runs: LangSmithError('Failed to POST https://api.smith.langchain.com/runs/batch in LangSmith API. HTTPError(\'408 Client Error: Request Timeout for url: https://api.smith.langchain.com/runs/batch\', \'\\n<html><head>\\n<meta http-equiv="content-type" content="text/html;charset=utf-8">\\n<title>408 Request Timeout</title>\\n</head>\\n<body text=#000000 bgcolor=#ffffff>\\n<h1>Error: Request Timeout</h1>\\n<h2>Your client has taken too long to issue its request.</h2>\\n<h2></h2>\\n</body></html>\\n\')')
+[ 2024-08-24 10:29:36,938 ] urllib3.connectionpool - DEBUG - Resetting dropped connection: api.smith.langchain.com
+[ 2024-08-24 10:29:40,093 ] httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025D7C9D7590>
+[ 2024-08-24 10:29:40,093 ] httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000025D48EFE3C0> server_hostname='api.openai.com' timeout=None
+[ 2024-08-24 10:29:42,076 ] httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025D7CA84350>
+[ 2024-08-24 10:29:42,076 ] httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+[ 2024-08-24 10:29:42,076 ] httpcore.http11 - DEBUG - send_request_headers.complete
+[ 2024-08-24 10:29:42,076 ] httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+[ 2024-08-24 10:29:42,076 ] httpcore.http11 - DEBUG - send_request_body.complete
+[ 2024-08-24 10:29:42,076 ] httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+[ 2024-08-24 10:29:45,134 ] httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sat, 24 Aug 2024 04:59:46 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-model', b'text-embedding-ada-002'), (b'openai-organization', b'user-g4hromwdelqvif9h7gpua77n'), (b'openai-processing-ms', b'21'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'3000'), (b'x-ratelimit-limit-tokens', b'1000000'), (b'x-ratelimit-remaining-requests', b'2999'), (b'x-ratelimit-remaining-tokens', b'999997'), (b'x-ratelimit-reset-requests', b'20ms'), (b'x-ratelimit-reset-tokens', b'0s'), (b'x-request-id', b'req_e48237fe67aceb355b91e26c97f7a082'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8b80c6604a283c3e-BOM'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+[ 2024-08-24 10:29:45,138 ] httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[ 2024-08-24 10:29:45,138 ] httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+[ 2024-08-24 10:29:45,285 ] httpcore.http11 - DEBUG - receive_response_body.complete
+[ 2024-08-24 10:29:45,285 ] httpcore.http11 - DEBUG - response_closed.started
+[ 2024-08-24 10:29:45,285 ] httpcore.http11 - DEBUG - response_closed.complete
+[ 2024-08-24 10:29:45,285 ] openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/embeddings "200 OK" Headers({'date': 'Sat, 24 Aug 2024 04:59:46 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-allow-origin': '*', 'access-control-expose-headers': 'X-Request-ID', 'openai-model': 'text-embedding-ada-002', 'openai-organization': 'user-g4hromwdelqvif9h7gpua77n', 'openai-processing-ms': '21', 'openai-version': '2020-10-01', 'strict-transport-security': 'max-age=15552000; includeSubDomains; preload', 'x-ratelimit-limit-requests': '3000', 'x-ratelimit-limit-tokens': '1000000', 'x-ratelimit-remaining-requests': '2999', 'x-ratelimit-remaining-tokens': '999997', 'x-ratelimit-reset-requests': '20ms', 'x-ratelimit-reset-tokens': '0s', 'x-request-id': 'req_e48237fe67aceb355b91e26c97f7a082', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '8b80c6604a283c3e-BOM', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+[ 2024-08-24 10:29:45,285 ] openai._base_client - DEBUG - request_id: req_e48237fe67aceb355b91e26c97f7a082
+[ 2024-08-24 10:29:45,310 ] openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/completions', 'files': None, 'json_data': {'model': 'gpt-3.5-turbo-instruct', 'prompt': ["\n            Use the following pieces of information to answer the user's question.\n            If you don't know the answer, just say that you don't know, don't try to make up an answer.\n            Context: ing GBM, emphasizing the importance of molecular biomarkers in GBM pathological\ndiagnosis. Together with the new advances in technology or concept of GBM biologi-\ncal research, e.g., single-cell technology [ 24–27], deep learning-based multi-omics data\nexploration [ 28–30], novel 3D preclinical GBM models [ 31–33], and emphasis on tumor\nInt. J. Mol. Sci. 2024 ,25, 3040. https://doi.org/10.3390/ijms25053040 https://www.mdpi.com/journal/ijms\n\nGBM immune in\ufb01ltrating cells include lymphocytes (tumor-in\ufb01ltrating lymphocytes, TILs), the key\nplayers of adaptive cellular immune defense, particularly CD8 +T cytotoxic (Tc) and CD4 +T helper (Th).\nApart from a long-term resident population of CD8+CD25+CD45RO+CD28+CD26L+CCR7+memory\nT cells, CD8+CD3+and CD4+CD3+TILs were described in GBM, especially in \ufb01brinogen-positive\nareas, where vessels are no longer watertight, and are positively associated with a longer clinical\n\nGBM 39691_at 1.80 AB007960 SH3GLB1: SH3-domain GRB2-like endophilin B1GBM 160039_at 5.57 NM_002747 MAPK4: mitogen-activated protein kinase 4\nGBM 35016_at 1.89 M13560 CD74: CD74 antigen (invariant polypeptide of major histocompatibility\ncomplex, class II antigen associated)\nGBM 38791_at 1.78 D29643 DDOST: dolichyl-diphosphooligosaccharide protein glycosyltransferase\nGBM 1395_at 2.10 L25081 ARHC: ras homologue gene family, member C\n\nInt. J. Mol. Sci. 2024 ,25, 3040 5 of 14\nreported in GBM include NF1, PDGFRA, PIK3R1, PIK3CA, RB1, CDKN2A/B, MDM2,\nMDM4, CDK4, and H3F3A [ 13,15,16,18]. Generally, the genetic abnormalities in GBM\nare characterized by three major biological processes: initiating tumor growth, evading\nsenescence, and enabling immortal growth [ 5,21]. Genetic defects in each of these three\nprocesses seem required for gliomagenesis through the key signaling pathways.\n3.2. Epigenetic Changes in GBM\n            Question: GBm\n            Only return the helpful answer below and nothing else.\n            Helpful answer:\n        "], 'frequency_penalty': 0.0, 'logit_bias': {}, 'max_tokens': 256, 'n': 1, 'presence_penalty': 0.0, 'temperature': 0.7, 'top_p': 1.0}}
+[ 2024-08-24 10:29:45,310 ] openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/completions
+[ 2024-08-24 10:29:45,310 ] httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+[ 2024-08-24 10:29:45,523 ] httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025D7C73D750>
+[ 2024-08-24 10:29:45,523 ] httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000025D7CBF57F0> server_hostname='api.openai.com' timeout=None
+[ 2024-08-24 10:29:46,319 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-24 10:29:46,321 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:29:46] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-24 10:29:46,327 ] root - INFO - Message is GBM
+[ 2024-08-24 10:29:46,327 ] chat_app - DEBUG - Entering rag_chain with query: GBM
+[ 2024-08-24 10:29:46,327 ] root - INFO - Query is GBM
+[ 2024-08-24 10:29:46,327 ] chat_app - DEBUG - PromptTemplate created
+[ 2024-08-24 10:29:46,327 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-24 10:29:46,327 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-24 10:29:46,597 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-24 10:29:46,597 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-24 10:29:46,867 ] chat_app - DEBUG - RetrievalQA created
+[ 2024-08-24 10:29:46,868 ] openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/embeddings', 'files': None, 'post_parser': <function Embeddings.create.<locals>.parser at 0x0000025D7D2ABC40>, 'json_data': {'input': [[5494, 44]], 'model': 'text-embedding-ada-002', 'encoding_format': 'base64'}}
+[ 2024-08-24 10:29:46,872 ] openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/embeddings
+[ 2024-08-24 10:29:46,872 ] httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+[ 2024-08-24 10:29:46,872 ] httpcore.http11 - DEBUG - send_request_headers.complete
+[ 2024-08-24 10:29:46,872 ] httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+[ 2024-08-24 10:29:46,872 ] httpcore.http11 - DEBUG - send_request_body.complete
+[ 2024-08-24 10:29:46,872 ] httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+[ 2024-08-24 10:29:47,329 ] httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025D7C73CE90>
+[ 2024-08-24 10:29:47,329 ] httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+[ 2024-08-24 10:29:47,329 ] httpcore.http11 - DEBUG - send_request_headers.complete
+[ 2024-08-24 10:29:47,329 ] httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+[ 2024-08-24 10:29:47,329 ] httpcore.http11 - DEBUG - send_request_body.complete
+[ 2024-08-24 10:29:47,329 ] httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+[ 2024-08-24 10:29:49,322 ] httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sat, 24 Aug 2024 04:59:51 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-model', b'text-embedding-ada-002'), (b'openai-organization', b'user-g4hromwdelqvif9h7gpua77n'), (b'openai-processing-ms', b'22'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'3000'), (b'x-ratelimit-limit-tokens', b'1000000'), (b'x-ratelimit-remaining-requests', b'2999'), (b'x-ratelimit-remaining-tokens', b'999998'), (b'x-ratelimit-reset-requests', b'20ms'), (b'x-ratelimit-reset-tokens', b'0s'), (b'x-request-id', b'req_0862dddb6233ddb099fd57af990add40'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8b80c67d8e853c3e-BOM'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+[ 2024-08-24 10:29:49,322 ] httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[ 2024-08-24 10:29:49,322 ] httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+[ 2024-08-24 10:29:49,545 ] httpcore.http11 - DEBUG - receive_response_body.complete
+[ 2024-08-24 10:29:49,545 ] httpcore.http11 - DEBUG - response_closed.started
+[ 2024-08-24 10:29:49,545 ] httpcore.http11 - DEBUG - response_closed.complete
+[ 2024-08-24 10:29:49,545 ] openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/embeddings "200 OK" Headers({'date': 'Sat, 24 Aug 2024 04:59:51 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-allow-origin': '*', 'access-control-expose-headers': 'X-Request-ID', 'openai-model': 'text-embedding-ada-002', 'openai-organization': 'user-g4hromwdelqvif9h7gpua77n', 'openai-processing-ms': '22', 'openai-version': '2020-10-01', 'strict-transport-security': 'max-age=15552000; includeSubDomains; preload', 'x-ratelimit-limit-requests': '3000', 'x-ratelimit-limit-tokens': '1000000', 'x-ratelimit-remaining-requests': '2999', 'x-ratelimit-remaining-tokens': '999998', 'x-ratelimit-reset-requests': '20ms', 'x-ratelimit-reset-tokens': '0s', 'x-request-id': 'req_0862dddb6233ddb099fd57af990add40', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '8b80c67d8e853c3e-BOM', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+[ 2024-08-24 10:29:49,545 ] openai._base_client - DEBUG - request_id: req_0862dddb6233ddb099fd57af990add40
+[ 2024-08-24 10:29:49,561 ] openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/completions', 'files': None, 'json_data': {'model': 'gpt-3.5-turbo-instruct', 'prompt': ["\n            Use the following pieces of information to answer the user's question.\n            If you don't know the answer, just say that you don't know, don't try to make up an answer.\n            Context: GBM immune in\ufb01ltrating cells include lymphocytes (tumor-in\ufb01ltrating lymphocytes, TILs), the key\nplayers of adaptive cellular immune defense, particularly CD8 +T cytotoxic (Tc) and CD4 +T helper (Th).\nApart from a long-term resident population of CD8+CD25+CD45RO+CD28+CD26L+CCR7+memory\nT cells, CD8+CD3+and CD4+CD3+TILs were described in GBM, especially in \ufb01brinogen-positive\nareas, where vessels are no longer watertight, and are positively associated with a longer clinical\n\nGBM can be further separated into two major classes: primary GBM and secondary\nGBM, with the majority being primary [ 5–7]. Primary GBM arises de novo with no known\nclinical precursor, and most occur in elderly adults (older than 50 years of age), while\nsecondary GBM is a result of progression from a pre-existing lower malignancy grade and\nusually affects younger patients. Primary and secondary GBM are morphologically indistin-\n\ning GBM, emphasizing the importance of molecular biomarkers in GBM pathological\ndiagnosis. Together with the new advances in technology or concept of GBM biologi-\ncal research, e.g., single-cell technology [ 24–27], deep learning-based multi-omics data\nexploration [ 28–30], novel 3D preclinical GBM models [ 31–33], and emphasis on tumor\nInt. J. Mol. Sci. 2024 ,25, 3040. https://doi.org/10.3390/ijms25053040 https://www.mdpi.com/journal/ijms\n\nAbstract: Glioblastoma multiforme (GBM) is the most common and malignant type of primary brain\ntumor in adults. Despite important advances in understanding the molecular pathogenesis and\nbiology of this tumor in the past decade, the prognosis for GBM patients remains poor. GBM is\ncharacterized by aggressive biological behavior and high degrees of inter-tumor and intra-tumor\nheterogeneity. Increased understanding of the molecular and cellular heterogeneity of GBM may not\n            Question: GBM\n            Only return the helpful answer below and nothing else.\n            Helpful answer:\n        "], 'frequency_penalty': 0.0, 'logit_bias': {}, 'max_tokens': 256, 'n': 1, 'presence_penalty': 0.0, 'temperature': 0.7, 'top_p': 1.0}}
+[ 2024-08-24 10:29:49,561 ] openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/completions
+[ 2024-08-24 10:29:49,561 ] httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+[ 2024-08-24 10:29:49,672 ] httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025D7D14D7D0>
+[ 2024-08-24 10:29:49,672 ] httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000025D7D1975C0> server_hostname='api.openai.com' timeout=None
+[ 2024-08-24 10:29:52,730 ] httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025D7D178490>
+[ 2024-08-24 10:29:52,730 ] httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+[ 2024-08-24 10:29:52,730 ] httpcore.http11 - DEBUG - send_request_headers.complete
+[ 2024-08-24 10:29:52,730 ] httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+[ 2024-08-24 10:29:52,730 ] httpcore.http11 - DEBUG - send_request_body.complete
+[ 2024-08-24 10:29:52,730 ] httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+[ 2024-08-24 10:30:14,613 ] httpcore.http11 - DEBUG - receive_response_headers.failed exception=RemoteProtocolError('Server disconnected without sending a response.')
+[ 2024-08-24 10:30:14,613 ] httpcore.http11 - DEBUG - response_closed.started
+[ 2024-08-24 10:30:14,613 ] httpcore.http11 - DEBUG - response_closed.complete
+[ 2024-08-24 10:30:14,613 ] openai._base_client - DEBUG - Encountered Exception
+Traceback (most recent call last):
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 69, in map_httpcore_exceptions
+    yield
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 233, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\connection_pool.py", line 216, in handle_request
+    raise exc from None
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\connection_pool.py", line 196, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\connection.py", line 101, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\http11.py", line 143, in handle_request
+    raise exc
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\http11.py", line 113, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\http11.py", line 186, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\http11.py", line 238, in _receive_event
+    raise RemoteProtocolError(msg)
+httpcore.RemoteProtocolError: Server disconnected without sending a response.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\VIVI_AI\yogo\Lib\site-packages\openai\_base_client.py", line 973, in _request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 1015, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 232, in handle_request
+    with map_httpcore_exceptions():
+  File "D:\VIVI_AI\yogo\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 86, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.RemoteProtocolError: Server disconnected without sending a response.
+[ 2024-08-24 10:30:14,615 ] openai._base_client - DEBUG - 1 retry left
+[ 2024-08-24 10:30:14,615 ] openai._base_client - INFO - Retrying request to /completions in 0.768737 seconds
+[ 2024-08-24 10:30:15,385 ] openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/completions', 'files': None, 'json_data': {'model': 'gpt-3.5-turbo-instruct', 'prompt': ["\n            Use the following pieces of information to answer the user's question.\n            If you don't know the answer, just say that you don't know, don't try to make up an answer.\n            Context: GBM immune in\ufb01ltrating cells include lymphocytes (tumor-in\ufb01ltrating lymphocytes, TILs), the key\nplayers of adaptive cellular immune defense, particularly CD8 +T cytotoxic (Tc) and CD4 +T helper (Th).\nApart from a long-term resident population of CD8+CD25+CD45RO+CD28+CD26L+CCR7+memory\nT cells, CD8+CD3+and CD4+CD3+TILs were described in GBM, especially in \ufb01brinogen-positive\nareas, where vessels are no longer watertight, and are positively associated with a longer clinical\n\nGBM can be further separated into two major classes: primary GBM and secondary\nGBM, with the majority being primary [ 5–7]. Primary GBM arises de novo with no known\nclinical precursor, and most occur in elderly adults (older than 50 years of age), while\nsecondary GBM is a result of progression from a pre-existing lower malignancy grade and\nusually affects younger patients. Primary and secondary GBM are morphologically indistin-\n\ning GBM, emphasizing the importance of molecular biomarkers in GBM pathological\ndiagnosis. Together with the new advances in technology or concept of GBM biologi-\ncal research, e.g., single-cell technology [ 24–27], deep learning-based multi-omics data\nexploration [ 28–30], novel 3D preclinical GBM models [ 31–33], and emphasis on tumor\nInt. J. Mol. Sci. 2024 ,25, 3040. https://doi.org/10.3390/ijms25053040 https://www.mdpi.com/journal/ijms\n\nAbstract: Glioblastoma multiforme (GBM) is the most common and malignant type of primary brain\ntumor in adults. Despite important advances in understanding the molecular pathogenesis and\nbiology of this tumor in the past decade, the prognosis for GBM patients remains poor. GBM is\ncharacterized by aggressive biological behavior and high degrees of inter-tumor and intra-tumor\nheterogeneity. Increased understanding of the molecular and cellular heterogeneity of GBM may not\n            Question: GBM\n            Only return the helpful answer below and nothing else.\n            Helpful answer:\n        "], 'frequency_penalty': 0.0, 'logit_bias': {}, 'max_tokens': 256, 'n': 1, 'presence_penalty': 0.0, 'temperature': 0.7, 'top_p': 1.0}}
+[ 2024-08-24 10:30:15,386 ] openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/completions
+[ 2024-08-24 10:30:15,387 ] httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+[ 2024-08-24 10:30:15,735 ] httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025D7D14DA50>
+[ 2024-08-24 10:30:15,735 ] httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000025D7D1975C0> server_hostname='api.openai.com' timeout=None
+[ 2024-08-24 10:30:16,924 ] httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025D7C73FA90>
+[ 2024-08-24 10:30:16,924 ] httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+[ 2024-08-24 10:30:16,924 ] httpcore.http11 - DEBUG - send_request_headers.complete
+[ 2024-08-24 10:30:16,924 ] httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+[ 2024-08-24 10:30:16,924 ] httpcore.http11 - DEBUG - send_request_body.complete
+[ 2024-08-24 10:30:16,924 ] httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+[ 2024-08-24 10:30:19,565 ] httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sat, 24 Aug 2024 05:00:21 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'access-control-expose-headers', b'X-Request-ID'), (b'Cache-Control', b'no-cache, must-revalidate'), (b'openai-model', b'gpt-3.5-turbo-instruct'), (b'openai-organization', b'user-g4hromwdelqvif9h7gpua77n'), (b'openai-processing-ms', b'750'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'3500'), (b'x-ratelimit-limit-tokens', b'90000'), (b'x-ratelimit-remaining-requests', b'3499'), (b'x-ratelimit-remaining-tokens', b'89199'), (b'x-ratelimit-reset-requests', b'17ms'), (b'x-ratelimit-reset-tokens', b'534ms'), (b'x-request-id', b'req_56dd7f3a332d138d3f00acc4c0acd555'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=PNfRQtEf14yGx6pPSpnXfpqzHyxVWyditM2776V.uBw-1724475621-1.0.1.1-sS_rNhJjjJzx8gnXuOgQe_WFQlYMHoNXgD2Lw8YFE2BCr4Xh9m0ivK6YorpOHLgKqreGcL8u_o60gvYqr4qKmA; path=/; expires=Sat, 24-Aug-24 05:30:21 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=Pu9OKXHmcjsE6nWETCmA7hY_eQjvCxIaMIPrGNk7_.M-1724475621894-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8b80c7347ea347e1-BOM'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+[ 2024-08-24 10:30:19,565 ] httpx - INFO - HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+[ 2024-08-24 10:30:19,565 ] httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+[ 2024-08-24 10:30:19,565 ] httpcore.http11 - DEBUG - receive_response_body.complete
+[ 2024-08-24 10:30:19,565 ] httpcore.http11 - DEBUG - response_closed.started
+[ 2024-08-24 10:30:19,565 ] httpcore.http11 - DEBUG - response_closed.complete
+[ 2024-08-24 10:30:19,565 ] openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/completions "200 OK" Headers([('date', 'Sat, 24 Aug 2024 05:00:21 GMT'), ('content-type', 'application/json'), ('transfer-encoding', 'chunked'), ('connection', 'keep-alive'), ('access-control-allow-origin', '*'), ('access-control-expose-headers', 'X-Request-ID'), ('cache-control', 'no-cache, must-revalidate'), ('openai-model', 'gpt-3.5-turbo-instruct'), ('openai-organization', 'user-g4hromwdelqvif9h7gpua77n'), ('openai-processing-ms', '750'), ('openai-version', '2020-10-01'), ('strict-transport-security', 'max-age=15552000; includeSubDomains; preload'), ('x-ratelimit-limit-requests', '3500'), ('x-ratelimit-limit-tokens', '90000'), ('x-ratelimit-remaining-requests', '3499'), ('x-ratelimit-remaining-tokens', '89199'), ('x-ratelimit-reset-requests', '17ms'), ('x-ratelimit-reset-tokens', '534ms'), ('x-request-id', 'req_56dd7f3a332d138d3f00acc4c0acd555'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=PNfRQtEf14yGx6pPSpnXfpqzHyxVWyditM2776V.uBw-1724475621-1.0.1.1-sS_rNhJjjJzx8gnXuOgQe_WFQlYMHoNXgD2Lw8YFE2BCr4Xh9m0ivK6YorpOHLgKqreGcL8u_o60gvYqr4qKmA; path=/; expires=Sat, 24-Aug-24 05:30:21 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=Pu9OKXHmcjsE6nWETCmA7hY_eQjvCxIaMIPrGNk7_.M-1724475621894-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '8b80c7347ea347e1-BOM'), ('content-encoding', 'gzip'), ('alt-svc', 'h3=":443"; ma=86400')])
+[ 2024-08-24 10:30:19,565 ] openai._base_client - DEBUG - request_id: req_56dd7f3a332d138d3f00acc4c0acd555
+[ 2024-08-24 10:30:19,596 ] root - INFO - Result is 
+GBM stands for Glioblastoma Multiforme, which is a type of primary brain tumor that is characterized by aggressive behavior and high heterogeneity. It can be further divided into two major classes, primary and secondary GBM, with primary GBM being more common in elderly adults and secondary GBM affecting younger patients. 
+[ 2024-08-24 10:30:19,596 ] chat_app - DEBUG - Query result: 
+GBM stands for Glioblastoma Multiforme, which is a type of primary brain tumor that is characterized by aggressive behavior and high heterogeneity. It can be further divided into two major classes, primary and secondary GBM, with primary GBM being more common in elderly adults and secondary GBM affecting younger patients. 
+[ 2024-08-24 10:30:19,596 ] root - INFO - LLM response is 
+GBM stands for Glioblastoma Multiforme, which is a type of primary brain tumor that is characterized by aggressive behavior and high heterogeneity. It can be further divided into two major classes, primary and secondary GBM, with primary GBM being more common in elderly adults and secondary GBM affecting younger patients. 
+[ 2024-08-24 10:30:19,598 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:30:19] "POST /get HTTP/1.1" 200 -
+[ 2024-08-24 10:30:19,606 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-24 10:30:19,612 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:30:19] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-24 10:30:21,191 ] urllib3.connectionpool - DEBUG - Starting new HTTPS connection (4): api.smith.langchain.com:443
+[ 2024-08-24 10:30:32,954 ] httpcore.http11 - DEBUG - receive_response_headers.failed exception=RemoteProtocolError('Server disconnected without sending a response.')
+[ 2024-08-24 10:30:32,954 ] httpcore.http11 - DEBUG - response_closed.started
+[ 2024-08-24 10:30:32,954 ] httpcore.http11 - DEBUG - response_closed.complete
+[ 2024-08-24 10:30:32,954 ] openai._base_client - DEBUG - Encountered Exception
+Traceback (most recent call last):
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 69, in map_httpcore_exceptions
+    yield
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 233, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\connection_pool.py", line 216, in handle_request
+    raise exc from None
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\connection_pool.py", line 196, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\connection.py", line 101, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\http11.py", line 143, in handle_request
+    raise exc
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\http11.py", line 113, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\http11.py", line 186, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\http11.py", line 238, in _receive_event
+    raise RemoteProtocolError(msg)
+httpcore.RemoteProtocolError: Server disconnected without sending a response.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\VIVI_AI\yogo\Lib\site-packages\openai\_base_client.py", line 973, in _request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 1015, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 232, in handle_request
+    with map_httpcore_exceptions():
+  File "D:\VIVI_AI\yogo\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 86, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.RemoteProtocolError: Server disconnected without sending a response.
+[ 2024-08-24 10:30:32,956 ] openai._base_client - DEBUG - 1 retry left
+[ 2024-08-24 10:30:32,956 ] openai._base_client - INFO - Retrying request to /completions in 0.996756 seconds
+[ 2024-08-24 10:30:33,957 ] openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/completions', 'files': None, 'json_data': {'model': 'gpt-3.5-turbo-instruct', 'prompt': ["\n            Use the following pieces of information to answer the user's question.\n            If you don't know the answer, just say that you don't know, don't try to make up an answer.\n            Context: ing GBM, emphasizing the importance of molecular biomarkers in GBM pathological\ndiagnosis. Together with the new advances in technology or concept of GBM biologi-\ncal research, e.g., single-cell technology [ 24–27], deep learning-based multi-omics data\nexploration [ 28–30], novel 3D preclinical GBM models [ 31–33], and emphasis on tumor\nInt. J. Mol. Sci. 2024 ,25, 3040. https://doi.org/10.3390/ijms25053040 https://www.mdpi.com/journal/ijms\n\nGBM immune in\ufb01ltrating cells include lymphocytes (tumor-in\ufb01ltrating lymphocytes, TILs), the key\nplayers of adaptive cellular immune defense, particularly CD8 +T cytotoxic (Tc) and CD4 +T helper (Th).\nApart from a long-term resident population of CD8+CD25+CD45RO+CD28+CD26L+CCR7+memory\nT cells, CD8+CD3+and CD4+CD3+TILs were described in GBM, especially in \ufb01brinogen-positive\nareas, where vessels are no longer watertight, and are positively associated with a longer clinical\n\nGBM 39691_at 1.80 AB007960 SH3GLB1: SH3-domain GRB2-like endophilin B1GBM 160039_at 5.57 NM_002747 MAPK4: mitogen-activated protein kinase 4\nGBM 35016_at 1.89 M13560 CD74: CD74 antigen (invariant polypeptide of major histocompatibility\ncomplex, class II antigen associated)\nGBM 38791_at 1.78 D29643 DDOST: dolichyl-diphosphooligosaccharide protein glycosyltransferase\nGBM 1395_at 2.10 L25081 ARHC: ras homologue gene family, member C\n\nInt. J. Mol. Sci. 2024 ,25, 3040 5 of 14\nreported in GBM include NF1, PDGFRA, PIK3R1, PIK3CA, RB1, CDKN2A/B, MDM2,\nMDM4, CDK4, and H3F3A [ 13,15,16,18]. Generally, the genetic abnormalities in GBM\nare characterized by three major biological processes: initiating tumor growth, evading\nsenescence, and enabling immortal growth [ 5,21]. Genetic defects in each of these three\nprocesses seem required for gliomagenesis through the key signaling pathways.\n3.2. Epigenetic Changes in GBM\n            Question: GBm\n            Only return the helpful answer below and nothing else.\n            Helpful answer:\n        "], 'frequency_penalty': 0.0, 'logit_bias': {}, 'max_tokens': 256, 'n': 1, 'presence_penalty': 0.0, 'temperature': 0.7, 'top_p': 1.0}}
+[ 2024-08-24 10:30:33,957 ] openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/completions
+[ 2024-08-24 10:30:33,957 ] httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+[ 2024-08-24 10:30:35,868 ] httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025D7D14C750>
+[ 2024-08-24 10:30:35,868 ] httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000025D7CBF57F0> server_hostname='api.openai.com' timeout=None
+[ 2024-08-24 10:30:42,206 ] httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025D7D14E410>
+[ 2024-08-24 10:30:42,206 ] httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+[ 2024-08-24 10:30:42,206 ] httpcore.http11 - DEBUG - send_request_headers.complete
+[ 2024-08-24 10:30:42,206 ] httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+[ 2024-08-24 10:30:42,206 ] httpcore.http11 - DEBUG - send_request_body.complete
+[ 2024-08-24 10:30:42,206 ] httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+[ 2024-08-24 10:30:45,538 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-24 10:30:45,538 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:30:45] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-24 10:30:45,540 ] root - INFO - Message is hey
+[ 2024-08-24 10:30:45,540 ] chat_app - DEBUG - Entering rag_chain with query: hey
+[ 2024-08-24 10:30:45,541 ] root - INFO - Query is hey
+[ 2024-08-24 10:30:45,541 ] chat_app - DEBUG - PromptTemplate created
+[ 2024-08-24 10:30:45,544 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-24 10:30:45,544 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-24 10:30:45,793 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-24 10:30:45,793 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-24 10:30:46,094 ] chat_app - DEBUG - RetrievalQA created
+[ 2024-08-24 10:30:46,112 ] openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/embeddings', 'files': None, 'post_parser': <function Embeddings.create.<locals>.parser at 0x0000025D7D1287C0>, 'json_data': {'input': [[36661]], 'model': 'text-embedding-ada-002', 'encoding_format': 'base64'}}
+[ 2024-08-24 10:30:46,112 ] openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/embeddings
+[ 2024-08-24 10:30:46,112 ] httpcore.connection - DEBUG - close.started
+[ 2024-08-24 10:30:46,112 ] httpcore.connection - DEBUG - close.complete
+[ 2024-08-24 10:30:46,112 ] httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+[ 2024-08-24 10:30:47,635 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-24 10:30:47,635 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:30:47] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-24 10:30:48,103 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-24 10:30:48,103 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:30:48] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-24 10:30:49,046 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-24 10:30:49,046 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:30:49] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-24 10:30:52,469 ] httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025D7D127950>
+[ 2024-08-24 10:30:52,469 ] httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000025D48EFE3C0> server_hostname='api.openai.com' timeout=None
+[ 2024-08-24 10:30:53,363 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-24 10:30:53,365 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:30:53] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-24 10:30:53,368 ] root - INFO - Message is Hey
+[ 2024-08-24 10:30:53,369 ] chat_app - DEBUG - Entering rag_chain with query: Hey
+[ 2024-08-24 10:30:53,369 ] root - INFO - Query is Hey
+[ 2024-08-24 10:30:53,369 ] chat_app - DEBUG - PromptTemplate created
+[ 2024-08-24 10:30:53,374 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-24 10:30:53,375 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-24 10:30:53,661 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-24 10:30:53,665 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-24 10:30:53,898 ] httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025D7D123BD0>
+[ 2024-08-24 10:30:53,898 ] httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+[ 2024-08-24 10:30:53,898 ] httpcore.http11 - DEBUG - send_request_headers.complete
+[ 2024-08-24 10:30:53,898 ] httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+[ 2024-08-24 10:30:53,898 ] httpcore.http11 - DEBUG - send_request_body.complete
+[ 2024-08-24 10:30:53,898 ] httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+[ 2024-08-24 10:30:53,944 ] chat_app - DEBUG - RetrievalQA created
+[ 2024-08-24 10:30:53,952 ] openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/embeddings', 'files': None, 'post_parser': <function Embeddings.create.<locals>.parser at 0x0000025D7D0FC860>, 'json_data': {'input': [[19182]], 'model': 'text-embedding-ada-002', 'encoding_format': 'base64'}}
+[ 2024-08-24 10:30:53,952 ] openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/embeddings
+[ 2024-08-24 10:30:53,952 ] httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+[ 2024-08-24 10:30:54,045 ] httpcore.connection - DEBUG - close.started
+[ 2024-08-24 10:30:54,046 ] httpcore.connection - DEBUG - close.complete
+[ 2024-08-24 10:30:54,380 ] httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025D7CA6B390>
+[ 2024-08-24 10:30:54,380 ] httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000025D48EFE3C0> server_hostname='api.openai.com' timeout=None
+[ 2024-08-24 10:31:00,030 ] httpcore.http11 - DEBUG - receive_response_headers.failed exception=RemoteProtocolError('Server disconnected without sending a response.')
+[ 2024-08-24 10:31:00,030 ] httpcore.http11 - DEBUG - response_closed.started
+[ 2024-08-24 10:31:00,030 ] httpcore.http11 - DEBUG - response_closed.complete
+[ 2024-08-24 10:31:00,030 ] openai._base_client - DEBUG - Encountered Exception
+Traceback (most recent call last):
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 69, in map_httpcore_exceptions
+    yield
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 233, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\connection_pool.py", line 216, in handle_request
+    raise exc from None
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\connection_pool.py", line 196, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\connection.py", line 101, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\http11.py", line 143, in handle_request
+    raise exc
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\http11.py", line 113, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\http11.py", line 186, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\http11.py", line 238, in _receive_event
+    raise RemoteProtocolError(msg)
+httpcore.RemoteProtocolError: Server disconnected without sending a response.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\VIVI_AI\yogo\Lib\site-packages\openai\_base_client.py", line 973, in _request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 1015, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 232, in handle_request
+    with map_httpcore_exceptions():
+  File "D:\VIVI_AI\yogo\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 86, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.RemoteProtocolError: Server disconnected without sending a response.
+[ 2024-08-24 10:31:00,030 ] openai._base_client - DEBUG - 0 retries left
+[ 2024-08-24 10:31:00,030 ] openai._base_client - INFO - Retrying request to /completions in 1.934064 seconds
+[ 2024-08-24 10:31:01,972 ] openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/completions', 'files': None, 'json_data': {'model': 'gpt-3.5-turbo-instruct', 'prompt': ["\n            Use the following pieces of information to answer the user's question.\n            If you don't know the answer, just say that you don't know, don't try to make up an answer.\n            Context: ing GBM, emphasizing the importance of molecular biomarkers in GBM pathological\ndiagnosis. Together with the new advances in technology or concept of GBM biologi-\ncal research, e.g., single-cell technology [ 24–27], deep learning-based multi-omics data\nexploration [ 28–30], novel 3D preclinical GBM models [ 31–33], and emphasis on tumor\nInt. J. Mol. Sci. 2024 ,25, 3040. https://doi.org/10.3390/ijms25053040 https://www.mdpi.com/journal/ijms\n\nGBM immune in\ufb01ltrating cells include lymphocytes (tumor-in\ufb01ltrating lymphocytes, TILs), the key\nplayers of adaptive cellular immune defense, particularly CD8 +T cytotoxic (Tc) and CD4 +T helper (Th).\nApart from a long-term resident population of CD8+CD25+CD45RO+CD28+CD26L+CCR7+memory\nT cells, CD8+CD3+and CD4+CD3+TILs were described in GBM, especially in \ufb01brinogen-positive\nareas, where vessels are no longer watertight, and are positively associated with a longer clinical\n\nGBM 39691_at 1.80 AB007960 SH3GLB1: SH3-domain GRB2-like endophilin B1GBM 160039_at 5.57 NM_002747 MAPK4: mitogen-activated protein kinase 4\nGBM 35016_at 1.89 M13560 CD74: CD74 antigen (invariant polypeptide of major histocompatibility\ncomplex, class II antigen associated)\nGBM 38791_at 1.78 D29643 DDOST: dolichyl-diphosphooligosaccharide protein glycosyltransferase\nGBM 1395_at 2.10 L25081 ARHC: ras homologue gene family, member C\n\nInt. J. Mol. Sci. 2024 ,25, 3040 5 of 14\nreported in GBM include NF1, PDGFRA, PIK3R1, PIK3CA, RB1, CDKN2A/B, MDM2,\nMDM4, CDK4, and H3F3A [ 13,15,16,18]. Generally, the genetic abnormalities in GBM\nare characterized by three major biological processes: initiating tumor growth, evading\nsenescence, and enabling immortal growth [ 5,21]. Genetic defects in each of these three\nprocesses seem required for gliomagenesis through the key signaling pathways.\n3.2. Epigenetic Changes in GBM\n            Question: GBm\n            Only return the helpful answer below and nothing else.\n            Helpful answer:\n        "], 'frequency_penalty': 0.0, 'logit_bias': {}, 'max_tokens': 256, 'n': 1, 'presence_penalty': 0.0, 'temperature': 0.7, 'top_p': 1.0}}
+[ 2024-08-24 10:31:01,972 ] openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/completions
+[ 2024-08-24 10:31:01,972 ] httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+[ 2024-08-24 10:31:02,270 ] httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025D7D316150>
+[ 2024-08-24 10:31:02,270 ] httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000025D7CBF57F0> server_hostname='api.openai.com' timeout=None
+[ 2024-08-24 10:31:05,375 ] urllib3.connectionpool - DEBUG - Starting new HTTPS connection (5): api.smith.langchain.com:443
+[ 2024-08-24 10:31:05,905 ] httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025D7C270910>
+[ 2024-08-24 10:31:05,905 ] httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+[ 2024-08-24 10:31:05,905 ] httpcore.http11 - DEBUG - send_request_headers.complete
+[ 2024-08-24 10:31:05,905 ] httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+[ 2024-08-24 10:31:05,905 ] httpcore.http11 - DEBUG - send_request_body.complete
+[ 2024-08-24 10:31:05,905 ] httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+[ 2024-08-24 10:31:07,609 ] httpcore.http11 - DEBUG - receive_response_headers.failed exception=RemoteProtocolError('Server disconnected without sending a response.')
+[ 2024-08-24 10:31:07,609 ] httpcore.http11 - DEBUG - response_closed.started
+[ 2024-08-24 10:31:07,609 ] httpcore.http11 - DEBUG - response_closed.complete
+[ 2024-08-24 10:31:07,609 ] openai._base_client - DEBUG - Encountered Exception
+Traceback (most recent call last):
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 69, in map_httpcore_exceptions
+    yield
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 233, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\connection_pool.py", line 216, in handle_request
+    raise exc from None
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\connection_pool.py", line 196, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\connection.py", line 101, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\http11.py", line 143, in handle_request
+    raise exc
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\http11.py", line 113, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\http11.py", line 186, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\http11.py", line 238, in _receive_event
+    raise RemoteProtocolError(msg)
+httpcore.RemoteProtocolError: Server disconnected without sending a response.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\VIVI_AI\yogo\Lib\site-packages\openai\_base_client.py", line 973, in _request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 1015, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 232, in handle_request
+    with map_httpcore_exceptions():
+  File "D:\VIVI_AI\yogo\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 86, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.RemoteProtocolError: Server disconnected without sending a response.
+[ 2024-08-24 10:31:07,609 ] openai._base_client - DEBUG - 1 retry left
+[ 2024-08-24 10:31:07,609 ] openai._base_client - INFO - Retrying request to /embeddings in 0.774271 seconds
+[ 2024-08-24 10:31:08,398 ] openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/embeddings', 'files': None, 'post_parser': <function Embeddings.create.<locals>.parser at 0x0000025D7D1287C0>, 'json_data': {'input': [[36661]], 'model': 'text-embedding-ada-002', 'encoding_format': 'base64'}}
+[ 2024-08-24 10:31:08,398 ] openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/embeddings
+[ 2024-08-24 10:31:08,398 ] httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+[ 2024-08-24 10:31:08,713 ] httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025D7CAF7C10>
+[ 2024-08-24 10:31:08,713 ] httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000025D48EFE3C0> server_hostname='api.openai.com' timeout=None
+[ 2024-08-24 10:31:09,535 ] httpcore.http11 - DEBUG - receive_response_headers.failed exception=RemoteProtocolError('Server disconnected without sending a response.')
+[ 2024-08-24 10:31:09,535 ] httpcore.http11 - DEBUG - response_closed.started
+[ 2024-08-24 10:31:09,535 ] httpcore.http11 - DEBUG - response_closed.complete
+[ 2024-08-24 10:31:09,535 ] openai._base_client - DEBUG - Encountered Exception
+Traceback (most recent call last):
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 69, in map_httpcore_exceptions
+    yield
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 233, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\connection_pool.py", line 216, in handle_request
+    raise exc from None
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\connection_pool.py", line 196, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\connection.py", line 101, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\http11.py", line 143, in handle_request
+    raise exc
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\http11.py", line 113, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\http11.py", line 186, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\http11.py", line 238, in _receive_event
+    raise RemoteProtocolError(msg)
+httpcore.RemoteProtocolError: Server disconnected without sending a response.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\VIVI_AI\yogo\Lib\site-packages\openai\_base_client.py", line 973, in _request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 1015, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 232, in handle_request
+    with map_httpcore_exceptions():
+  File "D:\VIVI_AI\yogo\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 86, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.RemoteProtocolError: Server disconnected without sending a response.
+[ 2024-08-24 10:31:09,535 ] openai._base_client - DEBUG - 1 retry left
+[ 2024-08-24 10:31:09,535 ] openai._base_client - INFO - Retrying request to /embeddings in 0.925138 seconds
+[ 2024-08-24 10:31:10,471 ] openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/embeddings', 'files': None, 'post_parser': <function Embeddings.create.<locals>.parser at 0x0000025D7D0FC860>, 'json_data': {'input': [[19182]], 'model': 'text-embedding-ada-002', 'encoding_format': 'base64'}}
+[ 2024-08-24 10:31:10,471 ] openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/embeddings
+[ 2024-08-24 10:31:10,471 ] httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+[ 2024-08-24 10:31:10,939 ] httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025D7D331690>
+[ 2024-08-24 10:31:10,939 ] httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000025D48EFE3C0> server_hostname='api.openai.com' timeout=None
+[ 2024-08-24 10:31:11,223 ] httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025D7D34DA90>
+[ 2024-08-24 10:31:11,223 ] httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+[ 2024-08-24 10:31:11,223 ] httpcore.http11 - DEBUG - send_request_headers.complete
+[ 2024-08-24 10:31:11,223 ] httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+[ 2024-08-24 10:31:11,223 ] httpcore.http11 - DEBUG - send_request_body.complete
+[ 2024-08-24 10:31:11,223 ] httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+[ 2024-08-24 10:31:24,838 ] httpcore.http11 - DEBUG - receive_response_headers.failed exception=RemoteProtocolError('Server disconnected without sending a response.')
+[ 2024-08-24 10:31:24,838 ] httpcore.http11 - DEBUG - response_closed.started
+[ 2024-08-24 10:31:24,838 ] httpcore.http11 - DEBUG - response_closed.complete
+[ 2024-08-24 10:31:24,838 ] openai._base_client - DEBUG - Encountered Exception
+Traceback (most recent call last):
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 69, in map_httpcore_exceptions
+    yield
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 233, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\connection_pool.py", line 216, in handle_request
+    raise exc from None
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\connection_pool.py", line 196, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\connection.py", line 101, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\http11.py", line 143, in handle_request
+    raise exc
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\http11.py", line 113, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\http11.py", line 186, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\http11.py", line 238, in _receive_event
+    raise RemoteProtocolError(msg)
+httpcore.RemoteProtocolError: Server disconnected without sending a response.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\VIVI_AI\yogo\Lib\site-packages\openai\_base_client.py", line 973, in _request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 1015, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 232, in handle_request
+    with map_httpcore_exceptions():
+  File "D:\VIVI_AI\yogo\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 86, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.RemoteProtocolError: Server disconnected without sending a response.
+[ 2024-08-24 10:31:24,845 ] openai._base_client - DEBUG - 0 retries left
+[ 2024-08-24 10:31:24,845 ] openai._base_client - INFO - Retrying request to /embeddings in 1.594770 seconds
+[ 2024-08-24 10:31:24,959 ] httpcore.connection - DEBUG - start_tls.failed exception=ConnectError(ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+[ 2024-08-24 10:31:24,959 ] openai._base_client - DEBUG - Encountered Exception
+Traceback (most recent call last):
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 69, in map_httpcore_exceptions
+    yield
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 233, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\connection_pool.py", line 216, in handle_request
+    raise exc from None
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\connection_pool.py", line 196, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\connection.py", line 99, in handle_request
+    raise exc
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\connection.py", line 76, in handle_request
+    stream = self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\connection.py", line 154, in _connect
+    stream = stream.start_tls(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_backends\sync.py", line 152, in start_tls
+    with map_exceptions(exc_map):
+  File "D:\VIVI_AI\yogo\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\VIVI_AI\yogo\Lib\site-packages\openai\_base_client.py", line 973, in _request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 1015, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 232, in handle_request
+    with map_httpcore_exceptions():
+  File "D:\VIVI_AI\yogo\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 86, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [WinError 10054] An existing connection was forcibly closed by the remote host
+[ 2024-08-24 10:31:24,993 ] openai._base_client - DEBUG - Raising connection error
+[ 2024-08-24 10:31:25,007 ] chat_app - ERROR - Error in rag_chain: Connection error.
+[ 2024-08-24 10:31:25,007 ] chat_app - ERROR - Error in chat route: Connection error.
+[ 2024-08-24 10:31:25,007 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:31:25] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-24 10:31:25,021 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-24 10:31:25,021 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:31:25] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-24 10:31:26,226 ] httpcore.connection - DEBUG - start_tls.failed exception=ConnectError(SSLZeroReturnError(6, 'TLS/SSL connection has been closed (EOF) (_ssl.c:992)'))
+[ 2024-08-24 10:31:26,226 ] openai._base_client - DEBUG - Encountered Exception
+Traceback (most recent call last):
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 69, in map_httpcore_exceptions
+    yield
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 233, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\connection_pool.py", line 216, in handle_request
+    raise exc from None
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\connection_pool.py", line 196, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\connection.py", line 99, in handle_request
+    raise exc
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\connection.py", line 76, in handle_request
+    stream = self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\connection.py", line 154, in _connect
+    stream = stream.start_tls(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_backends\sync.py", line 152, in start_tls
+    with map_exceptions(exc_map):
+  File "D:\VIVI_AI\yogo\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: TLS/SSL connection has been closed (EOF) (_ssl.c:992)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\VIVI_AI\yogo\Lib\site-packages\openai\_base_client.py", line 973, in _request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 1015, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 232, in handle_request
+    with map_httpcore_exceptions():
+  File "D:\VIVI_AI\yogo\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 86, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: TLS/SSL connection has been closed (EOF) (_ssl.c:992)
+[ 2024-08-24 10:31:26,232 ] openai._base_client - DEBUG - 0 retries left
+[ 2024-08-24 10:31:26,232 ] openai._base_client - INFO - Retrying request to /embeddings in 1.909517 seconds
+[ 2024-08-24 10:31:26,441 ] openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/embeddings', 'files': None, 'post_parser': <function Embeddings.create.<locals>.parser at 0x0000025D7D1287C0>, 'json_data': {'input': [[36661]], 'model': 'text-embedding-ada-002', 'encoding_format': 'base64'}}
+[ 2024-08-24 10:31:26,441 ] openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/embeddings
+[ 2024-08-24 10:31:26,443 ] httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+[ 2024-08-24 10:31:26,573 ] httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025D7CC79210>
+[ 2024-08-24 10:31:26,573 ] httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000025D48EFE3C0> server_hostname='api.openai.com' timeout=None
+[ 2024-08-24 10:31:28,146 ] openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/embeddings', 'files': None, 'post_parser': <function Embeddings.create.<locals>.parser at 0x0000025D7D0FC860>, 'json_data': {'input': [[19182]], 'model': 'text-embedding-ada-002', 'encoding_format': 'base64'}}
+[ 2024-08-24 10:31:28,146 ] openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/embeddings
+[ 2024-08-24 10:31:28,146 ] httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+[ 2024-08-24 10:31:28,450 ] httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025D7D155990>
+[ 2024-08-24 10:31:28,450 ] httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+[ 2024-08-24 10:31:28,452 ] httpcore.http11 - DEBUG - send_request_headers.complete
+[ 2024-08-24 10:31:28,452 ] httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+[ 2024-08-24 10:31:28,452 ] httpcore.http11 - DEBUG - send_request_body.complete
+[ 2024-08-24 10:31:28,452 ] httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+[ 2024-08-24 10:31:29,036 ] httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025D7D327B50>
+[ 2024-08-24 10:31:29,036 ] httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000025D48EFE3C0> server_hostname='api.openai.com' timeout=None
+[ 2024-08-24 10:31:30,228 ] httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sat, 24 Aug 2024 05:01:32 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-model', b'text-embedding-ada-002'), (b'openai-organization', b'user-g4hromwdelqvif9h7gpua77n'), (b'openai-processing-ms', b'20'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'3000'), (b'x-ratelimit-limit-tokens', b'1000000'), (b'x-ratelimit-remaining-requests', b'2999'), (b'x-ratelimit-remaining-tokens', b'999998'), (b'x-ratelimit-reset-requests', b'20ms'), (b'x-ratelimit-reset-tokens', b'0s'), (b'x-request-id', b'req_20b801215de980349bd51f6e4ff897e5'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8b80c8f55f77f446-BOM'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+[ 2024-08-24 10:31:30,243 ] httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[ 2024-08-24 10:31:30,243 ] httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+[ 2024-08-24 10:31:30,260 ] httpcore.http11 - DEBUG - receive_response_body.complete
+[ 2024-08-24 10:31:30,260 ] httpcore.http11 - DEBUG - response_closed.started
+[ 2024-08-24 10:31:30,260 ] httpcore.http11 - DEBUG - response_closed.complete
+[ 2024-08-24 10:31:30,260 ] openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/embeddings "200 OK" Headers({'date': 'Sat, 24 Aug 2024 05:01:32 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-allow-origin': '*', 'access-control-expose-headers': 'X-Request-ID', 'openai-model': 'text-embedding-ada-002', 'openai-organization': 'user-g4hromwdelqvif9h7gpua77n', 'openai-processing-ms': '20', 'openai-version': '2020-10-01', 'strict-transport-security': 'max-age=15552000; includeSubDomains; preload', 'x-ratelimit-limit-requests': '3000', 'x-ratelimit-limit-tokens': '1000000', 'x-ratelimit-remaining-requests': '2999', 'x-ratelimit-remaining-tokens': '999998', 'x-ratelimit-reset-requests': '20ms', 'x-ratelimit-reset-tokens': '0s', 'x-request-id': 'req_20b801215de980349bd51f6e4ff897e5', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '8b80c8f55f77f446-BOM', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+[ 2024-08-24 10:31:30,260 ] openai._base_client - DEBUG - request_id: req_20b801215de980349bd51f6e4ff897e5
+[ 2024-08-24 10:31:30,278 ] openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/completions', 'files': None, 'json_data': {'model': 'gpt-3.5-turbo-instruct', 'prompt': ["\n            Use the following pieces of information to answer the user's question.\n            If you don't know the answer, just say that you don't know, don't try to make up an answer.\n            Context: tions.\n 4\n\nalso does happen).\n\nhave to step in to watch your loved one while you are on R&R.\n\nISBN 978-0-9899740-4-2\n            Question: hey\n            Only return the helpful answer below and nothing else.\n            Helpful answer:\n        "], 'frequency_penalty': 0.0, 'logit_bias': {}, 'max_tokens': 256, 'n': 1, 'presence_penalty': 0.0, 'temperature': 0.7, 'top_p': 1.0}}
+[ 2024-08-24 10:31:30,278 ] openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/completions
+[ 2024-08-24 10:31:30,278 ] httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+[ 2024-08-24 10:31:30,378 ] httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025D7CB5C350>
+[ 2024-08-24 10:31:30,378 ] httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000025D7D1972F0> server_hostname='api.openai.com' timeout=None
+[ 2024-08-24 10:31:30,461 ] httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025D7D327950>
+[ 2024-08-24 10:31:30,461 ] httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+[ 2024-08-24 10:31:30,466 ] httpcore.http11 - DEBUG - send_request_headers.complete
+[ 2024-08-24 10:31:30,467 ] httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+[ 2024-08-24 10:31:30,467 ] httpcore.http11 - DEBUG - send_request_body.complete
+[ 2024-08-24 10:31:30,467 ] httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+[ 2024-08-24 10:31:31,022 ] langsmith.client - WARNING - Failed to batch ingest runs: LangSmithConnectionError("Connection error caused failure to POST https://api.smith.langchain.com/runs/batch  in LangSmith API. Please confirm your internet connection.. ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))")
+[ 2024-08-24 10:31:31,102 ] urllib3.connectionpool - DEBUG - Starting new HTTPS connection (6): api.smith.langchain.com:443
+[ 2024-08-24 10:31:31,678 ] httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025D7C2B37D0>
+[ 2024-08-24 10:31:31,678 ] httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+[ 2024-08-24 10:31:31,688 ] httpcore.http11 - DEBUG - send_request_headers.complete
+[ 2024-08-24 10:31:31,688 ] httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+[ 2024-08-24 10:31:31,688 ] httpcore.http11 - DEBUG - send_request_body.complete
+[ 2024-08-24 10:31:31,691 ] httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+[ 2024-08-24 10:31:32,259 ] httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sat, 24 Aug 2024 05:01:34 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-model', b'text-embedding-ada-002'), (b'openai-organization', b'user-g4hromwdelqvif9h7gpua77n'), (b'openai-processing-ms', b'23'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'3000'), (b'x-ratelimit-limit-tokens', b'1000000'), (b'x-ratelimit-remaining-requests', b'2999'), (b'x-ratelimit-remaining-tokens', b'999998'), (b'x-ratelimit-reset-requests', b'20ms'), (b'x-ratelimit-reset-tokens', b'0s'), (b'x-request-id', b'req_fa1c8777c1986dbe3a80322fb4d54afe'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8b80c9012e593f05-BOM'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+[ 2024-08-24 10:31:32,259 ] httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[ 2024-08-24 10:31:32,259 ] httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+[ 2024-08-24 10:31:32,290 ] httpcore.http11 - DEBUG - receive_response_body.complete
+[ 2024-08-24 10:31:32,290 ] httpcore.http11 - DEBUG - response_closed.started
+[ 2024-08-24 10:31:32,290 ] httpcore.http11 - DEBUG - response_closed.complete
+[ 2024-08-24 10:31:32,290 ] openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/embeddings "200 OK" Headers({'date': 'Sat, 24 Aug 2024 05:01:34 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-allow-origin': '*', 'access-control-expose-headers': 'X-Request-ID', 'openai-model': 'text-embedding-ada-002', 'openai-organization': 'user-g4hromwdelqvif9h7gpua77n', 'openai-processing-ms': '23', 'openai-version': '2020-10-01', 'strict-transport-security': 'max-age=15552000; includeSubDomains; preload', 'x-ratelimit-limit-requests': '3000', 'x-ratelimit-limit-tokens': '1000000', 'x-ratelimit-remaining-requests': '2999', 'x-ratelimit-remaining-tokens': '999998', 'x-ratelimit-reset-requests': '20ms', 'x-ratelimit-reset-tokens': '0s', 'x-request-id': 'req_fa1c8777c1986dbe3a80322fb4d54afe', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '8b80c9012e593f05-BOM', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+[ 2024-08-24 10:31:32,290 ] openai._base_client - DEBUG - request_id: req_fa1c8777c1986dbe3a80322fb4d54afe
+[ 2024-08-24 10:31:32,311 ] openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/completions', 'files': None, 'json_data': {'model': 'gpt-3.5-turbo-instruct', 'prompt': ["\n            Use the following pieces of information to answer the user's question.\n            If you don't know the answer, just say that you don't know, don't try to make up an answer.\n            Context: ISBN 978-0-9899740-4-2\n\ntions.\n 4\n\nIt felt like a new future was unfolding in front of me. My girlfriend moved in with me, I \nstarted fundraising and training for a run, and I became a student again registering for \ncourses in immunology and in bioethics at the local university. My fundraising led to the \nopportunity to do a marathon in Iceland. I used to be quite a runner and had done many \nhalf-marathons but I thought I’d see if I could do a full one.\n\nhave to step in to watch your loved one while you are on R&R.\n            Question: Hey\n            Only return the helpful answer below and nothing else.\n            Helpful answer:\n        "], 'frequency_penalty': 0.0, 'logit_bias': {}, 'max_tokens': 256, 'n': 1, 'presence_penalty': 0.0, 'temperature': 0.7, 'top_p': 1.0}}
+[ 2024-08-24 10:31:32,311 ] openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/completions
+[ 2024-08-24 10:31:32,311 ] httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+[ 2024-08-24 10:31:32,558 ] httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025D7D315B50>
+[ 2024-08-24 10:31:32,558 ] httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000025D7D197DA0> server_hostname='api.openai.com' timeout=None
+[ 2024-08-24 10:31:33,990 ] httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sat, 24 Aug 2024 05:01:36 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'access-control-expose-headers', b'X-Request-ID'), (b'Cache-Control', b'no-cache, must-revalidate'), (b'openai-model', b'gpt-3.5-turbo-instruct'), (b'openai-organization', b'user-g4hromwdelqvif9h7gpua77n'), (b'openai-processing-ms', b'365'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'3500'), (b'x-ratelimit-limit-tokens', b'90000'), (b'x-ratelimit-remaining-requests', b'3499'), (b'x-ratelimit-remaining-tokens', b'89631'), (b'x-ratelimit-reset-requests', b'17ms'), (b'x-ratelimit-reset-tokens', b'246ms'), (b'x-request-id', b'req_ff18854ee83a43c70894a72f132c1a75'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=fFfoGK.vqXUTUn5nbyHq2WC6b9vX7BQ97LU9zHdhIkM-1724475696-1.0.1.1-d65f8monnhRyHuTuOvWuK.pjUvBc9jIAiqzaQapsxIqY4T8pdNoqbdDzZsgcEyayYWn7nK3_zmyp3L3LkPf1NQ; path=/; expires=Sat, 24-Aug-24 05:31:36 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=ZuA6.ul2RDCmxtJyVEx8aa.O7iicCfQwyTDznGlCtZ0-1724475696416-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8b80c90a1e6a1bfc-BOM'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+[ 2024-08-24 10:31:33,990 ] httpx - INFO - HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+[ 2024-08-24 10:31:34,004 ] httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+[ 2024-08-24 10:31:34,004 ] httpcore.http11 - DEBUG - receive_response_body.complete
+[ 2024-08-24 10:31:34,004 ] httpcore.http11 - DEBUG - response_closed.started
+[ 2024-08-24 10:31:34,004 ] httpcore.http11 - DEBUG - response_closed.complete
+[ 2024-08-24 10:31:34,004 ] openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/completions "200 OK" Headers([('date', 'Sat, 24 Aug 2024 05:01:36 GMT'), ('content-type', 'application/json'), ('transfer-encoding', 'chunked'), ('connection', 'keep-alive'), ('access-control-allow-origin', '*'), ('access-control-expose-headers', 'X-Request-ID'), ('cache-control', 'no-cache, must-revalidate'), ('openai-model', 'gpt-3.5-turbo-instruct'), ('openai-organization', 'user-g4hromwdelqvif9h7gpua77n'), ('openai-processing-ms', '365'), ('openai-version', '2020-10-01'), ('strict-transport-security', 'max-age=15552000; includeSubDomains; preload'), ('x-ratelimit-limit-requests', '3500'), ('x-ratelimit-limit-tokens', '90000'), ('x-ratelimit-remaining-requests', '3499'), ('x-ratelimit-remaining-tokens', '89631'), ('x-ratelimit-reset-requests', '17ms'), ('x-ratelimit-reset-tokens', '246ms'), ('x-request-id', 'req_ff18854ee83a43c70894a72f132c1a75'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=fFfoGK.vqXUTUn5nbyHq2WC6b9vX7BQ97LU9zHdhIkM-1724475696-1.0.1.1-d65f8monnhRyHuTuOvWuK.pjUvBc9jIAiqzaQapsxIqY4T8pdNoqbdDzZsgcEyayYWn7nK3_zmyp3L3LkPf1NQ; path=/; expires=Sat, 24-Aug-24 05:31:36 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=ZuA6.ul2RDCmxtJyVEx8aa.O7iicCfQwyTDznGlCtZ0-1724475696416-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '8b80c90a1e6a1bfc-BOM'), ('content-encoding', 'gzip'), ('alt-svc', 'h3=":443"; ma=86400')])
+[ 2024-08-24 10:31:34,004 ] openai._base_client - DEBUG - request_id: req_ff18854ee83a43c70894a72f132c1a75
+[ 2024-08-24 10:31:34,006 ] root - INFO - Result is 
+            I'm sorry, I don't know what you need help with. Could you please ask a specific question about R&R and loved ones?
+[ 2024-08-24 10:31:34,006 ] chat_app - DEBUG - Query result: 
+            I'm sorry, I don't know what you need help with. Could you please ask a specific question about R&R and loved ones?
+[ 2024-08-24 10:31:34,006 ] root - INFO - LLM response is 
+            I'm sorry, I don't know what you need help with. Could you please ask a specific question about R&R and loved ones?
+[ 2024-08-24 10:31:34,006 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:31:34] "POST /get HTTP/1.1" 200 -
+[ 2024-08-24 10:31:34,022 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-24 10:31:34,022 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:31:34] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-24 10:31:34,815 ] httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025D7D122690>
+[ 2024-08-24 10:31:34,815 ] httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+[ 2024-08-24 10:31:34,815 ] httpcore.http11 - DEBUG - send_request_headers.complete
+[ 2024-08-24 10:31:34,815 ] httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+[ 2024-08-24 10:31:34,819 ] httpcore.http11 - DEBUG - send_request_body.complete
+[ 2024-08-24 10:31:34,819 ] httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+[ 2024-08-24 10:31:44,106 ] urllib3.connectionpool - DEBUG - Starting new HTTPS connection (7): api.smith.langchain.com:443
+[ 2024-08-24 10:31:50,489 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-24 10:31:50,492 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:31:50] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-24 10:31:53,321 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:31:53] "[32mGET /logout HTTP/1.1[0m" 302 -
+[ 2024-08-24 10:31:53,369 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-24 10:31:53,369 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:31:53] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-24 10:31:53,386 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:31:53] "GET /login HTTP/1.1" 200 -
+[ 2024-08-24 10:31:53,435 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:31:53] "[36mGET /static/loginform.css HTTP/1.1[0m" 304 -
+[ 2024-08-24 10:31:53,443 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 10:31:53] "[36mGET /static/google.png HTTP/1.1[0m" 304 -
+[ 2024-08-24 10:31:55,411 ] httpcore.http11 - DEBUG - receive_response_headers.failed exception=RemoteProtocolError('Server disconnected without sending a response.')
+[ 2024-08-24 10:31:55,411 ] httpcore.http11 - DEBUG - response_closed.started
+[ 2024-08-24 10:31:55,411 ] httpcore.http11 - DEBUG - response_closed.complete
+[ 2024-08-24 10:31:55,419 ] openai._base_client - DEBUG - Encountered Exception
+Traceback (most recent call last):
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 69, in map_httpcore_exceptions
+    yield
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 233, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\connection_pool.py", line 216, in handle_request
+    raise exc from None
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\connection_pool.py", line 196, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\connection.py", line 101, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\http11.py", line 143, in handle_request
+    raise exc
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\http11.py", line 113, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\http11.py", line 186, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\http11.py", line 238, in _receive_event
+    raise RemoteProtocolError(msg)
+httpcore.RemoteProtocolError: Server disconnected without sending a response.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\VIVI_AI\yogo\Lib\site-packages\openai\_base_client.py", line 973, in _request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 1015, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 232, in handle_request
+    with map_httpcore_exceptions():
+  File "D:\VIVI_AI\yogo\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 86, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.RemoteProtocolError: Server disconnected without sending a response.
+[ 2024-08-24 10:31:55,421 ] openai._base_client - DEBUG - 1 retry left
+[ 2024-08-24 10:31:55,421 ] openai._base_client - INFO - Retrying request to /completions in 0.845184 seconds
+[ 2024-08-24 10:31:56,272 ] openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/completions', 'files': None, 'json_data': {'model': 'gpt-3.5-turbo-instruct', 'prompt': ["\n            Use the following pieces of information to answer the user's question.\n            If you don't know the answer, just say that you don't know, don't try to make up an answer.\n            Context: ISBN 978-0-9899740-4-2\n\ntions.\n 4\n\nIt felt like a new future was unfolding in front of me. My girlfriend moved in with me, I \nstarted fundraising and training for a run, and I became a student again registering for \ncourses in immunology and in bioethics at the local university. My fundraising led to the \nopportunity to do a marathon in Iceland. I used to be quite a runner and had done many \nhalf-marathons but I thought I’d see if I could do a full one.\n\nhave to step in to watch your loved one while you are on R&R.\n            Question: Hey\n            Only return the helpful answer below and nothing else.\n            Helpful answer:\n        "], 'frequency_penalty': 0.0, 'logit_bias': {}, 'max_tokens': 256, 'n': 1, 'presence_penalty': 0.0, 'temperature': 0.7, 'top_p': 1.0}}
+[ 2024-08-24 10:31:56,272 ] openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/completions
+[ 2024-08-24 10:31:56,272 ] httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+[ 2024-08-24 10:31:59,806 ] urllib3.connectionpool - DEBUG - Starting new HTTPS connection (8): api.smith.langchain.com:443
+[ 2024-08-24 10:32:08,320 ] httpcore.connection - DEBUG - connect_tcp.failed exception=ConnectError(gaierror(11001, 'getaddrinfo failed'))
+[ 2024-08-24 10:32:08,321 ] openai._base_client - DEBUG - Encountered Exception
+Traceback (most recent call last):
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 69, in map_httpcore_exceptions
+    yield
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 233, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\connection_pool.py", line 216, in handle_request
+    raise exc from None
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\connection_pool.py", line 196, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\connection.py", line 99, in handle_request
+    raise exc
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\connection.py", line 76, in handle_request
+    stream = self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_sync\connection.py", line 122, in _connect
+    stream = self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_backends\sync.py", line 205, in connect_tcp
+    with map_exceptions(exc_map):
+  File "D:\VIVI_AI\yogo\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\VIVI_AI\yogo\Lib\site-packages\openai\_base_client.py", line 973, in _request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_client.py", line 1015, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 232, in handle_request
+    with map_httpcore_exceptions():
+  File "D:\VIVI_AI\yogo\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "D:\VIVI_AI\yogo\Lib\site-packages\httpx\_transports\default.py", line 86, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+[ 2024-08-24 10:32:08,328 ] openai._base_client - DEBUG - 0 retries left
+[ 2024-08-24 10:32:08,328 ] openai._base_client - INFO - Retrying request to /completions in 1.940136 seconds

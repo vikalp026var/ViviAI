@@ -1,0 +1,144 @@
+[ 2024-08-24 17:09:01,166 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-24 17:09:01,166 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-24 17:09:03,965 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-24 17:09:03,969 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-24 17:09:04,229 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-24 17:09:04,229 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-24 17:09:04,642 ] faiss.loader - DEBUG - Environment variable FAISS_OPT_LEVEL is not set, so let's pick the instruction set according to the current CPU
+[ 2024-08-24 17:09:04,644 ] faiss.loader - INFO - Loading faiss with AVX2 support.
+[ 2024-08-24 17:09:04,674 ] faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+[ 2024-08-24 17:09:04,831 ] matplotlib - DEBUG - matplotlib data path: D:\VIVI_AI\yogo\Lib\site-packages\matplotlib\mpl-data
+[ 2024-08-24 17:09:04,837 ] matplotlib - DEBUG - CONFIGDIR=C:\Users\PC\.matplotlib
+[ 2024-08-24 17:09:04,837 ] matplotlib - DEBUG - interactive is False
+[ 2024-08-24 17:09:04,837 ] matplotlib - DEBUG - platform is win32
+[ 2024-08-24 17:09:04,950 ] matplotlib - DEBUG - CACHEDIR=C:\Users\PC\.matplotlib
+[ 2024-08-24 17:09:04,959 ] matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\PC\.matplotlib\fontlist-v390.json
+[ 2024-08-24 17:09:06,019 ] matplotlib.pyplot - DEBUG - Loaded backend Agg version v2.2.
+[ 2024-08-24 17:09:06,056 ] werkzeug - WARNING -  * Debugger is active!
+[ 2024-08-24 17:09:06,072 ] werkzeug - INFO -  * Debugger PIN: 331-538-268
+[ 2024-08-24 17:09:06,093 ] chat_app - INFO - Index route called
+[ 2024-08-24 17:09:06,093 ] chat_app - INFO - No authenticated user found, redirecting to login
+[ 2024-08-24 17:09:06,097 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:09:06] "[32mGET / HTTP/1.1[0m" 302 -
+[ 2024-08-24 17:09:06,109 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:09:06] "GET /login HTTP/1.1" 200 -
+[ 2024-08-24 17:09:06,290 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:09:06] "[36mGET /static/loginform.css HTTP/1.1[0m" 304 -
+[ 2024-08-24 17:09:06,293 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:09:06] "[36mGET /static/google.png HTTP/1.1[0m" 304 -
+[ 2024-08-24 17:09:10,716 ] httpcore.connection - DEBUG - connect_tcp.started host='ucpbtniapifddpsipukq.supabase.co' port=443 local_address=None timeout=5.0 socket_options=None
+[ 2024-08-24 17:09:10,764 ] httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002257D49B990>
+[ 2024-08-24 17:09:10,764 ] httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000022568DA9910> server_hostname='ucpbtniapifddpsipukq.supabase.co' timeout=5.0
+[ 2024-08-24 17:09:10,853 ] httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002257D0AAA50>
+[ 2024-08-24 17:09:10,853 ] httpcore.http2 - DEBUG - send_connection_init.started request=<Request [b'POST']>
+[ 2024-08-24 17:09:10,853 ] httpcore.http2 - DEBUG - send_connection_init.complete
+[ 2024-08-24 17:09:10,853 ] httpcore.http2 - DEBUG - send_request_headers.started request=<Request [b'POST']> stream_id=1
+[ 2024-08-24 17:09:10,853 ] hpack.hpack - DEBUG - Adding (b':method', b'POST') to the header table, sensitive:False, huffman:True
+[ 2024-08-24 17:09:10,853 ] hpack.hpack - DEBUG - Encoding 3 with 7 bits
+[ 2024-08-24 17:09:10,853 ] hpack.hpack - DEBUG - Adding (b':authority', b'ucpbtniapifddpsipukq.supabase.co') to the header table, sensitive:False, huffman:True
+[ 2024-08-24 17:09:10,853 ] hpack.hpack - DEBUG - Encoding 1 with 6 bits
+[ 2024-08-24 17:09:10,853 ] hpack.hpack - DEBUG - Encoding 23 with 7 bits
+[ 2024-08-24 17:09:10,853 ] hpack.hpack - DEBUG - Adding (b':scheme', b'https') to the header table, sensitive:False, huffman:True
+[ 2024-08-24 17:09:10,853 ] hpack.hpack - DEBUG - Encoding 7 with 7 bits
+[ 2024-08-24 17:09:10,853 ] hpack.hpack - DEBUG - Adding (b':path', b'/auth/v1/token?grant_type=password') to the header table, sensitive:False, huffman:True
+[ 2024-08-24 17:09:10,853 ] hpack.hpack - DEBUG - Encoding 4 with 6 bits
+[ 2024-08-24 17:09:10,853 ] hpack.hpack - DEBUG - Encoding 25 with 7 bits
+[ 2024-08-24 17:09:10,853 ] hpack.hpack - DEBUG - Adding (b'accept', b'*/*') to the header table, sensitive:False, huffman:True
+[ 2024-08-24 17:09:10,853 ] hpack.hpack - DEBUG - Encoding 19 with 6 bits
+[ 2024-08-24 17:09:10,853 ] hpack.hpack - DEBUG - Encoding 3 with 7 bits
+[ 2024-08-24 17:09:10,853 ] hpack.hpack - DEBUG - Adding (b'accept-encoding', b'gzip, deflate') to the header table, sensitive:False, huffman:True
+[ 2024-08-24 17:09:10,853 ] hpack.hpack - DEBUG - Encoding 16 with 7 bits
+[ 2024-08-24 17:09:10,853 ] hpack.hpack - DEBUG - Adding (b'user-agent', b'python-httpx/0.27.0') to the header table, sensitive:False, huffman:True
+[ 2024-08-24 17:09:10,853 ] hpack.hpack - DEBUG - Encoding 58 with 6 bits
+[ 2024-08-24 17:09:10,853 ] hpack.hpack - DEBUG - Encoding 14 with 7 bits
+[ 2024-08-24 17:09:10,853 ] hpack.hpack - DEBUG - Adding (b'x-client-info', b'supabase-py/2.7.2') to the header table, sensitive:False, huffman:True
+[ 2024-08-24 17:09:10,853 ] hpack.hpack - DEBUG - Encoding 10 with 7 bits
+[ 2024-08-24 17:09:10,853 ] hpack.hpack - DEBUG - Encoding 12 with 7 bits
+[ 2024-08-24 17:09:10,853 ] hpack.hpack - DEBUG - Adding (b'apikey', b'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVjcGJ0bmlhcGlmZGRwc2lwdWtxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjM4MzE2NzQsImV4cCI6MjAzOTQwNzY3NH0.OScT9H0GnEsZYiV8wg2aBFwGAKUCRjOi9LhrzSn2R_w') to the header table, sensitive:False, huffman:True
+[ 2024-08-24 17:09:10,857 ] hpack.hpack - DEBUG - Encoding 5 with 7 bits
+[ 2024-08-24 17:09:10,857 ] hpack.hpack - DEBUG - Encoding 167 with 7 bits
+[ 2024-08-24 17:09:10,857 ] hpack.hpack - DEBUG - Adding (b'authorization', b'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVjcGJ0bmlhcGlmZGRwc2lwdWtxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjM4MzE2NzQsImV4cCI6MjAzOTQwNzY3NH0.OScT9H0GnEsZYiV8wg2aBFwGAKUCRjOi9LhrzSn2R_w') to the header table, sensitive:True, huffman:True
+[ 2024-08-24 17:09:10,857 ] hpack.hpack - DEBUG - Encoding 23 with 4 bits
+[ 2024-08-24 17:09:10,857 ] hpack.hpack - DEBUG - Encoding 172 with 7 bits
+[ 2024-08-24 17:09:10,857 ] hpack.hpack - DEBUG - Adding (b'x-supabase-api-version', b'2024-01-01') to the header table, sensitive:False, huffman:True
+[ 2024-08-24 17:09:10,857 ] hpack.hpack - DEBUG - Encoding 16 with 7 bits
+[ 2024-08-24 17:09:10,857 ] hpack.hpack - DEBUG - Encoding 7 with 7 bits
+[ 2024-08-24 17:09:10,857 ] hpack.hpack - DEBUG - Adding (b'content-type', b'application/json;charset=UTF-8') to the header table, sensitive:False, huffman:True
+[ 2024-08-24 17:09:10,857 ] hpack.hpack - DEBUG - Encoding 31 with 6 bits
+[ 2024-08-24 17:09:10,857 ] hpack.hpack - DEBUG - Encoding 22 with 7 bits
+[ 2024-08-24 17:09:10,857 ] hpack.hpack - DEBUG - Adding (b'content-length', b'130') to the header table, sensitive:False, huffman:True
+[ 2024-08-24 17:09:10,857 ] hpack.hpack - DEBUG - Encoding 28 with 6 bits
+[ 2024-08-24 17:09:10,857 ] hpack.hpack - DEBUG - Encoding 2 with 7 bits
+[ 2024-08-24 17:09:10,857 ] hpack.hpack - DEBUG - Encoded header block to b"\x83A\x97\xb4\x95\xc6\x9a\x8c:\xcd,\x92V\x83Wo^\xcb\xa2\xda\xc7\x18\xd0U\xc8\x7f\x87D\x99`v\xa6v;\x85\x84\x9f\xa9j\xff&\xb0u&$\xfa\xac\xb0V4#\xc1\xec\x93S\x83\xf9c\xe7\x90z\x8e\xaf\xd2g=KN\x94\xd7\xe5\x80.'W\x07@\x8a\xf2\xb1(1jJ\xc6\xaaS\xff\x8cE\xb5\x8e1\xa0\xabW\xe9\x81.\xea\xe2@\x85\x1df\xea__\xff(/\xac\xb3\xc7\x88\x86\xd4l\xb98{\xc8\x1d&\xc8\x8c\x95ml\x97\xb29\x93\xad\x7f\x9coe}r\xfa\xcbY\x19\xd0mF\xcb\xeeO\xcb\xb3\xf3\xa7\x0f\xbf\xdd\xd9\x11\x92\xac\xb4~\x9b#\x99*\xe3\xd0\x98\xb2\x82:h\x9c\x98\xa8\xa7\xf7\x16\xdf\x04\x15\x1e$\xe4\x9f9\r\xe0\xc4\xa5\xf4~\xee\xc8\xe6Jp\xdb\x18\x9a6{\xd9k\xe7\xf9\xb0\xda\xba`gGM\rh\xf7\x80Z}\xecFJx\xb4K\xd9\x1c\xd1\xd2\x1fz\xb7\xec\xf1\xa7\xdf6t\xe3\x02\xfa\xb7\x13{\xf8\xc1\x8a\xac\x08\xfd\xe6n/x\x98C\xbb\x87\xc6(sp\xbd\xb7\xa6\xa3?\x9e{=\xee\xa8[b\xf1\x1f\x08\xff-\xbaQ\xd8[\x14/\xac\xb3\xc7\x88\x86\xd4l\xb98{\xc8\x1d&\xc8\x8c\x95ml\x97\xb29\x93\xad\x7f\x9coe}r\xfa\xcbY\x19\xd0mF\xcb\xeeO\xcb\xb3\xf3\xa7\x0f\xbf\xdd\xd9\x11\x92\xac\xb4~\x9b#\x99*\xe3\xd0\x98\xb2\x82:h\x9c\x98\xa8\xa7\xf7\x16\xdf\x04\x15\x1e$\xe4\x9f9\r\xe0\xc4\xa5\xf4~\xee\xc8\xe6Jp\xdb\x18\x9a6{\xd9k\xe7\xf9\xb0\xda\xba`gGM\rh\xf7\x80Z}\xecFJx\xb4K\xd9\x1c\xd1\xd2\x1fz\xb7\xec\xf1\xa7\xdf6t\xe3\x02\xfa\xb7\x13{\xf8\xc1\x8a\xac\x08\xfd\xe6n/x\x98C\xbb\x87\xc6(sp\xbd\xb7\xa6\xa3?\x9e{=\xee\xa8[b\xf1@\x90\xf2\xb2-\xacq\x8d\x05Xu\x99n\xe5\xb1\x06=_\x87\x10\x04\xd2\xc0\n\xc0\x0f_\x96\x1du\xd0b\r&=LtA\xea\xfb$\xe3\xb1\x05L\x1c7\xe1Y\xef\\\x82\x0b "
+[ 2024-08-24 17:09:10,857 ] httpcore.http2 - DEBUG - send_request_headers.complete
+[ 2024-08-24 17:09:10,857 ] httpcore.http2 - DEBUG - send_request_body.started request=<Request [b'POST']> stream_id=1
+[ 2024-08-24 17:09:10,857 ] httpcore.http2 - DEBUG - send_request_body.complete
+[ 2024-08-24 17:09:10,857 ] httpcore.http2 - DEBUG - receive_response_headers.started request=<Request [b'POST']> stream_id=1
+[ 2024-08-24 17:09:10,934 ] httpcore.http2 - DEBUG - receive_remote_settings.started
+[ 2024-08-24 17:09:10,936 ] httpcore.http2 - DEBUG - receive_remote_settings.complete return_value=<RemoteSettingsChanged changed_settings:{ChangedSetting(setting=3, original_value=None, new_value=100), ChangedSetting(setting=4, original_value=65535, new_value=65536), ChangedSetting(setting=5, original_value=16384, new_value=16777215)}>
+[ 2024-08-24 17:09:12,063 ] hpack.hpack - DEBUG - Decoding b'?\xe1\x1f\x88a\x96\xdc4\xfd(&\x94\x86\xd9\x94\x10\x04\xd2\x81\r\xc6_\xb8\x16T\xc5\xa3\x7f_\x8b\x1du\xd0b\r&=LtA\xea@\x85$\xabX?_\x8fz7\x99\x04\xae\xba\xf3\xc1u\x91\xb4\xda\xd7uh@\x8a$\xab\x10d\x9c\xab!#M\xa8\x86\xbf\xcfL:2^w\xff\x91\x05Dk\x0c\x84*\x10\xb2O\xd4\xb5@_Yg\x8f\x11\r\xa8\xd9rp\xf7\x90:M\x91\x19)M\x7f\xb7\xb29\x93\xa6Qgg\x8d\xff\xdb\xf4\x1bF\x00\xd3\xa1\x9a7s\xeb\xc0\xd9\xefe\x01\x7f!6\xa3e\xcd\xc4;\r.\xc5\xcb\xeb-dgA\xb5\x1b)\xe4\xc7\xb7\xc1=\x9f\xbevx\xf4&,\xa0\x8e\x9a\'&*)\xfd\xc5\xb7\xc1\x05G\x899\'\xcez\xb4\x84\x98\xb0\x9b\x9f\xe6\x9a3\xd3\xa7\xbeqa\x0c\x98\xa6\xef\'L\x06\xcf{/\xb99d6\xa3e\xeb\xfbN\x00\xf3\xf7\xb1\x9d7\x83O\xed<<g\xdf\xb3\xc7:x\'\x9fN\x00\xd3\xe84~\xef\xfd\x9fE\xfd\x8c\xfe\xef#<\xfd\xccl\xf7\xb2\xcf\'-\x86\xd4l\xb3\xc9\xf9\xb4\xff\xbc\x9b\x00\xf9i\x9eL\\z\xe47\x83~\xfeO\xe3\'C\xf9\xd3\xef 4\xef\x87\xde\x8d\xfc=g\xbd\x96\xbe\x7f\x9b\r\xab\xa6\x06tt\xd8\r[\xfa\x87N\xfc\x88\xc9O\x14\xf3\xe5B2t9\xa4\xa6\x8b9\xf2\xf3\xe3E\xfc\x82\x92\x9c>\x88)\xed\xfd\xfc\xa2\x1f\xd1\x06q\xf2\xf1o1>\x9c\x86\xf0bb\x9f\xbct\xf06\xa3d6{\xd9g&;\xb2\xc7\xcb\x889\xf2\xdb<\x98\xb0\x1bUH11\xe5\xef%4u\xfd\xfc\xc8mF\xcbD|\xb0\xd7\x1d\xec\x88\xc9U\xdfQ\xb3\xfb_\xee.>\x89\xeb#\x9c\xbde\xa2>Xk\x8e\xf6Y%\xdd\xe0\xd2~i\xa0\x94>\x9f\xdf\xcd\xb3\xfe\xe2\xc2\x0e{\xb28_Yh\x8f\x96\x1a\xe3\xbd\x91\xcc\x95~\xd61aA/\xc3\xebM_\xb3\x92\xad\'\x8e\x9e-\xec\xc5"y\xf2\xa1\x19\xe9\xd3\xde=\xd9\x11\x92\x9e)\xe7\xca\x84~3\xfbA)\xa2\x91\xf2\xe3\xd7\'J\xe9\xe7\xcb\xcf\xbf\xdd\xde\x0cLS\xf7\x8e\x9e2\xc9O\x1fC\xe5\xfb_\xef-\x86\xd5O\xec\xf1\xe3\xd3F{\xd9}\xc9\xcb!\xb5\x1b/_\xdap\x07\x9f\xbd\x8c\xe9\xbc\x1a\x7fi\xe1\xe3>\xfd\x9e9\xd3\xc1<\xfap\x06\x9fA\xa3\xf7\x7f\xec\xfa/\xecg\xf7y\x19\xe7\xeecK\xbb\xc1\x89K\xe8\xfd\xdd\x91\xcc\x94\xe1\x0c\x98\xa7\xa2:\xb6\xd7\xccXA\xfb\xcba\xb3\xde\xcb?>^\r\xa8\xd9g\xe7\xcb\xc7\x9c\x86\xf0n|\x83\xeb\'J\xe3/\xac\xa9\xfd\xfc\xdax\xc5\xb0\xda\x8d\x97\xc7?\xcd>\xe4\x13\xfe\xbfodFJ\xb6\xd7\x1f.>\xe4\xc5\x85$\xbd\x91\xcd\x1b\xc9\xebM\xfd\x8d\xea\xdf\xc0:*\x0c\x99\xefe\xf7\xfb\xf9\xa7\xd8\xf9?o\xe0\xa8\xeb\x93\xa1\xcd\xcf\xa4\x86\xe7\xd3\t\xb4\xd3\xa1:\x05\xc6\x9ef\x004{\x9f\xa6~Yzi\xe9\xc1:z]\x9fV/\xde\xbf\xb7\xe4\xe9\xa2\xfe^\x99\r\xe0\xc3\xfc\xd3/>M\xf7\x8e\xaa\x13\x1b<}\xe4\xe9]<\xf9y\xf7\xfb\xf8\x05\xffO\xa3;\xbe+\xbb\x93c\xfa\xa3\xc1F\xfc\x92~`\xdff\x81\x91\x9c7\xb1yg_\xbe\x193\xf0.K\xfa\xc57\xda\x9a\xc6\x99\xe0c\xedL\x1ek5\x85D\x1b\xad\xab\xe9A6\xa46\xcc\xa0\x80&\x94\x08n2\xfd\xc0\x89LZ7\xfd\xa9\xa0~V\x86b\xc0\xf3\x8d\x00\x1fjcJk\xd5U\x1e\xbe\xd4\xdcR[a\x7fx\x9a\xa4~V\x1c\xc5\x81\x90\xb6\xcb\x80\x00>\xd45D\xa2\xd9\x0b\xba\xd8\xef\x9e\x91\x9a\xa4\x7f{\x91\xd5a\xa65_JBB\x16\xb4\xad\x82\xa2\x1eCU7@\x8dDkL4\x97\xc0\xfd-\xdc\xb6 \xc7\xab\x011w\xdaDkXYl*\'Y\'\xeaZ\xa0\xbb\x17\xbcqa7<\xf6\xbe\x1d\xba\x1c%\x11\xcb\xc6=\x9fjk\x1ag\x81\x8f\xb50y\xac\xd6\x15\x10n\xb6\xaf\xa5\x04\xda\x90\xdb2\x82\x00\x9aP!\xb8\xcb\xf7\x02%1h\xdf\xf6\xa6\x81\xf9Z\x19\x8b\x03\xce4\x00}\xa9\x8d)\xafUTz\xfbSqIm\x85@\x95\xf2\xb1j\xee\x7fK[Z\x13aGJ\xc8-\x9d\xccB\xac\x93R_\x82\x08]v\x87%\x07\xb6Ih\x1d\x85Z\x83\x9b\xd9\xab@\x85\x1d\tY\x1d\xc9\x90\x9d\x98?\x9b\x8d4\xcf\xf3\xf6\xa5#\x81\xe7\x1a\x00?'
+[ 2024-08-24 17:09:12,063 ] hpack.hpack - DEBUG - Decoded 4096, consumed 3 bytes
+[ 2024-08-24 17:09:12,063 ] hpack.table - DEBUG - Resizing header table to 4096 from 4096
+[ 2024-08-24 17:09:12,063 ] hpack.hpack - DEBUG - Decoded 8, consumed 1 bytes
+[ 2024-08-24 17:09:12,063 ] hpack.hpack - DEBUG - Decoded (b':status', b'200'), consumed 1
+[ 2024-08-24 17:09:12,063 ] hpack.hpack - DEBUG - Decoded 33, consumed 1 bytes
+[ 2024-08-24 17:09:12,063 ] hpack.hpack - DEBUG - Decoded 22, consumed 1 bytes
+[ 2024-08-24 17:09:12,063 ] hpack.hpack - DEBUG - Decoded (b'date', b'Sat, 24 Aug 2024 11:39:13 GMT'), total consumed 24 bytes, indexed True
+[ 2024-08-24 17:09:12,066 ] hpack.hpack - DEBUG - Decoded 31, consumed 1 bytes
+[ 2024-08-24 17:09:12,066 ] hpack.hpack - DEBUG - Decoded 11, consumed 1 bytes
+[ 2024-08-24 17:09:12,066 ] hpack.hpack - DEBUG - Decoded (b'content-type', b'application/json'), total consumed 13 bytes, indexed True
+[ 2024-08-24 17:09:12,066 ] hpack.hpack - DEBUG - Decoded 5, consumed 1 bytes
+[ 2024-08-24 17:09:12,066 ] hpack.hpack - DEBUG - Decoded 15, consumed 1 bytes
+[ 2024-08-24 17:09:12,066 ] hpack.hpack - DEBUG - Decoded (b'cf-ray', b'8b830f7788173a45-BOM'), total consumed 23 bytes, indexed True
+[ 2024-08-24 17:09:12,066 ] hpack.hpack - DEBUG - Decoded 10, consumed 1 bytes
+[ 2024-08-24 17:09:12,066 ] hpack.hpack - DEBUG - Decoded 6, consumed 1 bytes
+[ 2024-08-24 17:09:12,066 ] hpack.hpack - DEBUG - Decoded (b'cf-cache-status', b'DYNAMIC'), total consumed 19 bytes, indexed True
+[ 2024-08-24 17:09:12,066 ] hpack.hpack - DEBUG - Decoded 55, consumed 1 bytes
+[ 2024-08-24 17:09:12,066 ] hpack.hpack - DEBUG - Decoded 784, consumed 3 bytes
+[ 2024-08-24 17:09:12,066 ] hpack.hpack - DEBUG - Decoded (b'set-cookie', b'sb-access-token=eyJhbGciOiJIUzI1NiIsImtpZCI6IjJ2L3VDZDliME1mM3lSYkUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3VjcGJ0bmlhcGlmZGRwc2lwdWtxLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJkZmE1YzQ3NC1mZmUwLTQwYmUtYjU0Ny1lZTZhMDQ3ZTc3YzgiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzI0NTAzMTUyLCJpYXQiOjE3MjQ0OTk1NTIsImVtYWlsIjoidmlrYWxwMDI2dmFyc2huZXlAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6eyJlbWFpbCI6InZpa2FscDAyNnZhcnNobmV5QGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwicGhvbmVfdmVyaWZpZWQiOmZhbHNlLCJzdWIiOiJkZmE1YzQ3NC1mZmUwLTQwYmUtYjU0Ny1lZTZhMDQ3ZTc3YzgifSwicm9sZSI6ImF1dGhlbnRpY2F0ZWQiLCJhYWwiOiJhYWwxIiwiYW1yIjpbeyJtZXRob2QiOiJwYXNzd29yZCIsInRpbWVzdGFtcCI6MTcyNDQ5OTU1Mn1dLCJzZXNzaW9uX2lkIjoiYjdiYjFiNmMtM2VmYi00MzhjLWJjNjUtNjBhOGZkZDdjMDJjIiwiaXNfYW5vbnltb3VzIjpmYWxzZX0.ZoML7wpBIQ9ObElTIdXETrMac3FCGx3PzUILUeIDP2g; Path=/; Expires=Sun, 25 Aug 2024 11:39:12 GMT; Max-Age=86400; HttpOnly; Secure'), total consumed 788 bytes, indexed True
+[ 2024-08-24 17:09:12,066 ] hpack.hpack - DEBUG - Decoded 56, consumed 1 bytes
+[ 2024-08-24 17:09:12,066 ] hpack.hpack - DEBUG - Decoded 26, consumed 1 bytes
+[ 2024-08-24 17:09:12,066 ] hpack.hpack - DEBUG - Decoded (b'strict-transport-security', b'max-age=31536000; includeSubDomains'), total consumed 28 bytes, indexed True
+[ 2024-08-24 17:09:12,066 ] hpack.hpack - DEBUG - Decoded 59, consumed 1 bytes
+[ 2024-08-24 17:09:12,066 ] hpack.hpack - DEBUG - Decoded 17, consumed 1 bytes
+[ 2024-08-24 17:09:12,066 ] hpack.hpack - DEBUG - Decoded (b'vary', b'Origin, Accept-Encoding'), total consumed 19 bytes, indexed True
+[ 2024-08-24 17:09:12,066 ] hpack.hpack - DEBUG - Decoded 13, consumed 1 bytes
+[ 2024-08-24 17:09:12,066 ] hpack.hpack - DEBUG - Decoded 1, consumed 1 bytes
+[ 2024-08-24 17:09:12,066 ] hpack.hpack - DEBUG - Decoded (b'sb-gateway-version', <memory at 0x000002257D74F400>), total consumed 17 bytes, indexed True
+[ 2024-08-24 17:09:12,066 ] hpack.hpack - DEBUG - Decoded 55, consumed 1 bytes
+[ 2024-08-24 17:09:12,066 ] hpack.hpack - DEBUG - Decoded 90, consumed 1 bytes
+[ 2024-08-24 17:09:12,066 ] hpack.hpack - DEBUG - Decoded (b'set-cookie', b'sb-refresh-token=B_zH_FiYLu91RM6clbfVbQ; Path=/; Expires=Sun, 25 Aug 2024 11:39:12 GMT; Max-Age=86400; HttpOnly; Secure'), total consumed 92 bytes, indexed True
+[ 2024-08-24 17:09:12,066 ] hpack.hpack - DEBUG - Decoded 21, consumed 1 bytes
+[ 2024-08-24 17:09:12,066 ] hpack.hpack - DEBUG - Decoded 2, consumed 1 bytes
+[ 2024-08-24 17:09:12,066 ] hpack.hpack - DEBUG - Decoded (b'x-envoy-upstream-service-time', b'117'), total consumed 26 bytes, indexed True
+[ 2024-08-24 17:09:12,066 ] hpack.hpack - DEBUG - Decoded 54, consumed 1 bytes
+[ 2024-08-24 17:09:12,066 ] hpack.hpack - DEBUG - Decoded 7, consumed 1 bytes
+[ 2024-08-24 17:09:12,066 ] hpack.hpack - DEBUG - Decoded (b'server', b'cloudflare'), total consumed 9 bytes, indexed True
+[ 2024-08-24 17:09:12,066 ] hpack.hpack - DEBUG - Decoded 26, consumed 1 bytes
+[ 2024-08-24 17:09:12,066 ] hpack.hpack - DEBUG - Decoded 3, consumed 1 bytes
+[ 2024-08-24 17:09:12,066 ] hpack.hpack - DEBUG - Decoded (b'content-encoding', b'gzip'), total consumed 5 bytes, indexed True
+[ 2024-08-24 17:09:12,066 ] hpack.hpack - DEBUG - Decoded 5, consumed 1 bytes
+[ 2024-08-24 17:09:12,066 ] hpack.hpack - DEBUG - Decoded 16, consumed 1 bytes
+[ 2024-08-24 17:09:12,066 ] hpack.hpack - DEBUG - Decoded (b'alt-svc', b'h3=":443"; ma=86400'), total consumed 24 bytes, indexed True
+[ 2024-08-24 17:09:12,066 ] httpcore.http2 - DEBUG - receive_response_headers.complete return_value=(200, [(b'date', b'Sat, 24 Aug 2024 11:39:13 GMT'), (b'content-type', b'application/json'), (b'cf-ray', b'8b830f7788173a45-BOM'), (b'cf-cache-status', b'DYNAMIC'), (b'set-cookie', b'sb-access-token=eyJhbGciOiJIUzI1NiIsImtpZCI6IjJ2L3VDZDliME1mM3lSYkUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3VjcGJ0bmlhcGlmZGRwc2lwdWtxLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJkZmE1YzQ3NC1mZmUwLTQwYmUtYjU0Ny1lZTZhMDQ3ZTc3YzgiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzI0NTAzMTUyLCJpYXQiOjE3MjQ0OTk1NTIsImVtYWlsIjoidmlrYWxwMDI2dmFyc2huZXlAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6eyJlbWFpbCI6InZpa2FscDAyNnZhcnNobmV5QGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwicGhvbmVfdmVyaWZpZWQiOmZhbHNlLCJzdWIiOiJkZmE1YzQ3NC1mZmUwLTQwYmUtYjU0Ny1lZTZhMDQ3ZTc3YzgifSwicm9sZSI6ImF1dGhlbnRpY2F0ZWQiLCJhYWwiOiJhYWwxIiwiYW1yIjpbeyJtZXRob2QiOiJwYXNzd29yZCIsInRpbWVzdGFtcCI6MTcyNDQ5OTU1Mn1dLCJzZXNzaW9uX2lkIjoiYjdiYjFiNmMtM2VmYi00MzhjLWJjNjUtNjBhOGZkZDdjMDJjIiwiaXNfYW5vbnltb3VzIjpmYWxzZX0.ZoML7wpBIQ9ObElTIdXETrMac3FCGx3PzUILUeIDP2g; Path=/; Expires=Sun, 25 Aug 2024 11:39:12 GMT; Max-Age=86400; HttpOnly; Secure'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains'), (b'vary', b'Origin, Accept-Encoding'), (b'sb-gateway-version', b'1'), (b'set-cookie', b'sb-refresh-token=B_zH_FiYLu91RM6clbfVbQ; Path=/; Expires=Sun, 25 Aug 2024 11:39:12 GMT; Max-Age=86400; HttpOnly; Secure'), (b'x-envoy-upstream-service-time', b'117'), (b'server', b'cloudflare'), (b'content-encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+[ 2024-08-24 17:09:12,070 ] httpx - INFO - HTTP Request: POST https://ucpbtniapifddpsipukq.supabase.co/auth/v1/token?grant_type=password "HTTP/2 200 OK"
+[ 2024-08-24 17:09:12,070 ] httpcore.http2 - DEBUG - receive_response_body.started request=<Request [b'POST']> stream_id=1
+[ 2024-08-24 17:09:12,070 ] httpcore.http2 - DEBUG - receive_response_body.complete
+[ 2024-08-24 17:09:12,070 ] httpcore.http2 - DEBUG - response_closed.started stream_id=1
+[ 2024-08-24 17:09:12,070 ] httpcore.http2 - DEBUG - response_closed.complete
+[ 2024-08-24 17:09:12,070 ] root - INFO - Login attempt for email: vikalp026varshney@gmail.com
+[ 2024-08-24 17:09:12,070 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:09:12] "[32mPOST /login HTTP/1.1[0m" 302 -
+[ 2024-08-24 17:09:12,078 ] chat_app - INFO - Index route called
+[ 2024-08-24 17:09:12,078 ] chat_app - INFO - User authenticated, rendering index.html
+[ 2024-08-24 17:09:12,082 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:09:12] "GET / HTTP/1.1" 200 -
+[ 2024-08-24 17:09:12,113 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:09:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2024-08-24 17:09:12,117 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:09:12] "[33mGET /static/chatbot.css HTTP/1.1[0m" 404 -
+[ 2024-08-24 17:09:12,119 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:09:12] "[33mGET /static/script.js HTTP/1.1[0m" 404 -
+[ 2024-08-24 17:09:12,135 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:09:12] "[36mGET /static/vivi.png HTTP/1.1[0m" 304 -
+[ 2024-08-24 17:09:12,137 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:09:12] "[36mGET /static/new_latest.jpg HTTP/1.1[0m" 304 -
+[ 2024-08-24 17:09:12,139 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:09:12] "[36mGET /static/2nd_his.jpg HTTP/1.1[0m" 304 -
+[ 2024-08-24 17:09:12,141 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:09:12] "[36mGET /static/chatbot.png HTTP/1.1[0m" 304 -
+[ 2024-08-24 17:09:14,490 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:09:14] "GET /research HTTP/1.1" 200 -
+[ 2024-08-24 17:09:14,537 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:09:14] "[36mGET /static/style_research.css HTTP/1.1[0m" 304 -
+[ 2024-08-24 17:09:14,540 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:09:14] "[36mGET /static/1st_his.jpg HTTP/1.1[0m" 304 -
+[ 2024-08-24 17:09:14,549 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:09:14] "[36mGET /static/508-icon.png HTTP/1.1[0m" 304 -
+[ 2024-08-24 17:09:14,559 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:09:14] "[36mGET /static/vivi.png HTTP/1.1[0m" 304 -
+[ 2024-08-24 17:09:14,561 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:09:14] "[36mGET /static/chatbot.png HTTP/1.1[0m" 304 -
+[ 2024-08-24 17:09:17,525 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:09:17] "GET /graphs HTTP/1.1" 200 -
+[ 2024-08-24 17:12:51,476 ] werkzeug - INFO -  * Detected change in 'D:\\VIVI_AI\\chat_app.py', reloading

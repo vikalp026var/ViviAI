@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statistics and Graph Analysis</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #fafafa;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        h1 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .stats-container {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .stat-box {
+            background-color: #fff;
+            border: 2px solid lightgreen;
+            border-radius: 10px;
+            padding: 20px;
+            width: 200px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .stat-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 123, 255, 0.3);
+        }
+        .stat-box h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .stat-box p {
+            font-size: 1.2em;
+            margin: 0;
+        }
+        .plot-container {
+            margin-top: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .plot-container img {
+            max-width: 550px;
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .plot-container img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .back {
+            position: absolute;
+            top: 20px;  /* Adjust this value to control distance from the top */
+            left: 20px; /* Adjust this value to control distance from the left */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="back">
+        <a href="{{ url_for('research') }}" style="background-color: black; color: #fff; border-radius: 5px; width: 100px; height: 50px; font-size: x-large; text-align: center; display: inline-block; line-height: 50px; text-decoration: none;">&#x2190; back</a>
+    </div>
+    
+    
+    
+    
+    <h1>Statistics and Graph Analysis</h1>
+    <div class="stats-container">
+        <div class="stat-box">
+            <h2>Fractal Dimension</h2>
+            <p>{{ fd }}</p>
+        </div>
+        
+        <div class="stat-box">
+            <h2>Lacunarity</h2>
+            <p>{{ lc }}</p>
+        </div>
+        <div class="stat-box">
+            <h2>Entropy</h2>
+            <p>{{ en }}</p>
+        </div>
+    </div>
+    <div class="plot-container">
+        {% if plot_paths %}
+            {% for plot_path in plot_paths %}
+                <img src="{{ url_for('static', filename='uploads/' + plot_path.split('/')[-1]) }}" alt="Plot">
+            {% endfor %}
+        {% endif %}
+    </div>
+</body>
+</html>

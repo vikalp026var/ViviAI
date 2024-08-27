@@ -1,0 +1,137 @@
+[ 2024-08-23 09:30:46,621 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-23 09:30:46,621 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-23 09:30:51,693 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-23 09:30:51,695 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-23 09:30:52,352 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-23 09:30:52,352 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-23 09:30:53,256 ] faiss.loader - DEBUG - Environment variable FAISS_OPT_LEVEL is not set, so let's pick the instruction set according to the current CPU
+[ 2024-08-23 09:30:53,256 ] faiss.loader - INFO - Loading faiss with AVX2 support.
+[ 2024-08-23 09:30:53,317 ] faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+[ 2024-08-23 09:30:53,586 ] matplotlib - DEBUG - matplotlib data path: D:\VIVI_AI\yogo\Lib\site-packages\matplotlib\mpl-data
+[ 2024-08-23 09:30:53,600 ] matplotlib - DEBUG - CONFIGDIR=C:\Users\PC\.matplotlib
+[ 2024-08-23 09:30:53,600 ] matplotlib - DEBUG - interactive is False
+[ 2024-08-23 09:30:53,600 ] matplotlib - DEBUG - platform is win32
+[ 2024-08-23 09:30:53,780 ] matplotlib - DEBUG - CACHEDIR=C:\Users\PC\.matplotlib
+[ 2024-08-23 09:30:53,796 ] matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\PC\.matplotlib\fontlist-v390.json
+[ 2024-08-23 09:30:55,404 ] werkzeug - WARNING -  * Debugger is active!
+[ 2024-08-23 09:30:55,432 ] werkzeug - INFO -  * Debugger PIN: 331-538-268
+[ 2024-08-23 09:30:55,487 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 09:30:55,487 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:30:55] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 09:30:55,496 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 09:30:55,496 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:30:55] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 09:30:55,496 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 09:30:55,496 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 09:30:55,496 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:30:55] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 09:30:55,496 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:30:55] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 09:30:55,560 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:30:55] "GET / HTTP/1.1" 200 -
+[ 2024-08-23 09:30:55,593 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:30:55] "[33mGET /static/chatbot.css HTTP/1.1[0m" 404 -
+[ 2024-08-23 09:30:55,597 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:30:55] "[33mGET /static/script.js HTTP/1.1[0m" 404 -
+[ 2024-08-23 09:30:55,700 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:30:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2024-08-23 09:30:55,716 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:30:55] "[33mGET /static/script.js HTTP/1.1[0m" 404 -
+[ 2024-08-23 09:30:55,727 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:30:55] "[36mGET /static/vivi.png HTTP/1.1[0m" 304 -
+[ 2024-08-23 09:30:55,729 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:30:55] "[36mGET /static/new_latest.jpg HTTP/1.1[0m" 304 -
+[ 2024-08-23 09:30:55,732 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:30:55] "[36mGET /static/2nd_his.jpg HTTP/1.1[0m" 304 -
+[ 2024-08-23 09:30:55,737 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:30:55] "[36mGET /static/chatbot.png HTTP/1.1[0m" 304 -
+[ 2024-08-23 09:30:57,151 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 09:30:57,153 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:30:57] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 09:30:58,059 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 09:30:58,059 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:30:58] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 09:31:08,058 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 09:31:08,058 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:31:08] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 09:31:08,058 ] root - INFO - Message is What is GBM
+[ 2024-08-23 09:31:08,063 ] chat_app - DEBUG - Entering rag_chain with query: What is GBM
+[ 2024-08-23 09:31:08,063 ] root - INFO - Query is What is GBM
+[ 2024-08-23 09:31:08,063 ] chat_app - DEBUG - PromptTemplate created
+[ 2024-08-23 09:31:08,071 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-23 09:31:08,074 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-23 09:31:08,557 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-23 09:31:08,558 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-23 09:31:09,403 ] chat_app - DEBUG - RetrievalQA created
+[ 2024-08-23 09:31:10,173 ] openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/embeddings', 'files': None, 'post_parser': <function Embeddings.create.<locals>.parser at 0x00000289DBCB9580>, 'json_data': {'input': [[3923, 374, 19397, 44]], 'model': 'text-embedding-ada-002', 'encoding_format': 'base64'}}
+[ 2024-08-23 09:31:10,209 ] openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/embeddings
+[ 2024-08-23 09:31:10,209 ] httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+[ 2024-08-23 09:31:10,525 ] httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000289DBC4BA10>
+[ 2024-08-23 09:31:10,525 ] httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x00000289A006E3C0> server_hostname='api.openai.com' timeout=None
+[ 2024-08-23 09:31:10,749 ] httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000289DBC6DE90>
+[ 2024-08-23 09:31:10,755 ] httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+[ 2024-08-23 09:31:10,755 ] httpcore.http11 - DEBUG - send_request_headers.complete
+[ 2024-08-23 09:31:10,755 ] httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+[ 2024-08-23 09:31:10,755 ] httpcore.http11 - DEBUG - send_request_body.complete
+[ 2024-08-23 09:31:10,755 ] httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+[ 2024-08-23 09:31:11,242 ] httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 23 Aug 2024 04:01:11 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-model', b'text-embedding-ada-002'), (b'openai-organization', b'user-g4hromwdelqvif9h7gpua77n'), (b'openai-processing-ms', b'24'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'3000'), (b'x-ratelimit-limit-tokens', b'1000000'), (b'x-ratelimit-remaining-requests', b'2999'), (b'x-ratelimit-remaining-tokens', b'999996'), (b'x-ratelimit-reset-requests', b'20ms'), (b'x-ratelimit-reset-tokens', b'0s'), (b'x-request-id', b'req_b14b63768348acf9cf5a013bd9bcb6d5'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=06A4oxmCXV3b.55rf.KpupDTqPQPV2SJRkEkI7BPFHA-1724385671-1.0.1.1-LHXin0P3flC2sjWwoAX1fJIXkdDp6NoMjtVpi7Xh5_tDJ1JtuzHig9c_TxonsfFe0tzafNVSOL5Q0m0QzeHIMg; path=/; expires=Fri, 23-Aug-24 04:31:11 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=MFERW.Q9y2G.QYEtL_s6GQX2uDNmk9POO5ggonIX084-1724385671143-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8b78332a9d6b3bce-BOM'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+[ 2024-08-23 09:31:11,243 ] httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[ 2024-08-23 09:31:11,243 ] httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+[ 2024-08-23 09:31:11,243 ] httpcore.http11 - DEBUG - receive_response_body.complete
+[ 2024-08-23 09:31:11,243 ] httpcore.http11 - DEBUG - response_closed.started
+[ 2024-08-23 09:31:11,243 ] httpcore.http11 - DEBUG - response_closed.complete
+[ 2024-08-23 09:31:11,243 ] openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/embeddings "200 OK" Headers([('date', 'Fri, 23 Aug 2024 04:01:11 GMT'), ('content-type', 'application/json'), ('transfer-encoding', 'chunked'), ('connection', 'keep-alive'), ('access-control-allow-origin', '*'), ('access-control-expose-headers', 'X-Request-ID'), ('openai-model', 'text-embedding-ada-002'), ('openai-organization', 'user-g4hromwdelqvif9h7gpua77n'), ('openai-processing-ms', '24'), ('openai-version', '2020-10-01'), ('strict-transport-security', 'max-age=15552000; includeSubDomains; preload'), ('x-ratelimit-limit-requests', '3000'), ('x-ratelimit-limit-tokens', '1000000'), ('x-ratelimit-remaining-requests', '2999'), ('x-ratelimit-remaining-tokens', '999996'), ('x-ratelimit-reset-requests', '20ms'), ('x-ratelimit-reset-tokens', '0s'), ('x-request-id', 'req_b14b63768348acf9cf5a013bd9bcb6d5'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=06A4oxmCXV3b.55rf.KpupDTqPQPV2SJRkEkI7BPFHA-1724385671-1.0.1.1-LHXin0P3flC2sjWwoAX1fJIXkdDp6NoMjtVpi7Xh5_tDJ1JtuzHig9c_TxonsfFe0tzafNVSOL5Q0m0QzeHIMg; path=/; expires=Fri, 23-Aug-24 04:31:11 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=MFERW.Q9y2G.QYEtL_s6GQX2uDNmk9POO5ggonIX084-1724385671143-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '8b78332a9d6b3bce-BOM'), ('content-encoding', 'gzip'), ('alt-svc', 'h3=":443"; ma=86400')])
+[ 2024-08-23 09:31:11,243 ] openai._base_client - DEBUG - request_id: req_b14b63768348acf9cf5a013bd9bcb6d5
+[ 2024-08-23 09:31:11,317 ] openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/completions', 'files': None, 'json_data': {'model': 'gpt-3.5-turbo-instruct', 'prompt': ["\n            Use the following pieces of information to answer the user's question.\n            If you don't know the answer, just say that you don't know, don't try to make up an answer.\n            Context: Abstract: Glioblastoma multiforme (GBM) is the most common and malignant type of primary brain\ntumor in adults. Despite important advances in understanding the molecular pathogenesis and\nbiology of this tumor in the past decade, the prognosis for GBM patients remains poor. GBM is\ncharacterized by aggressive biological behavior and high degrees of inter-tumor and intra-tumor\nheterogeneity. Increased understanding of the molecular and cellular heterogeneity of GBM may not\n\nReceived: 5 February 2019; Accepted: 26 March 2019; Published: 3 April 2019\n/gid00030/gid00035/gid00032/gid00030/gid00038/gid00001/gid00033/gid00042/gid00045 /gid00001\n/gid00048/gid00043/gid00031/gid00028/gid00047/gid00032/gid00046\nAbstract: Glioblastoma (GBM) is one of the most aggressive and lethal human brain tumors.\nAt present, GBMs are divided in primary and secondary on the basis of the mutational status of\n\ning GBM, emphasizing the importance of molecular biomarkers in GBM pathological\ndiagnosis. Together with the new advances in technology or concept of GBM biologi-\ncal research, e.g., single-cell technology [ 24–27], deep learning-based multi-omics data\nexploration [ 28–30], novel 3D preclinical GBM models [ 31–33], and emphasis on tumor\nInt. J. Mol. Sci. 2024 ,25, 3040. https://doi.org/10.3390/ijms25053040 https://www.mdpi.com/journal/ijms\n\nGBM can be further separated into two major classes: primary GBM and secondary\nGBM, with the majority being primary [ 5–7]. Primary GBM arises de novo with no known\nclinical precursor, and most occur in elderly adults (older than 50 years of age), while\nsecondary GBM is a result of progression from a pre-existing lower malignancy grade and\nusually affects younger patients. Primary and secondary GBM are morphologically indistin-\n            Question: What is GBM\n            Only return the helpful answer below and nothing else.\n            Helpful answer:\n        "], 'frequency_penalty': 0.0, 'logit_bias': {}, 'max_tokens': 256, 'n': 1, 'presence_penalty': 0.0, 'temperature': 0.7, 'top_p': 1.0}}
+[ 2024-08-23 09:31:11,317 ] openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/completions
+[ 2024-08-23 09:31:11,317 ] httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+[ 2024-08-23 09:31:11,385 ] httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000289DC35DE50>
+[ 2024-08-23 09:31:11,385 ] httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x00000289DBB4FDA0> server_hostname='api.openai.com' timeout=None
+[ 2024-08-23 09:31:11,477 ] httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000289DBCB7FD0>
+[ 2024-08-23 09:31:11,477 ] httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+[ 2024-08-23 09:31:11,477 ] httpcore.http11 - DEBUG - send_request_headers.complete
+[ 2024-08-23 09:31:11,477 ] httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+[ 2024-08-23 09:31:11,491 ] httpcore.http11 - DEBUG - send_request_body.complete
+[ 2024-08-23 09:31:11,491 ] httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+[ 2024-08-23 09:31:12,861 ] httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 23 Aug 2024 04:01:12 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'access-control-expose-headers', b'X-Request-ID'), (b'Cache-Control', b'no-cache, must-revalidate'), (b'openai-model', b'gpt-3.5-turbo-instruct'), (b'openai-organization', b'user-g4hromwdelqvif9h7gpua77n'), (b'openai-processing-ms', b'869'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'3500'), (b'x-ratelimit-limit-tokens', b'90000'), (b'x-ratelimit-remaining-requests', b'3499'), (b'x-ratelimit-remaining-tokens', b'89212'), (b'x-ratelimit-reset-requests', b'17ms'), (b'x-ratelimit-reset-tokens', b'524ms'), (b'x-request-id', b'req_266fd49b1bc146337f5ff8ee94732690'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=_tXtAWZd0YB4Dij2wcCLWMdJWKLOWFjtlBs5gPEsKqU-1724385672-1.0.1.1-_i2fd6nnc_VNCayuNcBlDy4WMjc1Rl9MfwxQlG5KqdCKJOTNHvash3LLZ51TRfJVD6wpZQ7WAlUBdhsGx51eyg; path=/; expires=Fri, 23-Aug-24 04:31:12 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=YYTbnw7f3zQEQF6P2OIKVinWei4IROT5FPUgbidp9H4-1724385672806-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8b78332f1a6c6ed4-BOM'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+[ 2024-08-23 09:31:12,861 ] httpx - INFO - HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+[ 2024-08-23 09:31:12,861 ] httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+[ 2024-08-23 09:31:12,877 ] httpcore.http11 - DEBUG - receive_response_body.complete
+[ 2024-08-23 09:31:12,877 ] httpcore.http11 - DEBUG - response_closed.started
+[ 2024-08-23 09:31:12,877 ] httpcore.http11 - DEBUG - response_closed.complete
+[ 2024-08-23 09:31:12,877 ] openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/completions "200 OK" Headers([('date', 'Fri, 23 Aug 2024 04:01:12 GMT'), ('content-type', 'application/json'), ('transfer-encoding', 'chunked'), ('connection', 'keep-alive'), ('access-control-allow-origin', '*'), ('access-control-expose-headers', 'X-Request-ID'), ('cache-control', 'no-cache, must-revalidate'), ('openai-model', 'gpt-3.5-turbo-instruct'), ('openai-organization', 'user-g4hromwdelqvif9h7gpua77n'), ('openai-processing-ms', '869'), ('openai-version', '2020-10-01'), ('strict-transport-security', 'max-age=15552000; includeSubDomains; preload'), ('x-ratelimit-limit-requests', '3500'), ('x-ratelimit-limit-tokens', '90000'), ('x-ratelimit-remaining-requests', '3499'), ('x-ratelimit-remaining-tokens', '89212'), ('x-ratelimit-reset-requests', '17ms'), ('x-ratelimit-reset-tokens', '524ms'), ('x-request-id', 'req_266fd49b1bc146337f5ff8ee94732690'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=_tXtAWZd0YB4Dij2wcCLWMdJWKLOWFjtlBs5gPEsKqU-1724385672-1.0.1.1-_i2fd6nnc_VNCayuNcBlDy4WMjc1Rl9MfwxQlG5KqdCKJOTNHvash3LLZ51TRfJVD6wpZQ7WAlUBdhsGx51eyg; path=/; expires=Fri, 23-Aug-24 04:31:12 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=YYTbnw7f3zQEQF6P2OIKVinWei4IROT5FPUgbidp9H4-1724385672806-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '8b78332f1a6c6ed4-BOM'), ('content-encoding', 'gzip'), ('alt-svc', 'h3=":443"; ma=86400')])
+[ 2024-08-23 09:31:12,877 ] openai._base_client - DEBUG - request_id: req_266fd49b1bc146337f5ff8ee94732690
+[ 2024-08-23 09:31:12,893 ] root - INFO - Result is 
+GBM stands for Glioblastoma multiforme, which is the most common and malignant type of primary brain tumor in adults. It is characterized by aggressive biological behavior and high degrees of inter-tumor and intra-tumor heterogeneity. GBM can be further separated into two major classes: primary GBM and secondary GBM. 
+[ 2024-08-23 09:31:12,893 ] chat_app - DEBUG - Query result: 
+GBM stands for Glioblastoma multiforme, which is the most common and malignant type of primary brain tumor in adults. It is characterized by aggressive biological behavior and high degrees of inter-tumor and intra-tumor heterogeneity. GBM can be further separated into two major classes: primary GBM and secondary GBM. 
+[ 2024-08-23 09:31:12,893 ] root - INFO - LLM response is 
+GBM stands for Glioblastoma multiforme, which is the most common and malignant type of primary brain tumor in adults. It is characterized by aggressive biological behavior and high degrees of inter-tumor and intra-tumor heterogeneity. GBM can be further separated into two major classes: primary GBM and secondary GBM. 
+[ 2024-08-23 09:31:12,893 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:31:12] "POST /get HTTP/1.1" 200 -
+[ 2024-08-23 09:31:12,909 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 09:31:12,918 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:31:12] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 09:32:06,155 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 09:32:06,156 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:32:06] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 09:32:06,696 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 09:32:06,697 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:32:06] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 09:32:08,154 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 09:32:08,155 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:32:08] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 09:32:09,033 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 09:32:09,033 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:32:09] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 09:32:09,515 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 09:32:09,515 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:32:09] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 09:32:18,791 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 09:32:18,792 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:32:18] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 09:32:23,091 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 09:32:23,092 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:32:23] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 09:32:33,728 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 09:32:33,728 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:32:33] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 09:32:34,303 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 09:32:34,303 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:32:34] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 09:32:34,651 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 09:32:34,651 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:32:34] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 09:32:35,092 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 09:32:35,092 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:32:35] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 09:32:35,575 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 09:32:35,575 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:32:35] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 09:32:36,689 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 09:32:36,689 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:32:36] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 09:32:37,737 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 09:32:37,737 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:32:37] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 09:32:38,634 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 09:32:38,634 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:32:38] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 09:32:39,719 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 09:32:39,719 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:32:39] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 09:32:40,456 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 09:32:40,456 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:32:40] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 09:32:45,287 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 09:32:45,287 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:32:45] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 09:32:47,469 ] chat_app - ERROR - Error in chat route: 'msg'
+[ 2024-08-23 09:32:47,469 ] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:32:47] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+[ 2024-08-23 09:33:34,981 ] werkzeug - INFO -  * Detected change in 'D:\\VIVI_AI\\chat_app.py', reloading
+[ 2024-08-23 09:33:35,312 ] httpcore.connection - DEBUG - close.started
+[ 2024-08-23 09:33:35,328 ] httpcore.connection - DEBUG - close.complete

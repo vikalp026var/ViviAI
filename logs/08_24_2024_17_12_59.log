@@ -1,0 +1,107 @@
+[ 2024-08-24 17:13:00,760 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-24 17:13:00,760 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-24 17:13:03,421 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-24 17:13:03,421 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-24 17:13:03,687 ] httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+[ 2024-08-24 17:13:03,688 ] httpx - DEBUG - load_verify_locations cafile='D:\\VIVI_AI\\yogo\\Library\\ssl\\cacert.pem'
+[ 2024-08-24 17:13:04,151 ] faiss.loader - DEBUG - Environment variable FAISS_OPT_LEVEL is not set, so let's pick the instruction set according to the current CPU
+[ 2024-08-24 17:13:04,151 ] faiss.loader - INFO - Loading faiss with AVX2 support.
+[ 2024-08-24 17:13:04,181 ] faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+[ 2024-08-24 17:13:04,349 ] matplotlib - DEBUG - matplotlib data path: D:\VIVI_AI\yogo\Lib\site-packages\matplotlib\mpl-data
+[ 2024-08-24 17:13:04,352 ] matplotlib - DEBUG - CONFIGDIR=C:\Users\PC\.matplotlib
+[ 2024-08-24 17:13:04,361 ] matplotlib - DEBUG - interactive is False
+[ 2024-08-24 17:13:04,361 ] matplotlib - DEBUG - platform is win32
+[ 2024-08-24 17:13:04,451 ] matplotlib - DEBUG - CACHEDIR=C:\Users\PC\.matplotlib
+[ 2024-08-24 17:13:04,462 ] matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\PC\.matplotlib\fontlist-v390.json
+[ 2024-08-24 17:13:05,429 ] matplotlib.pyplot - DEBUG - Loaded backend Agg version v2.2.
+[ 2024-08-24 17:13:05,459 ] werkzeug - WARNING -  * Debugger is active!
+[ 2024-08-24 17:13:05,461 ] werkzeug - INFO -  * Debugger PIN: 331-538-268
+[ 2024-08-24 17:13:05,492 ] chat_app - INFO - Index route called
+[ 2024-08-24 17:13:05,492 ] chat_app - INFO - No authenticated user found, redirecting to login
+[ 2024-08-24 17:13:05,496 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:13:05] "[32mGET / HTTP/1.1[0m" 302 -
+[ 2024-08-24 17:13:05,513 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:13:05] "GET /login HTTP/1.1" 200 -
+[ 2024-08-24 17:13:05,660 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:13:05] "GET /static/loginform.css HTTP/1.1" 200 -
+[ 2024-08-24 17:13:05,664 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:13:05] "[36mGET /static/google.png HTTP/1.1[0m" 304 -
+[ 2024-08-24 17:13:09,613 ] urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): accounts.google.com:443
+[ 2024-08-24 17:13:09,934 ] urllib3.connectionpool - DEBUG - https://accounts.google.com:443 "GET /.well-known/openid-configuration HTTP/11" 200 460
+[ 2024-08-24 17:13:09,936 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:13:09] "[32mGET /logingoogle HTTP/1.1[0m" 302 -
+[ 2024-08-24 17:13:10,251 ] urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+[ 2024-08-24 17:13:10,526 ] urllib3.connectionpool - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
+[ 2024-08-24 17:13:10,534 ] urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+[ 2024-08-24 17:13:10,748 ] urllib3.connectionpool - DEBUG - https://www.googleapis.com:443 "GET /oauth2/v3/certs HTTP/11" 200 736
+[ 2024-08-24 17:13:10,797 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:13:10] "[32mGET /authorize?state=dr280NZpjivigCE1Zx4C2lTtFfXFlQ&code=4/0AQlEd8xCkG-0Uff-A1xfyoqmE9ivNizUIf8WkzaKNfrrGAmD0w6HDbAu181PAiRC1Ilrdg&scope=email+profile+openid+https://www.googleapis.com/auth/userinfo.profile+https://www.googleapis.com/auth/userinfo.email&authuser=0&prompt=none HTTP/1.1[0m" 302 -
+[ 2024-08-24 17:13:10,803 ] chat_app - INFO - Index route called
+[ 2024-08-24 17:13:10,803 ] chat_app - INFO - User authenticated, rendering index.html
+[ 2024-08-24 17:13:10,810 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:13:10] "GET / HTTP/1.1" 200 -
+[ 2024-08-24 17:13:10,841 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:13:10] "[33mGET /static/script.js HTTP/1.1[0m" 404 -
+[ 2024-08-24 17:13:10,843 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:13:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2024-08-24 17:13:10,847 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:13:10] "[33mGET /static/chatbot.css HTTP/1.1[0m" 404 -
+[ 2024-08-24 17:13:10,857 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:13:10] "[33mGET /static/script.js HTTP/1.1[0m" 404 -
+[ 2024-08-24 17:13:10,869 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:13:10] "GET /static/vivi.png HTTP/1.1" 200 -
+[ 2024-08-24 17:13:10,871 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:13:10] "GET /static/new_latest.jpg HTTP/1.1" 200 -
+[ 2024-08-24 17:13:10,873 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:13:10] "[36mGET /static/2nd_his.jpg HTTP/1.1[0m" 304 -
+[ 2024-08-24 17:13:10,878 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:13:10] "[36mGET /static/chatbot.png HTTP/1.1[0m" 304 -
+[ 2024-08-24 17:13:12,865 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:13:12] "GET /research HTTP/1.1" 200 -
+[ 2024-08-24 17:13:12,913 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:13:12] "GET /static/style_research.css HTTP/1.1" 200 -
+[ 2024-08-24 17:13:12,947 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:13:12] "[36mGET /static/vivi.png HTTP/1.1[0m" 304 -
+[ 2024-08-24 17:13:12,953 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:13:12] "[36mGET /static/chatbot.png HTTP/1.1[0m" 304 -
+[ 2024-08-24 17:13:12,957 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:13:12] "GET /static/1st_his.jpg HTTP/1.1" 200 -
+[ 2024-08-24 17:13:12,958 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:13:12] "[36mGET /static/508-icon.png HTTP/1.1[0m" 304 -
+[ 2024-08-24 17:13:15,871 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:13:15] "GET /graphs HTTP/1.1" 200 -
+[ 2024-08-24 17:13:15,900 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:13:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2024-08-24 17:22:57,660 ] chat_app - INFO - Index route called
+[ 2024-08-24 17:22:57,660 ] chat_app - INFO - User authenticated, rendering index.html
+[ 2024-08-24 17:22:57,660 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:22:57] "GET / HTTP/1.1" 200 -
+[ 2024-08-24 17:22:57,712 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:22:57] "GET /static/style.css HTTP/1.1" 200 -
+[ 2024-08-24 17:22:57,723 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:22:57] "[33mGET /static/chatbot.css HTTP/1.1[0m" 404 -
+[ 2024-08-24 17:22:57,724 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:22:57] "[33mGET /static/script.js HTTP/1.1[0m" 404 -
+[ 2024-08-24 17:22:57,743 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:22:57] "GET /static/vivi.png HTTP/1.1" 200 -
+[ 2024-08-24 17:22:57,747 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:22:57] "[36mGET /static/new_latest.jpg HTTP/1.1[0m" 304 -
+[ 2024-08-24 17:22:57,751 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:22:57] "[36mGET /static/2nd_his.jpg HTTP/1.1[0m" 304 -
+[ 2024-08-24 17:22:57,755 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:22:57] "[36mGET /static/chatbot.png HTTP/1.1[0m" 304 -
+[ 2024-08-24 17:22:59,349 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:22:59] "GET /research HTTP/1.1" 200 -
+[ 2024-08-24 17:22:59,420 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:22:59] "GET /static/style_research.css HTTP/1.1" 200 -
+[ 2024-08-24 17:22:59,454 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:22:59] "GET /static/vivi.png HTTP/1.1" 200 -
+[ 2024-08-24 17:22:59,454 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:22:59] "GET /static/1st_his.jpg HTTP/1.1" 200 -
+[ 2024-08-24 17:22:59,502 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:22:59] "[36mGET /static/chatbot.png HTTP/1.1[0m" 304 -
+[ 2024-08-24 17:22:59,512 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:22:59] "[36mGET /static/508-icon.png HTTP/1.1[0m" 304 -
+[ 2024-08-24 17:23:03,015 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:23:03] "GET /graphs HTTP/1.1" 200 -
+[ 2024-08-24 17:23:04,396 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:23:04] "[33mGET /research.html HTTP/1.1[0m" 404 -
+[ 2024-08-24 17:25:16,172 ] chat_app - INFO - Index route called
+[ 2024-08-24 17:25:16,172 ] chat_app - INFO - User authenticated, rendering index.html
+[ 2024-08-24 17:25:16,172 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:25:16] "GET / HTTP/1.1" 200 -
+[ 2024-08-24 17:25:16,247 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:25:16] "[33mGET /static/script.js HTTP/1.1[0m" 404 -
+[ 2024-08-24 17:25:16,283 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:25:16] "GET /static/style.css HTTP/1.1" 200 -
+[ 2024-08-24 17:25:16,301 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:25:16] "[33mGET /static/chatbot.css HTTP/1.1[0m" 404 -
+[ 2024-08-24 17:25:16,315 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:25:16] "[33mGET /static/script.js HTTP/1.1[0m" 404 -
+[ 2024-08-24 17:25:16,328 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:25:16] "GET /static/vivi.png HTTP/1.1" 200 -
+[ 2024-08-24 17:25:16,339 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:25:16] "GET /static/new_latest.jpg HTTP/1.1" 200 -
+[ 2024-08-24 17:25:16,339 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:25:16] "[36mGET /static/2nd_his.jpg HTTP/1.1[0m" 304 -
+[ 2024-08-24 17:25:16,339 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:25:16] "[36mGET /static/chatbot.png HTTP/1.1[0m" 304 -
+[ 2024-08-24 17:25:18,333 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:25:18] "GET /research HTTP/1.1" 200 -
+[ 2024-08-24 17:25:18,393 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:25:18] "GET /static/style_research.css HTTP/1.1" 200 -
+[ 2024-08-24 17:25:18,419 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:25:18] "GET /static/vivi.png HTTP/1.1" 200 -
+[ 2024-08-24 17:25:18,422 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:25:18] "GET /static/1st_his.jpg HTTP/1.1" 200 -
+[ 2024-08-24 17:25:18,428 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:25:18] "[36mGET /static/chatbot.png HTTP/1.1[0m" 304 -
+[ 2024-08-24 17:25:18,429 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:25:18] "[36mGET /static/508-icon.png HTTP/1.1[0m" 304 -
+[ 2024-08-24 17:25:22,460 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:25:22] "GET /graphs HTTP/1.1" 200 -
+[ 2024-08-24 17:25:24,373 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:25:24] "GET /research HTTP/1.1" 200 -
+[ 2024-08-24 17:25:24,407 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:25:24] "GET /static/style_research.css HTTP/1.1" 200 -
+[ 2024-08-24 17:25:24,420 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:25:24] "GET /static/vivi.png HTTP/1.1" 200 -
+[ 2024-08-24 17:25:24,424 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:25:24] "[36mGET /static/1st_his.jpg HTTP/1.1[0m" 304 -
+[ 2024-08-24 17:25:24,428 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:25:24] "[36mGET /static/508-icon.png HTTP/1.1[0m" 304 -
+[ 2024-08-24 17:25:24,428 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:25:24] "[36mGET /static/chatbot.png HTTP/1.1[0m" 304 -
+[ 2024-08-24 17:25:34,391 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:25:34] "GET /graphs HTTP/1.1" 200 -
+[ 2024-08-24 17:25:38,292 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:25:38] "GET /research HTTP/1.1" 200 -
+[ 2024-08-24 17:25:38,329 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:25:38] "GET /static/style_research.css HTTP/1.1" 200 -
+[ 2024-08-24 17:25:38,347 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:25:38] "GET /static/vivi.png HTTP/1.1" 200 -
+[ 2024-08-24 17:25:38,350 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:25:38] "GET /static/1st_his.jpg HTTP/1.1" 200 -
+[ 2024-08-24 17:25:38,357 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:25:38] "[36mGET /static/chatbot.png HTTP/1.1[0m" 304 -
+[ 2024-08-24 17:25:38,358 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:25:38] "[36mGET /static/508-icon.png HTTP/1.1[0m" 304 -
+[ 2024-08-24 17:27:18,854 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:27:18] "GET /graphs HTTP/1.1" 200 -
+[ 2024-08-24 17:27:20,709 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:27:20] "GET /research HTTP/1.1" 200 -
+[ 2024-08-24 17:27:20,744 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:27:20] "GET /static/style_research.css HTTP/1.1" 200 -
+[ 2024-08-24 17:27:20,773 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:27:20] "GET /static/vivi.png HTTP/1.1" 200 -
+[ 2024-08-24 17:27:20,788 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:27:20] "GET /static/1st_his.jpg HTTP/1.1" 200 -
+[ 2024-08-24 17:27:20,801 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:27:20] "[36mGET /static/chatbot.png HTTP/1.1[0m" 304 -
+[ 2024-08-24 17:27:20,804 ] werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:27:20] "[36mGET /static/508-icon.png HTTP/1.1[0m" 304 -
